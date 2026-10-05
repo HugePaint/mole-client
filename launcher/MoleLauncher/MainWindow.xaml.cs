@@ -251,8 +251,26 @@ public partial class MainWindow : Window
     {
         // 成功也记一行：这场"打开目录"的排查就是因为旧代码成功时静默、失败时只说"拒绝访问"
         // 而无从下手（连"Process.Start 没抛异常但子进程挂了"都看不出来）。说明里带用了哪种方式。
-        var (ok, message) = ShellOpen.Folder(dir);
-        if (ok) _log.Ok("app", message);
-        else _log.Warn("app", $"打开目录失败：{message}");
+        var (ok, confirmed, message) = ShellOpen.Folder(dir);
+
+        if (ok && confirmed)
+        {
+            _log.Ok("app", message);
+            return;
+        }
+
+        _log.Warn("app", $"打开目录：{message}");
+
+        // 兜底要给用户一条出路：**这台机器 UAC 是关的，桌面启动的一切都是管理员令牌，
+        // 而 Windows 不允许提权进程把"打开目录"交给 shell** —— 六种方式实测全失败。
+        // 与其只写日志，不如把路径塞进剪贴板并明确告诉他怎么打开。
+        try { Clipboard.SetText(dir); } catch { /* 剪贴板被占用就算了 */ }
+        MessageBox.Show(
+            "无法直接用资源管理器打开这个目录。\n\n" +
+            "原因：本程序当前以管理员权限运行，而 Windows 不允许提权程序把打开目录的请求交给资源管理器\n" +
+            "（把 UAC 关掉时，从桌面启动的一切程序都会是管理员权限）。\n\n" +
+            "路径已复制到剪贴板，粘到资源管理器的地址栏回车即可打开：\n" +
+            dir,
+            "打开目录", MessageBoxButton.OK, MessageBoxImage.Information);
     }
 }

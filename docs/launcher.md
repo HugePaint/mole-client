@@ -137,38 +137,51 @@ Get-WinEvent -FilterHashtable @{LogName='System'; ProviderName='Application Popu
 也就是说"**能不能新起一个 explorer.exe 进程，取决于父进程上下文**"，
 不是启动器代码本身的问题，但代码必须扛得住。
 
-**现在的实现**（`Services/ShellOpen.cs`）：按"需不需要新进程"排序逐个试，并且**只在能确认时才算成功**；
-全部失败时把每种方式的结局写进日志，并把路径一并给出（可以直接粘到资源管理器地址栏）：
+**现在的实现**（`Services/ShellOpen.cs`）：**提权与不提权走两条路**，逐个试，并且**只在确认到窗口时才算成功**
+（调用没抛异常 ≠ 用户看到窗口 —— 实测 `runas` 返回 0 却什么都没开）。全部失败时：把路径复制到剪贴板，
+并弹一个说明框告诉用户粘到资源管理器地址栏。
 
-| 顺序 | 方式 | 是否需要新 explorer 进程 | 本机实测 |
+| 顺序 | 方式 | 是否需要新 explorer 进程 | 本机实测（提权启动器） |
 |---|---|---|---|
-| ① | `Shell.Application` COM 的 `Explore`（问已在跑的 shell） | 否 | 调用成功；但**无消息泵的 `--open-logs` 模式确认不到窗口** |
-| ② | `cmd.exe /c start "" "<目录>"` | 否 | 返回 0，随后 shell 弹"Windows 无法访问指定设备、路径或文件" |
-| ③ | `ShellExecute`（`FileName = 目录`） | 否 | 早期版本就是这条，抛 Win32 5 |
-| ④ | `explorer.exe "<目录>"`（CreateProcess） | **是** | 0xc0000142 → 就是那个"应用程序错误"弹窗 |
+| ①（仅提权时） | `runas /trustlevel:0x20000 "explorer.exe …"` | 是（受限令牌） | 退出码 0，但**没开窗** |
+| ②（仅提权时） | WMI `Win32_Process.Create` 起 explorer | 是 | **拒绝访问** |
+| ③ | `Shell.Application` COM 的 `Explore` | 否 | 调用成功，**没开窗** |
+| ④ | `cmd.exe /c start "" "<目录>"` | 否 | 进程起来了，**没开窗** |
+| ⑤ | `ShellExecute`（`FileName = 目录`） | 否 | **Win32 5 拒绝访问** |
+| ⑥ | `explorer.exe "<目录>"`（CreateProcess） | **是** | **0xc0000142**（就是那个"应用程序错误"弹窗） |
 
-### 真正的环境原因：启动器被以管理员权限运行
+> 同一个功能在 `--open-logs` 验证模式里还会遇到"确认不到窗口"的假象：
+> `Shell.Application.Windows()` 需要有消息泵才枚举得到窗口，而无 UI 模式没有消息泵。
+> 现在等待期间会用 `Dispatcher.PushFrame` 抽空处理消息，所以**确认结果在两种模式下都可信**了。
 
-排查中发现**这个会话的 shell 本身是提权的**：
+### 真正的环境原因：这台机器 UAC 是关的，于是启动器必然提权
 
-```powershell
-[Security.Principal.WindowsPrincipal]::new(
-    [Security.Principal.WindowsIdentity]::GetCurrent()
-).IsInRole('Administrator')      # True
-whoami /groups | Select-String 'Mandatory Label'
-#   Mandatory Label\High Mandatory Level Label   S-1-16-12288
+实测把两边身份直接打出来对比（`ShellOpen` 会把身份写进日志的 `〔…〕` 里）：
+
+| 进程 | 令牌 | 打开目录的结果 |
+|---|---|---|
+| 排查用的 pwsh | `admin=False`（受限令牌） | 六种方式**都能开窗** |
+| **启动器**（从桌面启动） | `admin=True`，`UAC关闭=True` | **六种方式全失败** |
+
+```
+EnableLUA = 0        # UAC 关闭
 ```
 
-而启动器自己的清单是 **`asInvoker`**（没有 `requireAdministrator`），也就是说：
-**它之所以提权，是因为它被提权的父进程拉起来的**（本次排查里所有启动器实例都是我从这个会话起的）。
+UAC 关闭时，登录令牌不再被过滤 —— **从桌面启动的一切程序都带完整管理员令牌**。
+而 Windows 在这种（没有 UAC 代理的）状态下，不允许提权进程把"打开目录"的请求交给资源管理器：
+这正是 Win32 5、`0xc0000142`、WMI 拒绝访问、"无法访问指定设备、路径或文件"这四种现象的共同来源。
+换句话说：**这不是路径权限问题，也不是启动器代码写法问题，而是"提权进程 + UAC 关闭"的组合限制**，
+本项目在用户态绕不过去（`runas /trustlevel` 已经是官方降权手段，实测仍无效）。
 
-高完整性进程发起的"交给 shell 打开"会被 Windows 挡掉 —— 这一条同时解释了上面四个坑：
-`ShellExecute` 报 Win32 5、`cmd start` 后 shell 报"无法访问"、
-自己起 `explorer.exe` 直接 0xc0000142（Explorer 不允许以管理员身份运行）。
+> 启动器自己的清单是 **`asInvoker`**（没有 `requireAdministrator`）——
+> 它提权只是因为父进程（桌面/UAC 关闭环境）就是提权的。
 
-> **结论：不要用管理员身份运行启动器。** 另外注意 `--open-logs` 是无消息泵的验证模式，
-> COM 打开后它确认不到窗口是正常的 —— 判断按钮是否好用请看**点击后窗口有没有出现**，
-> 而不是只看那行日志的"未能确认"。
+**所以失败时必须给用户出路**：现在的行为是
+① 日志里写清六种方式的结局和当前令牌；② 把目录路径**复制到剪贴板**；
+③ 弹框说明原因并让用户粘到资源管理器地址栏。不再是"只报拒绝访问"或一个吓人的系统错误框。
+
+> 想在启动器里真正"点开目录"，可选的下一步：在启动器内做一个日志/缓存浏览面板（自己读目录，不经过 shell），
+> 或者把 Windows 的 UAC 重新打开。两条都超出本次改动范围，记在这里备选。
 
 ### 运行期状态：logs\*.pid
 

@@ -113,15 +113,15 @@ public partial class App : Application
         var root = PathResolver.FindProjectRoot() ?? AppContext.BaseDirectory;
         var dir = Path.Combine(root, arg.Equals("--open-cache", StringComparison.OrdinalIgnoreCase) ? "cache" : "logs");
 
-        var (ok, message) = ShellOpen.Folder(dir);
+        var (ok, confirmed, message) = ShellOpen.Folder(dir);
 
-        Console.WriteLine((ok ? "成功: " : "失败: ") + message);
+        Console.WriteLine((ok ? (confirmed ? "成功: " : "未确认: ") : "失败: ") + message);
         Console.Out.Flush();
 
         try
         {
             var log = new LogService(System.Windows.Threading.Dispatcher.CurrentDispatcher, Path.Combine(root, "logs"));
-            if (ok) log.Ok("app", $"[--open-logs] {message}");
+            if (ok && confirmed) log.Ok("app", $"[--open-logs] {message}");
             else log.Warn("app", $"[--open-logs] {message}");
         }
         catch { /* 日志写不进去也不能让验证模式崩 */ }
