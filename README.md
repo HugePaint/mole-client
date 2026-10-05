@@ -118,6 +118,7 @@ powershell -ExecutionPolicy Bypass -File installer\make-setup.ps1
 | [`docs/launcher.md`](docs/launcher.md) | 启动器设计、Ruffle 参数说明、编码坑记录 |
 | [`docs/installer.md`](docs/installer.md) | 安装包三次方案迭代与缺陷记录 |
 | [`docs/phase2-acceptance.md`](docs/phase2-acceptance.md) | 离线验收报告 |
+| [`docs/encoding-notes.md`](docs/encoding-notes.md) | **编码注意事项** —— Windows 上跨进程/接口传中文的坑与检查清单 |
 
 ---
 
