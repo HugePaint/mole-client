@@ -1,0 +1,135 @@
+{
+  "generatedAt": "2026-10-04T19:19:00.616Z",
+  "hypothesis": "group == 1000 + typeid",
+  "museumClothCount": 1433,
+  "typeidDistribution": {
+    "1": 1287,
+    "49": 156
+  },
+  "localGroups": [
+    "1001",
+    "1002"
+  ],
+  "localFiles": 77,
+  "verification": {
+    "match": 11,
+    "mismatch": 14,
+    "unknown": 52
+  },
+  "mismatches": [
+    {
+      "id": "18116",
+      "group": "1001",
+      "typeid": 49,
+      "predicted": "1049",
+      "name": "紫梦花朵鞋",
+      "part": "脚部"
+    },
+    {
+      "id": "18127",
+      "group": "1001",
+      "typeid": 49,
+      "predicted": "1049",
+      "name": "真王权杖",
+      "part": "手部"
+    },
+    {
+      "id": "12052",
+      "group": "1002",
+      "typeid": 1,
+      "predicted": "1001",
+      "name": "侍者服",
+      "part": "身体"
+    },
+    {
+      "id": "12148",
+      "group": "1002",
+      "typeid": 1,
+      "predicted": "1001",
+      "name": "安全头盔",
+      "part": "头部"
+    },
+    {
+      "id": "12149",
+      "group": "1002",
+      "typeid": 1,
+      "predicted": "1001",
+      "name": "小铁锹",
+      "part": "手部"
+    },
+    {
+      "id": "13205",
+      "group": "1002",
+      "typeid": 1,
+      "predicted": "1001",
+      "name": "灰色跑堂鞋",
+      "part": "脚部"
+    },
+    {
+      "id": "13541",
+      "group": "1002",
+      "typeid": 1,
+      "predicted": "1001",
+      "name": "萨诺巨龙战甲",
+      "part": "身体"
+    },
+    {
+      "id": "13677",
+      "group": "1002",
+      "typeid": 1,
+      "predicted": "1001",
+      "name": "拉风酷哥发型",
+      "part": "头部"
+    },
+    {
+      "id": "14268",
+      "group": "1002",
+      "typeid": 1,
+      "predicted": "1001",
+      "name": "天翼之恋权杖",
+      "part": "手部"
+    },
+    {
+      "id": "14975",
+      "group": "1002",
+      "typeid": 1,
+      "predicted": "1001",
+      "name": "神圣白头巾",
+      "part": "头部"
+    },
+    {
+      "id": "14976",
+      "group": "1002",
+      "typeid": 1,
+      "predicted": "1001",
+      "name": "神圣白长袍",
+      "part": "身体"
+    },
+    {
+      "id": "14977",
+      "group": "1002",
+      "typeid": 1,
+      "predicted": "1001",
+      "name": "透明翅膀",
+      "part": "翅膀"
+    },
+    {
+      "id": "15050",
+      "group": "1002",
+      "typeid": 1,
+      "predicted": "1001",
+      "name": "萤火虫灯",
+      "part": "手部"
+    },
+    {
+      "id": "15088",
+      "group": "1002",
+      "typeid": 1,
+      "predicted": "1001",
+      "name": "狮子座之翼",
+      "part": "翅膀"
+    }
+  ],
+  "generatedCandidates": 0,
+  "candidates": []
+}

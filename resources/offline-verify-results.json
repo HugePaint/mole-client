@@ -1,0 +1,7922 @@
+{
+  "generatedAt": "2026-10-05T06:14:59.824Z",
+  "list": "resources\\newtask-seeds.txt",
+  "port": 8899,
+  "total": 1318,
+  "ok": 1318,
+  "hits": 604,
+  "override": 0,
+  "offlineMiss": 0,
+  "notFound": 0,
+  "errors": 0,
+  "results": [
+    {
+      "p": "resource/newTask/task1/movie/task_movie_1_1.swf",
+      "status": 200,
+      "bytes": 30176,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1/movie/task_movie_1_2.swf",
+      "status": 200,
+      "bytes": 8712,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task10001/task_10001_1.swf",
+      "status": 200,
+      "bytes": 67484,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task10002/movie/task_movie_10002_10.swf",
+      "status": 200,
+      "bytes": 46551,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task10004/task_movie_10004_1.swf",
+      "status": 200,
+      "bytes": 210115,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task10001/task_10001_4.swf",
+      "status": 200,
+      "bytes": 74675,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task10001/task_10001_3.swf",
+      "status": 200,
+      "bytes": 80574,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task10001/task_10001_2.swf",
+      "status": 200,
+      "bytes": 69150,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task10009/task_10009_2.swf",
+      "status": 200,
+      "bytes": 6229,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task10001/task_10001_10.swf",
+      "status": 200,
+      "bytes": 91908,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task10009/task_10009_4.swf",
+      "status": 200,
+      "bytes": 1519,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1001/movie/task_movie_1001_1.swf",
+      "status": 200,
+      "bytes": 38343,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1001/movie/task_movie_1001_2.swf",
+      "status": 200,
+      "bytes": 14414,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1001/movie/task_movie_1001_3.swf",
+      "status": 200,
+      "bytes": 17096,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1001/movie/task_movie_1001_4.swf",
+      "status": 200,
+      "bytes": 20492,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1001/movie/task_movie_1001_5.swf",
+      "status": 200,
+      "bytes": 34846,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1001/movie/task_movie_1001_6.swf",
+      "status": 200,
+      "bytes": 95797,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1001/movie/task_movie_1001_7.swf",
+      "status": 200,
+      "bytes": 32496,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1001/movie/task_movie_1001_8.swf",
+      "status": 200,
+      "bytes": 40286,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1001/movie/task_movie_1001_9.swf",
+      "status": 200,
+      "bytes": 48803,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1002/movie/task_movie_1002_1.swf",
+      "status": 200,
+      "bytes": 130218,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1002/movie/task_movie_1002_2.swf",
+      "status": 200,
+      "bytes": 88721,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1002/movie/task_movie_1002_3.swf",
+      "status": 200,
+      "bytes": 124087,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1002/movie/task_movie_1002_4.swf",
+      "status": 200,
+      "bytes": 67878,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1002/movie/task_movie_1002_5.swf",
+      "status": 200,
+      "bytes": 73485,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1002/movie/task_movie_1002_6.swf",
+      "status": 200,
+      "bytes": 41220,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1002/movie/task_movie_1002_7.swf",
+      "status": 200,
+      "bytes": 45827,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1009/movie/task_movie_1009_1.swf",
+      "status": 200,
+      "bytes": 4501,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1009/movie/task_movie_1009_2.swf",
+      "status": 200,
+      "bytes": 24558,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1009/movie/task_movie_1009_3.swf",
+      "status": 200,
+      "bytes": 93245,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1009/movie/task_movie_1009_4.swf",
+      "status": 200,
+      "bytes": 26730,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1009/movie/task_movie_1009_5.swf",
+      "status": 200,
+      "bytes": 4746,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1009/movie/task_movie_1009_6.swf",
+      "status": 200,
+      "bytes": 196797,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1009/movie/task_movie_1009_7.swf",
+      "status": 200,
+      "bytes": 7990,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1010/movie/task_movie_1010_1.swf",
+      "status": 200,
+      "bytes": 845698,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1010/movie/task_movie_1010_2.swf",
+      "status": 200,
+      "bytes": 17736,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1010/movie/task_movie_1010_3.swf",
+      "status": 200,
+      "bytes": 4816,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1010/movie/task_movie_1010_4.swf",
+      "status": 200,
+      "bytes": 26233,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1010/movie/task_movie_1010_5.swf",
+      "status": 200,
+      "bytes": 1496,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1010/movie/task_movie_1010_6.swf",
+      "status": 200,
+      "bytes": 148577,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1010/movie/task_movie_1010_7.swf",
+      "status": 200,
+      "bytes": 39077,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1011/movie/task_movie_1011_1.swf",
+      "status": 200,
+      "bytes": 25401,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1011/movie/task_movie_1011_10.swf",
+      "status": 200,
+      "bytes": 220040,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1011/movie/task_movie_1011_11.swf",
+      "status": 200,
+      "bytes": 111079,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1011/movie/task_movie_1011_2.swf",
+      "status": 200,
+      "bytes": 22858,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1011/movie/task_movie_1011_3.swf",
+      "status": 200,
+      "bytes": 35510,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1011/movie/task_movie_1011_4.swf",
+      "status": 200,
+      "bytes": 34968,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1011/movie/task_movie_1011_5.swf",
+      "status": 200,
+      "bytes": 30641,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1011/movie/task_movie_1011_6.swf",
+      "status": 200,
+      "bytes": 112728,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1011/movie/task_movie_1011_7.swf",
+      "status": 200,
+      "bytes": 22680,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1011/movie/task_movie_1011_8.swf",
+      "status": 200,
+      "bytes": 3379,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1011/movie/task_movie_1011_9.swf",
+      "status": 200,
+      "bytes": 215560,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1012/movie/task_movie_1012_1.swf",
+      "status": 200,
+      "bytes": 83960,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1012/movie/task_movie_1012_10.swf",
+      "status": 200,
+      "bytes": 120166,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1012/movie/task_movie_1012_11.swf",
+      "status": 200,
+      "bytes": 110241,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1012/movie/task_movie_1012_12.swf",
+      "status": 200,
+      "bytes": 120643,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1012/movie/task_movie_1012_13.swf",
+      "status": 200,
+      "bytes": 81659,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1012/movie/task_movie_1012_2.swf",
+      "status": 200,
+      "bytes": 134343,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1012/movie/task_movie_1012_3.swf",
+      "status": 200,
+      "bytes": 195437,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1012/movie/task_movie_1012_4.swf",
+      "status": 200,
+      "bytes": 66389,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1012/movie/task_movie_1012_5.swf",
+      "status": 200,
+      "bytes": 94594,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1012/movie/task_movie_1012_6.swf",
+      "status": 200,
+      "bytes": 163538,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1012/movie/task_movie_1012_7.swf",
+      "status": 200,
+      "bytes": 395021,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1012/movie/task_movie_1012_8.swf",
+      "status": 200,
+      "bytes": 101821,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task10002/movie/task_movie_10002_3.swf",
+      "status": 200,
+      "bytes": 469748,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task1012/movie/task_movie_1012_9.swf",
+      "status": 200,
+      "bytes": 116424,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1013/movie/task_movie_1013_1.swf",
+      "status": 200,
+      "bytes": 278175,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1013/movie/task_movie_1013_2.swf",
+      "status": 200,
+      "bytes": 278331,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1013/movie/task_movie_1013_3.swf",
+      "status": 200,
+      "bytes": 93134,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1013/movie/task_movie_1013_4.swf",
+      "status": 200,
+      "bytes": 56949,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1013/movie/task_movie_1013_5.swf",
+      "status": 200,
+      "bytes": 78238,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1013/movie/task_movie_1013_6.swf",
+      "status": 200,
+      "bytes": 62622,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1013/movie/task_movie_1013_7.swf",
+      "status": 200,
+      "bytes": 188710,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1013/movie/task_movie_1013_8.swf",
+      "status": 200,
+      "bytes": 410316,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1014/movie/task_movie_1014_1.swf",
+      "status": 200,
+      "bytes": 20678,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1015/movie/task_movie_1015_1.swf",
+      "status": 200,
+      "bytes": 17775,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1015/movie/task_movie_1015_10.swf",
+      "status": 200,
+      "bytes": 220399,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1015/movie/task_movie_1015_2.swf",
+      "status": 200,
+      "bytes": 6611,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1015/movie/task_movie_1015_3.swf",
+      "status": 200,
+      "bytes": 54569,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1015/movie/task_movie_1015_4.swf",
+      "status": 200,
+      "bytes": 189223,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1015/movie/task_movie_1015_5.swf",
+      "status": 200,
+      "bytes": 222186,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1015/movie/task_movie_1015_6.swf",
+      "status": 200,
+      "bytes": 190187,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1015/movie/task_movie_1015_7.swf",
+      "status": 200,
+      "bytes": 245816,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1015/movie/task_movie_1015_8.swf",
+      "status": 200,
+      "bytes": 242337,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1015/movie/task_movie_1015_9.swf",
+      "status": 200,
+      "bytes": 256094,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1016/movie/task_movie_1016_1.swf",
+      "status": 200,
+      "bytes": 16326,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1016/movie/task_movie_1016_10.swf",
+      "status": 200,
+      "bytes": 170621,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1016/movie/task_movie_1016_11.swf",
+      "status": 200,
+      "bytes": 68385,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1016/movie/task_movie_1016_12.swf",
+      "status": 200,
+      "bytes": 69565,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1016/movie/task_movie_1016_13.swf",
+      "status": 200,
+      "bytes": 136822,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1016/movie/task_movie_1016_14.swf",
+      "status": 200,
+      "bytes": 87667,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1016/movie/task_movie_1016_15.swf",
+      "status": 200,
+      "bytes": 105119,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1016/movie/task_movie_1016_16.swf",
+      "status": 200,
+      "bytes": 69935,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1016/movie/task_movie_1016_17.swf",
+      "status": 200,
+      "bytes": 82044,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1016/movie/task_movie_1016_2.swf",
+      "status": 200,
+      "bytes": 35395,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1016/movie/task_movie_1016_3.swf",
+      "status": 200,
+      "bytes": 175708,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1016/movie/task_movie_1016_4.swf",
+      "status": 200,
+      "bytes": 185335,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task10008/task_movie_10008_2.swf",
+      "status": 200,
+      "bytes": 60808,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task1016/movie/task_movie_1016_5.swf",
+      "status": 200,
+      "bytes": 140828,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1016/movie/task_movie_1016_6.swf",
+      "status": 200,
+      "bytes": 66457,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1016/movie/task_movie_1016_7.swf",
+      "status": 200,
+      "bytes": 98822,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1016/movie/task_movie_1016_8.swf",
+      "status": 200,
+      "bytes": 63367,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1016/movie/task_movie_1016_9.swf",
+      "status": 200,
+      "bytes": 51485,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1017/movie/task_movie_1017_1.swf",
+      "status": 200,
+      "bytes": 67144,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1017/movie/task_movie_1017_2.swf",
+      "status": 200,
+      "bytes": 88703,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1017/movie/task_movie_1017_3.swf",
+      "status": 200,
+      "bytes": 144307,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1017/movie/task_movie_1017_4.swf",
+      "status": 200,
+      "bytes": 128754,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1017/movie/task_movie_1017_5.swf",
+      "status": 200,
+      "bytes": 189979,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1017/movie/task_movie_1017_6.swf",
+      "status": 200,
+      "bytes": 114611,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1017/movie/task_movie_1017_7.swf",
+      "status": 200,
+      "bytes": 101387,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1017/movie/task_movie_1017_8.swf",
+      "status": 200,
+      "bytes": 101870,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1018/movie/task_movie_1018_1.swf",
+      "status": 200,
+      "bytes": 18767,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1018/movie/task_movie_1018_2.swf",
+      "status": 200,
+      "bytes": 23144,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1018/movie/task_movie_1018_3.swf",
+      "status": 200,
+      "bytes": 18366,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1018/movie/task_movie_1018_5.swf",
+      "status": 200,
+      "bytes": 76949,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1018/movie/task_movie_1018_4.swf",
+      "status": 200,
+      "bytes": 37433,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1018/movie/task_movie_1018_6.swf",
+      "status": 200,
+      "bytes": 19073,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1018/movie/task_movie_1018_7.swf",
+      "status": 200,
+      "bytes": 64069,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1019/movie/task_movie_1019_1.swf",
+      "status": 200,
+      "bytes": 627488,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1019/movie/task_movie_1019_2.swf",
+      "status": 200,
+      "bytes": 334241,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1019/movie/task_movie_1019_3.swf",
+      "status": 200,
+      "bytes": 323044,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1019/movie/task_movie_1019_4.swf",
+      "status": 200,
+      "bytes": 322598,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1019/movie/task_movie_1019_5.swf",
+      "status": 200,
+      "bytes": 314964,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1019/movie/task_movie_1019_6.swf",
+      "status": 200,
+      "bytes": 296269,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1020/movie/task_movie_1020_1.swf",
+      "status": 200,
+      "bytes": 280239,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1020/movie/task_movie_1020_2.swf",
+      "status": 200,
+      "bytes": 642346,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1020/movie/task_movie_1020_3.swf",
+      "status": 200,
+      "bytes": 678740,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1021/movie/task_movie_1021_1.swf",
+      "status": 200,
+      "bytes": 640180,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1021/movie/task_movie_1021_2.swf",
+      "status": 200,
+      "bytes": 695732,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1021/movie/task_movie_1021_3.swf",
+      "status": 200,
+      "bytes": 366830,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1021/movie/task_movie_1021_4.swf",
+      "status": 200,
+      "bytes": 287630,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1021/movie/task_movie_1021_5.swf",
+      "status": 200,
+      "bytes": 355668,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1021/movie/task_movie_1021_6.swf",
+      "status": 200,
+      "bytes": 116930,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1022/movie/task_movie_1022_1.swf",
+      "status": 200,
+      "bytes": 96012,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1022/movie/task_movie_1022_2.swf",
+      "status": 200,
+      "bytes": 116582,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1022/movie/task_movie_1022_3.swf",
+      "status": 200,
+      "bytes": 282589,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1022/movie/task_movie_1022_4.swf",
+      "status": 200,
+      "bytes": 106134,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1022/movie/task_movie_1022_5.swf",
+      "status": 200,
+      "bytes": 124097,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1022/movie/task_movie_1022_6.swf",
+      "status": 200,
+      "bytes": 53996,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1023/movie/task_movie_1023_1.swf",
+      "status": 200,
+      "bytes": 765017,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1023/movie/task_movie_1023_2.swf",
+      "status": 200,
+      "bytes": 754356,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1023/movie/task_movie_1023_3.swf",
+      "status": 200,
+      "bytes": 939613,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task10009/task_10009_3.swf",
+      "status": 200,
+      "bytes": 58486,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task1023/movie/task_movie_1023_4.swf",
+      "status": 200,
+      "bytes": 253321,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1023/movie/task_movie_1023_5.swf",
+      "status": 200,
+      "bytes": 271905,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task10009/task_10009_10.swf",
+      "status": 200,
+      "bytes": 117524,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task1023/movie/task_movie_1023_6.swf",
+      "status": 200,
+      "bytes": 249401,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1024/movie/task_movie_1024_1.swf",
+      "status": 200,
+      "bytes": 173034,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1024/movie/task_movie_1024_2.swf",
+      "status": 200,
+      "bytes": 182783,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task10008/task_movie_10008_1.swf",
+      "status": 200,
+      "bytes": 140605,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task1024/movie/task_movie_1024_3.swf",
+      "status": 200,
+      "bytes": 194364,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1025/movie/task_movie_1025_1.swf",
+      "status": 200,
+      "bytes": 87110,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1025/movie/task_movie_1025_2.swf",
+      "status": 200,
+      "bytes": 740927,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1025/movie/task_movie_1025_3.swf",
+      "status": 200,
+      "bytes": 379014,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1025/movie/task_movie_1025_4.swf",
+      "status": 200,
+      "bytes": 182354,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1026/movie/task_movie_1026_1.swf",
+      "status": 200,
+      "bytes": 235617,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1026/movie/task_movie_1026_2.swf",
+      "status": 200,
+      "bytes": 261069,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1026/movie/task_movie_1026_3.swf",
+      "status": 200,
+      "bytes": 582343,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1026/movie/task_movie_1026_4.swf",
+      "status": 200,
+      "bytes": 216446,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1027/movie/task_movie_1027_1.swf",
+      "status": 200,
+      "bytes": 194156,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1027/movie/task_movie_1027_2.swf",
+      "status": 200,
+      "bytes": 818470,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1027/movie/task_movie_1027_3.swf",
+      "status": 200,
+      "bytes": 398663,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1027/movie/task_movie_1027_4.swf",
+      "status": 200,
+      "bytes": 438156,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1401/movie/task_movie_1401_1.swf",
+      "status": 200,
+      "bytes": 1266935,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1402/movie/task_movie_1402_1.swf",
+      "status": 200,
+      "bytes": 1242844,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1403/movie/task_movie_1403_1.swf",
+      "status": 200,
+      "bytes": 1242844,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task1404/movie/task_movie_1404_1.swf",
+      "status": 200,
+      "bytes": 836413,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task10009/task_10009_1.swf",
+      "status": 200,
+      "bytes": 132669,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task10002/movie/task_movie_10002_1.swf",
+      "status": 200,
+      "bytes": 458133,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task382/movie/task_movie_382_1.swf",
+      "status": 200,
+      "bytes": 202009,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task382/movie/task_movie_382_10.swf",
+      "status": 200,
+      "bytes": 5455,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task382/movie/task_movie_382_11.swf",
+      "status": 200,
+      "bytes": 166665,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task10002/movie/task_movie_10002_2.swf",
+      "status": 200,
+      "bytes": 1220841,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task382/movie/task_movie_382_12.swf",
+      "status": 200,
+      "bytes": 5503,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task382/movie/task_movie_382_13.swf",
+      "status": 200,
+      "bytes": 5488,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task382/movie/task_movie_382_14.swf",
+      "status": 200,
+      "bytes": 5540,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task382/movie/task_movie_382_15.swf",
+      "status": 200,
+      "bytes": 29842,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task382/movie/task_movie_382_2.swf",
+      "status": 200,
+      "bytes": 79274,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task382/movie/task_movie_382_3.swf",
+      "status": 200,
+      "bytes": 92066,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task382/movie/task_movie_382_4.swf",
+      "status": 200,
+      "bytes": 417419,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task382/movie/task_movie_382_5.swf",
+      "status": 200,
+      "bytes": 546172,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task382/movie/task_movie_382_6.swf",
+      "status": 200,
+      "bytes": 13428,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task382/movie/task_movie_382_7.swf",
+      "status": 200,
+      "bytes": 6038,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task489/movie/task_movie_489_8.swf",
+      "status": 200,
+      "bytes": 36215,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task489/movie/task_movie_489_3.swf",
+      "status": 200,
+      "bytes": 38253,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task489/movie/task_movie_489_6.swf",
+      "status": 200,
+      "bytes": 50989,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task489/movie/task_movie_489_5.swf",
+      "status": 200,
+      "bytes": 24942,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task490/movie/task_movie_490_1.swf",
+      "status": 200,
+      "bytes": 14469,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task489/movie/task_movie_489_7.swf",
+      "status": 200,
+      "bytes": 137591,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task489/movie/task_movie_489_2.swf",
+      "status": 200,
+      "bytes": 331709,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task10002/movie/task_movie_10002_11.swf",
+      "status": 200,
+      "bytes": 55329,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task489/movie/task_movie_489_1.swf",
+      "status": 200,
+      "bytes": 511310,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task490/movie/task_movie_490_10.swf",
+      "status": 200,
+      "bytes": 37273,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task490/movie/task_movie_490_2.swf",
+      "status": 200,
+      "bytes": 28948,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task490/movie/task_movie_490_3.swf",
+      "status": 200,
+      "bytes": 41845,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task490/movie/task_movie_490_6.swf",
+      "status": 200,
+      "bytes": 14676,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task490/movie/task_movie_490_5.swf",
+      "status": 200,
+      "bytes": 36389,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task490/movie/task_movie_490_4.swf",
+      "status": 200,
+      "bytes": 33475,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task489/movie/task_movie_489_4.swf",
+      "status": 200,
+      "bytes": 54145,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task490/movie/task_movie_490_9.swf",
+      "status": 200,
+      "bytes": 39983,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task491/movie/task_movie_491_2.swf",
+      "status": 200,
+      "bytes": 39738,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task491/movie/task_movie_491_5.swf",
+      "status": 200,
+      "bytes": 34706,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task491/movie/task_movie_491_4.swf",
+      "status": 200,
+      "bytes": 15943,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task491/movie/task_movie_491_6.swf",
+      "status": 200,
+      "bytes": 55377,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task491/movie/task_movie_491_1.swf",
+      "status": 200,
+      "bytes": 52192,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task491/movie/task_movie_491_3.swf",
+      "status": 200,
+      "bytes": 352016,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task490/movie/task_movie_490_7.swf",
+      "status": 200,
+      "bytes": 409501,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task491/movie/task_movie_491_9.swf",
+      "status": 200,
+      "bytes": 12640,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task492/movie/task_movie_492_1.swf",
+      "status": 200,
+      "bytes": 35736,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task491/movie/task_movie_491_8.swf",
+      "status": 200,
+      "bytes": 26509,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task491/movie/task_movie_491_7.swf",
+      "status": 200,
+      "bytes": 35340,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task492/movie/task_movie_492_4.swf",
+      "status": 200,
+      "bytes": 248580,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task492/movie/task_movie_492_3.swf",
+      "status": 200,
+      "bytes": 54898,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_10.swf",
+      "status": 200,
+      "bytes": 67769,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task492/movie/task_movie_492_2.swf",
+      "status": 200,
+      "bytes": 471592,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_1.swf",
+      "status": 200,
+      "bytes": 292363,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_11.swf",
+      "status": 200,
+      "bytes": 69034,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_14.swf",
+      "status": 200,
+      "bytes": 33233,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_13.swf",
+      "status": 200,
+      "bytes": 13328,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_12.swf",
+      "status": 200,
+      "bytes": 540434,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_16.swf",
+      "status": 200,
+      "bytes": 31731,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_17.swf",
+      "status": 200,
+      "bytes": 48177,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_15.swf",
+      "status": 200,
+      "bytes": 540434,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_2.swf",
+      "status": 200,
+      "bytes": 14045,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_20.swf",
+      "status": 200,
+      "bytes": 51684,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_22.swf",
+      "status": 200,
+      "bytes": 37190,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_19.swf",
+      "status": 200,
+      "bytes": 44451,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_3.swf",
+      "status": 200,
+      "bytes": 58767,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_23.swf",
+      "status": 200,
+      "bytes": 33923,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_18.swf",
+      "status": 200,
+      "bytes": 478964,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_5.swf",
+      "status": 200,
+      "bytes": 21698,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_4.swf",
+      "status": 200,
+      "bytes": 199391,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_21.swf",
+      "status": 200,
+      "bytes": 540434,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_6.swf",
+      "status": 200,
+      "bytes": 41236,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_9.swf",
+      "status": 200,
+      "bytes": 41493,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task494/movie/task_movie_494_1.swf",
+      "status": 200,
+      "bytes": 67513,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_8.swf",
+      "status": 200,
+      "bytes": 35901,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task494/movie/task_movie_494_2.swf",
+      "status": 200,
+      "bytes": 20949,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task493/movie/task_movie_493_7.swf",
+      "status": 200,
+      "bytes": 540434,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task494/movie/task_movie_494_5.swf",
+      "status": 200,
+      "bytes": 37453,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task494/movie/task_movie_494_4.swf",
+      "status": 200,
+      "bytes": 128929,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task494/movie/task_movie_494_3.swf",
+      "status": 200,
+      "bytes": 60952,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task494/movie/task_movie_494_6.swf",
+      "status": 200,
+      "bytes": 19662,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task495/movie/task_movie_495_1.swf",
+      "status": 200,
+      "bytes": 38751,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task495/movie/task_movie_495_2.swf",
+      "status": 200,
+      "bytes": 45314,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task495/movie/task_movie_495_4.swf",
+      "status": 200,
+      "bytes": 62294,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task495/movie/task_movie_495_5.swf",
+      "status": 200,
+      "bytes": 23243,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task496/movie/task_movie_496_12.swf",
+      "status": 200,
+      "bytes": 36814,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task495/movie/task_movie_495_3.swf",
+      "status": 200,
+      "bytes": 272455,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task496/movie/task_movie_496_10.swf",
+      "status": 200,
+      "bytes": 50700,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task496/movie/task_movie_496_1.swf",
+      "status": 200,
+      "bytes": 292363,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task496/movie/task_movie_496_13.swf",
+      "status": 200,
+      "bytes": 53831,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task495/movie/task_movie_495_7.swf",
+      "status": 200,
+      "bytes": 55268,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task496/movie/task_movie_496_14.swf",
+      "status": 200,
+      "bytes": 28209,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task495/movie/task_movie_495_6.swf",
+      "status": 200,
+      "bytes": 378692,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task496/movie/task_movie_496_11.swf",
+      "status": 200,
+      "bytes": 445367,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task496/movie/task_movie_496_2.swf",
+      "status": 200,
+      "bytes": 55018,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task496/movie/task_movie_496_4.swf",
+      "status": 200,
+      "bytes": 88577,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task496/movie/task_movie_496_5.swf",
+      "status": 200,
+      "bytes": 62142,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task496/movie/task_movie_496_9.swf",
+      "status": 200,
+      "bytes": 61829,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task496/movie/task_movie_496_8.swf",
+      "status": 200,
+      "bytes": 92284,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task496/movie/task_movie_496_3.swf",
+      "status": 200,
+      "bytes": 107067,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task496/movie/task_movie_496_7.swf",
+      "status": 200,
+      "bytes": 227170,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task498/movie/task_movie_498_1.swf",
+      "status": 200,
+      "bytes": 12192,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task498/movie/task_movie_498_4.swf",
+      "status": 200,
+      "bytes": 8547,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task498/movie/task_movie_498_2.swf",
+      "status": 200,
+      "bytes": 104903,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task498/movie/task_movie_498_3.swf",
+      "status": 200,
+      "bytes": 65330,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task498/movie/task_movie_498_6.swf",
+      "status": 200,
+      "bytes": 7975,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task497/movie/task_movie_497_1.swf",
+      "status": 200,
+      "bytes": 1350569,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task498/movie/task_movie_498_5.swf",
+      "status": 200,
+      "bytes": 60063,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task500/movie/task_movie_500_10.swf",
+      "status": 200,
+      "bytes": 100247,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task500/movie/task_movie_500_12.swf",
+      "status": 200,
+      "bytes": 70995,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task500/movie/task_movie_500_11.swf",
+      "status": 200,
+      "bytes": 166189,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task500/movie/task_movie_500_14.swf",
+      "status": 200,
+      "bytes": 62375,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task498/movie/task_movie_498_7.swf",
+      "status": 200,
+      "bytes": 70545,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task500/movie/task_movie_500_13.swf",
+      "status": 200,
+      "bytes": 138080,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task500/movie/task_movie_500_15.swf",
+      "status": 200,
+      "bytes": 52223,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task500/movie/task_movie_500_16.swf",
+      "status": 200,
+      "bytes": 6869,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task496/movie/task_movie_496_6.swf",
+      "status": 200,
+      "bytes": 52574,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task500/movie/task_movie_500_17.swf",
+      "status": 200,
+      "bytes": 63534,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task500/movie/task_movie_500_2.swf",
+      "status": 200,
+      "bytes": 280217,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task500/movie/task_movie_500_1.swf",
+      "status": 200,
+      "bytes": 22867,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task500/movie/task_movie_500_5.swf",
+      "status": 200,
+      "bytes": 53489,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task500/movie/task_movie_500_7.swf",
+      "status": 200,
+      "bytes": 64639,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task500/movie/task_movie_500_6.swf",
+      "status": 200,
+      "bytes": 131875,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task500/movie/task_movie_500_18.swf",
+      "status": 200,
+      "bytes": 134021,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task500/movie/task_movie_500_4.swf",
+      "status": 200,
+      "bytes": 29144,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task503/movie/task_movie_503_1.swf",
+      "status": 200,
+      "bytes": 206140,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task503/movie/task_movie_503_2.swf",
+      "status": 200,
+      "bytes": 264730,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task500/movie/task_movie_500_8.swf",
+      "status": 200,
+      "bytes": 97969,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task500/movie/task_movie_500_3.swf",
+      "status": 200,
+      "bytes": 154171,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task500/movie/task_movie_500_9.swf",
+      "status": 200,
+      "bytes": 67748,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task501/movie/task_movie_501_2.swf",
+      "status": 200,
+      "bytes": 5578,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task501/movie/task_movie_501_1.swf",
+      "status": 200,
+      "bytes": 25646,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task502/movie/task_movie_502_1.swf",
+      "status": 200,
+      "bytes": 133449,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task502/movie/task_movie_502_3.swf",
+      "status": 200,
+      "bytes": 7929,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task504/movie/task_movie_504_1.swf",
+      "status": 200,
+      "bytes": 106199,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task504/movie/task_movie_504_2.swf",
+      "status": 200,
+      "bytes": 62119,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task502/movie/task_movie_502_2.swf",
+      "status": 200,
+      "bytes": 16962,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task504/movie/task_movie_504_4.swf",
+      "status": 200,
+      "bytes": 55439,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task504/movie/task_movie_504_3.swf",
+      "status": 200,
+      "bytes": 51099,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task501/movie/task_movie_501_3.swf",
+      "status": 200,
+      "bytes": 37269,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task504/movie/task_movie_504_6.swf",
+      "status": 200,
+      "bytes": 39588,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task504/movie/task_movie_504_7.swf",
+      "status": 200,
+      "bytes": 100442,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task504/movie/task_movie_504_5.swf",
+      "status": 200,
+      "bytes": 52476,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task505/movie/task_movie_505_1.swf",
+      "status": 200,
+      "bytes": 25646,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task504/movie/task_movie_504_9.swf",
+      "status": 200,
+      "bytes": 67253,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task505/movie/task_movie_505_2.swf",
+      "status": 200,
+      "bytes": 5578,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task505/movie/task_movie_505_3.swf",
+      "status": 200,
+      "bytes": 37269,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task504/movie/task_movie_504_8.swf",
+      "status": 200,
+      "bytes": 159650,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task504/movie/task_movie_504_10.swf",
+      "status": 200,
+      "bytes": 237790,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task505/movie/task_movie_505_7.swf",
+      "status": 200,
+      "bytes": 37269,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task505/movie/task_movie_505_6.swf",
+      "status": 200,
+      "bytes": 37269,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task505/movie/task_movie_505_5.swf",
+      "status": 200,
+      "bytes": 52345,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task505/movie/task_movie_505_4.swf",
+      "status": 200,
+      "bytes": 141059,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task505/movie/task_movie_505_8.swf",
+      "status": 200,
+      "bytes": 294654,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task506/movie/task_movie_506_1.swf",
+      "status": 200,
+      "bytes": 32678,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task506/movie/task_movie_506_3.swf",
+      "status": 200,
+      "bytes": 7929,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task506/movie/task_movie_506_2.swf",
+      "status": 200,
+      "bytes": 16036,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task507/movie/task_movie_507_1.swf",
+      "status": 200,
+      "bytes": 32145,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task507/movie/task_movie_507_20.swf",
+      "status": 200,
+      "bytes": 7894,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task507/movie/task_movie_507_4.swf",
+      "status": 200,
+      "bytes": 23602,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task507/movie/task_movie_507_2.swf",
+      "status": 200,
+      "bytes": 22389,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task507/movie/task_movie_507_5.swf",
+      "status": 200,
+      "bytes": 24854,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task507/movie/task_movie_507_6.swf",
+      "status": 200,
+      "bytes": 23319,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task506/movie/task_movie_506_4.swf",
+      "status": 200,
+      "bytes": 28973,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task508/movie/task_movie_508_10.swf",
+      "status": 200,
+      "bytes": 52500,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task507/movie/task_movie_507_3.swf",
+      "status": 200,
+      "bytes": 24870,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task507/movie/task_movie_507_7.swf",
+      "status": 200,
+      "bytes": 23130,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task508/movie/task_movie_508_12.swf",
+      "status": 200,
+      "bytes": 41100,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task508/movie/task_movie_508_14.swf",
+      "status": 200,
+      "bytes": 29324,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task508/movie/task_movie_508_1.swf",
+      "status": 200,
+      "bytes": 111608,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task508/movie/task_movie_508_16.swf",
+      "status": 200,
+      "bytes": 13016,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task508/movie/task_movie_508_15.swf",
+      "status": 200,
+      "bytes": 62151,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task508/movie/task_movie_508_13.swf",
+      "status": 200,
+      "bytes": 46402,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task508/movie/task_movie_508_17.swf",
+      "status": 200,
+      "bytes": 30808,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task508/movie/task_movie_508_2.swf",
+      "status": 200,
+      "bytes": 138710,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task508/movie/task_movie_508_3.swf",
+      "status": 200,
+      "bytes": 127859,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task508/movie/task_movie_508_4.swf",
+      "status": 200,
+      "bytes": 37965,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task508/movie/task_movie_508_11.swf",
+      "status": 200,
+      "bytes": 127290,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task508/movie/task_movie_508_8.swf",
+      "status": 200,
+      "bytes": 40698,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task508/movie/task_movie_508_5.swf",
+      "status": 200,
+      "bytes": 110232,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task508/movie/task_movie_508_7.swf",
+      "status": 200,
+      "bytes": 73209,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task508/movie/task_movie_508_6.swf",
+      "status": 200,
+      "bytes": 46800,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task508/movie/task_movie_508_9.swf",
+      "status": 200,
+      "bytes": 44707,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task509/movie/task_movie_509_1.swf",
+      "status": 200,
+      "bytes": 29099,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task509/movie/task_movie_509_2.swf",
+      "status": 200,
+      "bytes": 18835,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task510/movie/task_movie_510_2.swf",
+      "status": 200,
+      "bytes": 7173,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task510/movie/task_movie_510_1.swf",
+      "status": 200,
+      "bytes": 72142,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task509/movie/task_movie_509_3.swf",
+      "status": 200,
+      "bytes": 7929,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task511/movie/task_movie_511_4.swf",
+      "status": 200,
+      "bytes": 10340,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task511/movie/task_movie_511_3.swf",
+      "status": 200,
+      "bytes": 17970,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task511/movie/task_movie_511_5.swf",
+      "status": 200,
+      "bytes": 14867,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task511/movie/task_movie_511_1.swf",
+      "status": 200,
+      "bytes": 161601,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task512/movie/task_movie_512_10.swf",
+      "status": 200,
+      "bytes": 90889,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task512/movie/task_movie_512_11.swf",
+      "status": 200,
+      "bytes": 38765,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task511/movie/task_movie_511_10.swf",
+      "status": 200,
+      "bytes": 150328,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task512/movie/task_movie_512_1.swf",
+      "status": 200,
+      "bytes": 16715,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task512/movie/task_movie_512_12.swf",
+      "status": 200,
+      "bytes": 44697,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task512/movie/task_movie_512_2.swf",
+      "status": 200,
+      "bytes": 33349,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task511/movie/task_movie_511_2.swf",
+      "status": 200,
+      "bytes": 1190510,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task512/movie/task_movie_512_5.swf",
+      "status": 200,
+      "bytes": 4055,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task512/movie/task_movie_512_3.swf",
+      "status": 200,
+      "bytes": 4619,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task512/movie/task_movie_512_8.swf",
+      "status": 200,
+      "bytes": 33202,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task512/movie/task_movie_512_4.swf",
+      "status": 200,
+      "bytes": 6308,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task512/movie/task_movie_512_6.swf",
+      "status": 200,
+      "bytes": 8173,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task512/movie/task_movie_512_13.swf",
+      "status": 200,
+      "bytes": 520560,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task512/movie/task_movie_512_9.swf",
+      "status": 200,
+      "bytes": 6210,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task512/movie/task_movie_512_7.swf",
+      "status": 200,
+      "bytes": 3001,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task513/movie/task_movie_513_3.swf",
+      "status": 200,
+      "bytes": 22114,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task514/movie/task_movie_514_2.swf",
+      "status": 200,
+      "bytes": 7173,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task513/movie/task_movie_513_1.swf",
+      "status": 200,
+      "bytes": 4286,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task515/movie/task_movie_515_1.swf",
+      "status": 200,
+      "bytes": 6470,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task513/movie/task_movie_513_2.swf",
+      "status": 200,
+      "bytes": 28794,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task513/movie/task_movie_513_4.swf",
+      "status": 200,
+      "bytes": 33504,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task515/movie/task_movie_515_10.swf",
+      "status": 200,
+      "bytes": 36189,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task514/movie/task_movie_514_1.swf",
+      "status": 200,
+      "bytes": 72142,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task515/movie/task_movie_515_11.swf",
+      "status": 200,
+      "bytes": 51805,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task515/movie/task_movie_515_12.swf",
+      "status": 200,
+      "bytes": 39903,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task515/movie/task_movie_515_3.swf",
+      "status": 200,
+      "bytes": 6188,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task515/movie/task_movie_515_5.swf",
+      "status": 200,
+      "bytes": 33778,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task515/movie/task_movie_515_2.swf",
+      "status": 200,
+      "bytes": 146877,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task515/movie/task_movie_515_7.swf",
+      "status": 200,
+      "bytes": 4515,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task515/movie/task_movie_515_4.swf",
+      "status": 200,
+      "bytes": 7171,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task515/movie/task_movie_515_8.swf",
+      "status": 200,
+      "bytes": 4999,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task515/movie/task_movie_515_13.swf",
+      "status": 200,
+      "bytes": 22842,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task516/movie/task_movie_516_10.swf",
+      "status": 200,
+      "bytes": 39673,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task516/movie/task_movie_516_1.swf",
+      "status": 200,
+      "bytes": 23506,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task515/movie/task_movie_515_6.swf",
+      "status": 200,
+      "bytes": 192525,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task516/movie/task_movie_516_12.swf",
+      "status": 200,
+      "bytes": 22263,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task516/movie/task_movie_516_11.swf",
+      "status": 200,
+      "bytes": 47053,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task515/movie/task_movie_515_9.swf",
+      "status": 200,
+      "bytes": 20417,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task516/movie/task_movie_516_14.swf",
+      "status": 200,
+      "bytes": 19392,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task516/movie/task_movie_516_17.swf",
+      "status": 200,
+      "bytes": 62437,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task516/movie/task_movie_516_16.swf",
+      "status": 200,
+      "bytes": 67263,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task516/movie/task_movie_516_15.swf",
+      "status": 200,
+      "bytes": 23860,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task516/movie/task_movie_516_2.swf",
+      "status": 200,
+      "bytes": 13497,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task516/movie/task_movie_516_3.swf",
+      "status": 200,
+      "bytes": 10048,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task516/movie/task_movie_516_4.swf",
+      "status": 200,
+      "bytes": 11757,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task516/movie/task_movie_516_5.swf",
+      "status": 200,
+      "bytes": 30587,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task516/movie/task_movie_516_18.swf",
+      "status": 200,
+      "bytes": 346118,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task516/movie/task_movie_516_6.swf",
+      "status": 200,
+      "bytes": 99312,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task516/movie/task_movie_516_7.swf",
+      "status": 200,
+      "bytes": 61470,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task516/movie/task_movie_516_13.swf",
+      "status": 200,
+      "bytes": 41122,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task516/movie/task_movie_516_8.swf",
+      "status": 200,
+      "bytes": 28221,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task516/movie/task_movie_516_9.swf",
+      "status": 200,
+      "bytes": 36505,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_1.swf",
+      "status": 200,
+      "bytes": 139557,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_11.swf",
+      "status": 200,
+      "bytes": 43528,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_13.swf",
+      "status": 200,
+      "bytes": 66819,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_10.swf",
+      "status": 200,
+      "bytes": 74884,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_14.swf",
+      "status": 200,
+      "bytes": 45932,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_16.swf",
+      "status": 200,
+      "bytes": 73195,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_18.swf",
+      "status": 200,
+      "bytes": 33709,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_20.swf",
+      "status": 200,
+      "bytes": 33244,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_2.swf",
+      "status": 200,
+      "bytes": 22324,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_21.swf",
+      "status": 200,
+      "bytes": 34169,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_7.swf",
+      "status": 200,
+      "bytes": 68208,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_5.swf",
+      "status": 200,
+      "bytes": 53143,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_8.swf",
+      "status": 200,
+      "bytes": 24699,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_4.swf",
+      "status": 200,
+      "bytes": 59601,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_6.swf",
+      "status": 200,
+      "bytes": 72578,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_12.swf",
+      "status": 200,
+      "bytes": 92440,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_15.swf",
+      "status": 200,
+      "bytes": 29097,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_17.swf",
+      "status": 200,
+      "bytes": 18066,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_19.swf",
+      "status": 200,
+      "bytes": 54458,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_9.swf",
+      "status": 200,
+      "bytes": 23735,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task520/movie/task_movie_520_2.swf",
+      "status": 200,
+      "bytes": 41077,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task520/movie/task_movie_520_10.swf",
+      "status": 200,
+      "bytes": 11080,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task520/movie/task_movie_520_3.swf",
+      "status": 200,
+      "bytes": 58188,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task520/movie/task_movie_520_1.swf",
+      "status": 200,
+      "bytes": 105713,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task518/movie/task_movie_518_3.swf",
+      "status": 200,
+      "bytes": 402183,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task520/movie/task_movie_520_4.swf",
+      "status": 200,
+      "bytes": 51500,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task521/movie/task_movie_521_20.swf",
+      "status": 200,
+      "bytes": 3568,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task521/movie/task_movie_521_1.swf",
+      "status": 200,
+      "bytes": 4255,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task520/movie/task_movie_520_5.swf",
+      "status": 200,
+      "bytes": 98719,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task521/movie/task_movie_521_2.swf",
+      "status": 200,
+      "bytes": 6790,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task521/movie/task_movie_521_3.swf",
+      "status": 200,
+      "bytes": 15419,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task521/movie/task_movie_521_4.swf",
+      "status": 200,
+      "bytes": 11221,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task521/movie/task_movie_521_5.swf",
+      "status": 200,
+      "bytes": 33876,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task521/movie/task_movie_521_8.swf",
+      "status": 200,
+      "bytes": 7282,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task521/movie/task_movie_521_7.swf",
+      "status": 200,
+      "bytes": 20423,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task521/movie/task_movie_521_6.swf",
+      "status": 200,
+      "bytes": 89745,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task522/movie/task_movie_522_1.swf",
+      "status": 200,
+      "bytes": 9648,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task522/movie/task_movie_522_10.swf",
+      "status": 200,
+      "bytes": 18887,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task522/movie/task_movie_522_11.swf",
+      "status": 200,
+      "bytes": 20450,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task522/movie/task_movie_522_13.swf",
+      "status": 200,
+      "bytes": 27496,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task522/movie/task_movie_522_14.swf",
+      "status": 200,
+      "bytes": 45629,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task522/movie/task_movie_522_20.swf",
+      "status": 200,
+      "bytes": 3575,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task522/movie/task_movie_522_16.swf",
+      "status": 200,
+      "bytes": 34964,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task522/movie/task_movie_522_15.swf",
+      "status": 200,
+      "bytes": 28489,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task522/movie/task_movie_522_12.swf",
+      "status": 200,
+      "bytes": 53672,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task522/movie/task_movie_522_3.swf",
+      "status": 200,
+      "bytes": 201227,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task522/movie/task_movie_522_7.swf",
+      "status": 200,
+      "bytes": 20198,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task522/movie/task_movie_522_4.swf",
+      "status": 200,
+      "bytes": 211971,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task522/movie/task_movie_522_2.swf",
+      "status": 200,
+      "bytes": 201331,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task522/movie/task_movie_522_9.swf",
+      "status": 200,
+      "bytes": 39800,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task522/movie/task_movie_522_8.swf",
+      "status": 200,
+      "bytes": 8117,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task523/movie/task_movie_523_2.swf",
+      "status": 200,
+      "bytes": 19372,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task526/movie/task_movie_526_3.swf",
+      "status": 200,
+      "bytes": 41888,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task523/movie/task_movie_523_1.swf",
+      "status": 200,
+      "bytes": 9118,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task522/movie/task_movie_522_6.swf",
+      "status": 200,
+      "bytes": 48643,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task524/movie/task_movie_524_1.swf",
+      "status": 200,
+      "bytes": 16060,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task526/movie/task_movie_526_1.swf",
+      "status": 200,
+      "bytes": 26290,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task523/movie/task_movie_523_3.swf",
+      "status": 200,
+      "bytes": 29291,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task526/movie/task_movie_526_2.swf",
+      "status": 200,
+      "bytes": 39983,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task525/movie/task_movie_525_1.swf",
+      "status": 200,
+      "bytes": 256694,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task526/movie/task_movie_526_20.swf",
+      "status": 200,
+      "bytes": 9151,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task526/movie/task_movie_526_4.swf",
+      "status": 200,
+      "bytes": 39113,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task526/movie/task_movie_526_5.swf",
+      "status": 200,
+      "bytes": 68557,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task528/movie/task_movie_528_12.swf",
+      "status": 200,
+      "bytes": 26912,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task526/movie/task_movie_526_6.swf",
+      "status": 200,
+      "bytes": 27984,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task528/movie/task_movie_528_1.swf",
+      "status": 200,
+      "bytes": 28383,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task528/movie/task_movie_528_11.swf",
+      "status": 200,
+      "bytes": 76338,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task526/movie/task_movie_526_8.swf",
+      "status": 200,
+      "bytes": 33842,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task528/movie/task_movie_528_20.swf",
+      "status": 200,
+      "bytes": 3568,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task526/movie/task_movie_526_7.swf",
+      "status": 200,
+      "bytes": 37412,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task528/movie/task_movie_528_10.swf",
+      "status": 200,
+      "bytes": 58872,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task528/movie/task_movie_528_2.swf",
+      "status": 200,
+      "bytes": 4974,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task528/movie/task_movie_528_3.swf",
+      "status": 200,
+      "bytes": 15412,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task528/movie/task_movie_528_5.swf",
+      "status": 200,
+      "bytes": 102506,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task528/movie/task_movie_528_8.swf",
+      "status": 200,
+      "bytes": 106322,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task528/movie/task_movie_528_4.swf",
+      "status": 200,
+      "bytes": 90437,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task528/movie/task_movie_528_7.swf",
+      "status": 200,
+      "bytes": 106224,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task528/movie/task_movie_528_6.swf",
+      "status": 200,
+      "bytes": 109254,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task530/movie/task_movie_530_1.swf",
+      "status": 200,
+      "bytes": 76876,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task528/movie/task_movie_528_9.swf",
+      "status": 200,
+      "bytes": 108487,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task530/movie/task_movie_530_10.swf",
+      "status": 200,
+      "bytes": 107848,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task530/movie/task_movie_530_20.swf",
+      "status": 200,
+      "bytes": 16619,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task530/movie/task_movie_530_21.swf",
+      "status": 200,
+      "bytes": 17697,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task530/movie/task_movie_530_4.swf",
+      "status": 200,
+      "bytes": 30433,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task530/movie/task_movie_530_5.swf",
+      "status": 200,
+      "bytes": 15687,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task530/movie/task_movie_530_2.swf",
+      "status": 200,
+      "bytes": 809837,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task530/movie/task_movie_530_6.swf",
+      "status": 200,
+      "bytes": 25382,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task530/movie/task_movie_530_7.swf",
+      "status": 200,
+      "bytes": 29033,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task530/movie/task_movie_530_9.swf",
+      "status": 200,
+      "bytes": 41878,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task530/movie/task_movie_530_3.swf",
+      "status": 200,
+      "bytes": 118114,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task533/movie/task_movie_533_1.swf",
+      "status": 200,
+      "bytes": 17537,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task530/movie/task_movie_530_8.swf",
+      "status": 200,
+      "bytes": 172818,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task533/movie/task_movie_533_4.swf",
+      "status": 200,
+      "bytes": 47376,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task533/movie/task_movie_533_5.swf",
+      "status": 200,
+      "bytes": 53943,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task533/movie/task_movie_533_7.swf",
+      "status": 200,
+      "bytes": 62301,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task533/movie/task_movie_533_3.swf",
+      "status": 200,
+      "bytes": 222408,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task533/movie/task_movie_533_6.swf",
+      "status": 200,
+      "bytes": 51073,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task534/movie/task_movie_534_2.swf",
+      "status": 200,
+      "bytes": 95244,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task534/movie/task_movie_534_1.swf",
+      "status": 200,
+      "bytes": 32364,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task533/movie/task_movie_533_2.swf",
+      "status": 200,
+      "bytes": 931658,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task534/movie/task_movie_534_3.swf",
+      "status": 200,
+      "bytes": 116392,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task534/movie/task_movie_534_4.swf",
+      "status": 200,
+      "bytes": 8173,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task535/movie/task_movie_535_3.swf",
+      "status": 200,
+      "bytes": 54917,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task535/movie/task_movie_535_7.swf",
+      "status": 200,
+      "bytes": 96420,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task535/movie/task_movie_535_6.swf",
+      "status": 200,
+      "bytes": 35681,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task535/movie/task_movie_535_2.swf",
+      "status": 200,
+      "bytes": 127115,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task535/movie/task_movie_535_1.swf",
+      "status": 200,
+      "bytes": 784123,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task535/movie/task_movie_535_8.swf",
+      "status": 200,
+      "bytes": 41656,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task536/movie/task_movie_536_2.swf",
+      "status": 200,
+      "bytes": 60913,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task536/movie/task_movie_536_6.swf",
+      "status": 200,
+      "bytes": 75045,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task536/movie/task_movie_536_3.swf",
+      "status": 200,
+      "bytes": 43119,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task536/movie/task_movie_536_4.swf",
+      "status": 200,
+      "bytes": 23942,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task536/movie/task_movie_536_5.swf",
+      "status": 200,
+      "bytes": 43440,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task535/movie/task_movie_535_5.swf",
+      "status": 200,
+      "bytes": 98331,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task536/movie/task_movie_536_8.swf",
+      "status": 200,
+      "bytes": 109620,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task536/movie/task_movie_536_9.swf",
+      "status": 200,
+      "bytes": 52495,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task536/movie/task_movie_536_7.swf",
+      "status": 200,
+      "bytes": 60902,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task535/movie/task_movie_535_4.swf",
+      "status": 200,
+      "bytes": 64899,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task536/movie/task_movie_536_1.swf",
+      "status": 200,
+      "bytes": 143345,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task537/movie/task_movie_537_2.swf",
+      "status": 200,
+      "bytes": 193848,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task537/movie/task_movie_537_3.swf",
+      "status": 200,
+      "bytes": 161265,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task538/movie/task_movie_538_1.swf",
+      "status": 200,
+      "bytes": 99485,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task538/movie/task_movie_538_2.swf",
+      "status": 200,
+      "bytes": 36705,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task538/movie/task_movie_538_5.swf",
+      "status": 200,
+      "bytes": 125630,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task537/movie/task_movie_537_1.swf",
+      "status": 200,
+      "bytes": 122973,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task538/movie/task_movie_538_6.swf",
+      "status": 200,
+      "bytes": 103578,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task539/movie/task_movie_539_1.swf",
+      "status": 200,
+      "bytes": 50771,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task538/movie/task_movie_538_8.swf",
+      "status": 200,
+      "bytes": 31892,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task538/movie/task_movie_538_7.swf",
+      "status": 200,
+      "bytes": 155613,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task538/movie/task_movie_538_4.swf",
+      "status": 200,
+      "bytes": 265735,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task539/movie/task_movie_539_3.swf",
+      "status": 200,
+      "bytes": 64580,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task538/movie/task_movie_538_3.swf",
+      "status": 200,
+      "bytes": 91613,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task539/movie/task_movie_539_2.swf",
+      "status": 200,
+      "bytes": 260033,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task540/movie/task_movie_540_1.swf",
+      "status": 200,
+      "bytes": 43878,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task539/movie/task_movie_539_4.swf",
+      "status": 200,
+      "bytes": 297959,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task540/movie/task_movie_540_2.swf",
+      "status": 200,
+      "bytes": 68098,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task540/movie/task_movie_540_11.swf",
+      "status": 200,
+      "bytes": 179951,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task540/movie/task_movie_540_4.swf",
+      "status": 200,
+      "bytes": 61750,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task540/movie/task_movie_540_6.swf",
+      "status": 200,
+      "bytes": 40039,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task540/movie/task_movie_540_3.swf",
+      "status": 200,
+      "bytes": 79845,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task540/movie/task_movie_540_5.swf",
+      "status": 200,
+      "bytes": 35063,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task540/movie/task_movie_540_8.swf",
+      "status": 200,
+      "bytes": 58399,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task541/movie/task_movie_541_1.swf",
+      "status": 200,
+      "bytes": 25570,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task540/movie/task_movie_540_9.swf",
+      "status": 200,
+      "bytes": 32661,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task541/movie/task_movie_541_11.swf",
+      "status": 200,
+      "bytes": 42900,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task541/movie/task_movie_541_10.swf",
+      "status": 200,
+      "bytes": 96273,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task540/movie/task_movie_540_7.swf",
+      "status": 200,
+      "bytes": 17550,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task541/movie/task_movie_541_2.swf",
+      "status": 200,
+      "bytes": 106663,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task541/movie/task_movie_541_12.swf",
+      "status": 200,
+      "bytes": 208396,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task541/movie/task_movie_541_4.swf",
+      "status": 200,
+      "bytes": 60334,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task541/movie/task_movie_541_3.swf",
+      "status": 200,
+      "bytes": 79221,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task541/movie/task_movie_541_5.swf",
+      "status": 200,
+      "bytes": 102756,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task541/movie/task_movie_541_6.swf",
+      "status": 200,
+      "bytes": 95191,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task541/movie/task_movie_541_9.swf",
+      "status": 200,
+      "bytes": 78297,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task541/movie/task_movie_541_20.swf",
+      "status": 200,
+      "bytes": 249431,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task541/movie/task_movie_541_7.swf",
+      "status": 200,
+      "bytes": 223480,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task541/movie/task_movie_541_8.swf",
+      "status": 200,
+      "bytes": 81285,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task542/movie/task_movie_542_10.swf",
+      "status": 200,
+      "bytes": 79563,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task542/movie/task_movie_542_2.swf",
+      "status": 200,
+      "bytes": 23802,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task542/movie/task_movie_542_11.swf",
+      "status": 200,
+      "bytes": 78637,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task542/movie/task_movie_542_5.swf",
+      "status": 200,
+      "bytes": 189995,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task542/movie/task_movie_542_4.swf",
+      "status": 200,
+      "bytes": 42594,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task542/movie/task_movie_542_7.swf",
+      "status": 200,
+      "bytes": 57965,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task542/movie/task_movie_542_1.swf",
+      "status": 200,
+      "bytes": 317939,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task542/movie/task_movie_542_9.swf",
+      "status": 200,
+      "bytes": 66439,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task542/movie/task_movie_542_8.swf",
+      "status": 200,
+      "bytes": 23946,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task542/movie/task_movie_542_6.swf",
+      "status": 200,
+      "bytes": 327775,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task543/movie/task_movie_543_3.swf",
+      "status": 200,
+      "bytes": 26915,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task543/movie/task_movie_543_2.swf",
+      "status": 200,
+      "bytes": 148685,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task543/movie/task_movie_543_4.swf",
+      "status": 200,
+      "bytes": 23044,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task543/movie/task_movie_543_1.swf",
+      "status": 200,
+      "bytes": 160414,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task545/movie/task_movie_545_1.swf",
+      "status": 200,
+      "bytes": 68405,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task545/movie/task_movie_545_2.swf",
+      "status": 200,
+      "bytes": 55259,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task544/movie/task_movie_544_1.swf",
+      "status": 200,
+      "bytes": 110970,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task545/movie/task_movie_545_3.swf",
+      "status": 200,
+      "bytes": 85315,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task545/movie/task_movie_545_7.swf",
+      "status": 200,
+      "bytes": 74920,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task545/movie/task_movie_545_8.swf",
+      "status": 200,
+      "bytes": 62718,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task545/movie/task_movie_545_5.swf",
+      "status": 200,
+      "bytes": 22550,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task546/movie/task_movie_546_1.swf",
+      "status": 200,
+      "bytes": 538413,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task545/movie/task_movie_545_4.swf",
+      "status": 200,
+      "bytes": 48739,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task545/movie/task_movie_545_6.swf",
+      "status": 200,
+      "bytes": 35140,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_11.swf",
+      "status": 200,
+      "bytes": 215514,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_1.swf",
+      "status": 200,
+      "bytes": 44607,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_14.swf",
+      "status": 200,
+      "bytes": 173074,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_12.swf",
+      "status": 200,
+      "bytes": 247072,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_13.swf",
+      "status": 200,
+      "bytes": 206673,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_10.swf",
+      "status": 200,
+      "bytes": 125006,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_15.swf",
+      "status": 200,
+      "bytes": 275368,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_16.swf",
+      "status": 200,
+      "bytes": 206537,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_19.swf",
+      "status": 200,
+      "bytes": 43557,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_18.swf",
+      "status": 200,
+      "bytes": 47509,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_2.swf",
+      "status": 200,
+      "bytes": 207854,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_17.swf",
+      "status": 200,
+      "bytes": 371315,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_4.swf",
+      "status": 200,
+      "bytes": 133268,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_3.swf",
+      "status": 200,
+      "bytes": 191766,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_5.swf",
+      "status": 200,
+      "bytes": 284137,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_7.swf",
+      "status": 200,
+      "bytes": 329247,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_6.swf",
+      "status": 200,
+      "bytes": 321178,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_8.swf",
+      "status": 200,
+      "bytes": 178751,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task548/movie/task_movie_548_1.swf",
+      "status": 200,
+      "bytes": 17571,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task548/movie/task_movie_548_10.swf",
+      "status": 200,
+      "bytes": 12136,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task548/movie/task_movie_548_11.swf",
+      "status": 200,
+      "bytes": 112087,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task547/movie/task_movie_547_9.swf",
+      "status": 200,
+      "bytes": 792022,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task548/movie/task_movie_548_3.swf",
+      "status": 200,
+      "bytes": 53196,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task548/movie/task_movie_548_4.swf",
+      "status": 200,
+      "bytes": 47109,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task549/movie/task_movie_549_1.swf",
+      "status": 200,
+      "bytes": 171983,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task548/movie/task_movie_548_2.swf",
+      "status": 200,
+      "bytes": 317951,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task548/movie/task_movie_548_5.swf",
+      "status": 200,
+      "bytes": 100066,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task548/movie/task_movie_548_7.swf",
+      "status": 200,
+      "bytes": 53786,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task548/movie/task_movie_548_8.swf",
+      "status": 200,
+      "bytes": 45074,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task550/movie/task_movie_550_1.swf",
+      "status": 200,
+      "bytes": 58880,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task548/movie/task_movie_548_9.swf",
+      "status": 200,
+      "bytes": 91356,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task548/movie/task_movie_548_6.swf",
+      "status": 200,
+      "bytes": 38863,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task550/movie/task_movie_550_11.swf",
+      "status": 200,
+      "bytes": 61024,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task550/movie/task_movie_550_2.swf",
+      "status": 200,
+      "bytes": 104488,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task550/movie/task_movie_550_12.swf",
+      "status": 200,
+      "bytes": 60488,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task550/movie/task_movie_550_10.swf",
+      "status": 200,
+      "bytes": 104819,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task550/movie/task_movie_550_3.swf",
+      "status": 200,
+      "bytes": 131376,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task550/movie/task_movie_550_4.swf",
+      "status": 200,
+      "bytes": 96130,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task550/movie/task_movie_550_5.swf",
+      "status": 200,
+      "bytes": 110149,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task550/movie/task_movie_550_6.swf",
+      "status": 200,
+      "bytes": 15610,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task550/movie/task_movie_550_8.swf",
+      "status": 200,
+      "bytes": 144478,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task550/movie/task_movie_550_9.swf",
+      "status": 200,
+      "bytes": 201277,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task551/movie/task_movie_551_1.swf",
+      "status": 200,
+      "bytes": 62028,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task550/movie/task_movie_550_7.swf",
+      "status": 200,
+      "bytes": 389932,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task551/movie/task_movie_551_3.swf",
+      "status": 200,
+      "bytes": 124331,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task551/movie/task_movie_551_2.swf",
+      "status": 200,
+      "bytes": 81743,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task551/movie/task_movie_551_8.swf",
+      "status": 200,
+      "bytes": 88333,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task551/movie/task_movie_551_5.swf",
+      "status": 200,
+      "bytes": 152720,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task551/movie/task_movie_551_6.swf",
+      "status": 200,
+      "bytes": 102068,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task551/movie/task_movie_551_4.swf",
+      "status": 200,
+      "bytes": 48121,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task551/movie/task_movie_551_7.swf",
+      "status": 200,
+      "bytes": 213198,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task553/movie/task_movie_553_1.swf",
+      "status": 200,
+      "bytes": 58040,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task552/movie/task_movie_552_1.swf",
+      "status": 200,
+      "bytes": 207442,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task553/movie/task_movie_553_4.swf",
+      "status": 200,
+      "bytes": 70591,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task553/movie/task_movie_553_6.swf",
+      "status": 200,
+      "bytes": 43576,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task553/movie/task_movie_553_5.swf",
+      "status": 200,
+      "bytes": 26954,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task553/movie/task_movie_553_7.swf",
+      "status": 200,
+      "bytes": 7045,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task554/movie/task_movie_554_1.swf",
+      "status": 200,
+      "bytes": 39431,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task522/movie/task_movie_522_5.swf",
+      "status": 200,
+      "bytes": 16639,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task554/movie/task_movie_554_11.swf",
+      "status": 200,
+      "bytes": 19718,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task553/movie/task_movie_553_2.swf",
+      "status": 200,
+      "bytes": 54560,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task553/movie/task_movie_553_3.swf",
+      "status": 200,
+      "bytes": 65423,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task554/movie/task_movie_554_5.swf",
+      "status": 200,
+      "bytes": 24293,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task554/movie/task_movie_554_3.swf",
+      "status": 200,
+      "bytes": 244142,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task554/movie/task_movie_554_6.swf",
+      "status": 200,
+      "bytes": 18997,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task554/movie/task_movie_554_2.swf",
+      "status": 200,
+      "bytes": 100073,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task554/movie/task_movie_554_4.swf",
+      "status": 200,
+      "bytes": 234963,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task554/movie/task_movie_554_8.swf",
+      "status": 200,
+      "bytes": 34001,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task554/movie/task_movie_554_7.swf",
+      "status": 200,
+      "bytes": 42315,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task554/movie/task_movie_554_9.swf",
+      "status": 200,
+      "bytes": 16655,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task555/movie/task_movie_555_1.swf",
+      "status": 200,
+      "bytes": 23440,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task555/movie/task_movie_555_2.swf",
+      "status": 200,
+      "bytes": 85215,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task555/movie/task_movie_555_3.swf",
+      "status": 200,
+      "bytes": 114810,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task555/movie/task_movie_555_4.swf",
+      "status": 200,
+      "bytes": 124415,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task555/movie/task_movie_555_10.swf",
+      "status": 200,
+      "bytes": 507694,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task556/movie/task_movie_556_2.swf",
+      "status": 200,
+      "bytes": 64336,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task556/movie/task_movie_556_4.swf",
+      "status": 200,
+      "bytes": 74794,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task556/movie/task_movie_556_1.swf",
+      "status": 200,
+      "bytes": 228205,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task556/movie/task_movie_556_3.swf",
+      "status": 200,
+      "bytes": 224190,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task556/movie/task_movie_556_6.swf",
+      "status": 200,
+      "bytes": 81657,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task556/movie/task_movie_556_5.swf",
+      "status": 200,
+      "bytes": 201080,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task556/movie/task_movie_556_9.swf",
+      "status": 200,
+      "bytes": 30746,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task556/movie/task_movie_556_7.swf",
+      "status": 200,
+      "bytes": 300006,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task557/movie/task_movie_557_1.swf",
+      "status": 200,
+      "bytes": 50816,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task557/movie/task_movie_557_2.swf",
+      "status": 200,
+      "bytes": 38690,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task556/movie/task_movie_556_8.swf",
+      "status": 200,
+      "bytes": 171701,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task557/movie/task_movie_557_3.swf",
+      "status": 200,
+      "bytes": 75838,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task558/movie/task_movie_558_1.swf",
+      "status": 200,
+      "bytes": 39022,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task557/movie/task_movie_557_4.swf",
+      "status": 200,
+      "bytes": 90475,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task559/movie/task_movie_559_1.swf",
+      "status": 200,
+      "bytes": 193091,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task559/movie/task_movie_559_2.swf",
+      "status": 200,
+      "bytes": 45524,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task559/movie/task_movie_559_4.swf",
+      "status": 200,
+      "bytes": 198819,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task559/movie/task_movie_559_5.swf",
+      "status": 200,
+      "bytes": 217204,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task559/movie/task_movie_559_3.swf",
+      "status": 200,
+      "bytes": 106832,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task560/movie/task_movie_560_1.swf",
+      "status": 200,
+      "bytes": 49334,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task559/movie/task_movie_559_7.swf",
+      "status": 200,
+      "bytes": 305155,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task559/movie/task_movie_559_6.swf",
+      "status": 200,
+      "bytes": 596086,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task560/movie/task_movie_560_4.swf",
+      "status": 200,
+      "bytes": 46839,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task560/movie/task_movie_560_2.swf",
+      "status": 200,
+      "bytes": 73813,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task560/movie/task_movie_560_5.swf",
+      "status": 200,
+      "bytes": 15095,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task561/movie/task_movie_561_5.swf",
+      "status": 200,
+      "bytes": 45433,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task561/movie/task_movie_561_1.swf",
+      "status": 200,
+      "bytes": 10724,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task561/movie/task_movie_561_4.swf",
+      "status": 200,
+      "bytes": 70043,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task561/movie/task_movie_561_3.swf",
+      "status": 200,
+      "bytes": 162020,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task561/movie/task_movie_561_6.swf",
+      "status": 200,
+      "bytes": 56512,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task561/movie/task_movie_561_2.swf",
+      "status": 200,
+      "bytes": 45380,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task560/movie/task_movie_560_6.swf",
+      "status": 200,
+      "bytes": 41125,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task562/movie/task_movie_562_2.swf",
+      "status": 200,
+      "bytes": 61411,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task562/movie/task_movie_562_1.swf",
+      "status": 200,
+      "bytes": 105087,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task561/movie/task_movie_561_7.swf",
+      "status": 200,
+      "bytes": 73865,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task563/movie/task_movie_563_1.swf",
+      "status": 200,
+      "bytes": 10166,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task561/movie/task_movie_561_8.swf",
+      "status": 200,
+      "bytes": 292899,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task562/movie/task_movie_562_4.swf",
+      "status": 200,
+      "bytes": 88960,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task560/movie/task_movie_560_3.swf",
+      "status": 200,
+      "bytes": 44964,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task562/movie/task_movie_562_3.swf",
+      "status": 200,
+      "bytes": 110234,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task563/movie/task_movie_563_2.swf",
+      "status": 200,
+      "bytes": 42816,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task563/movie/task_movie_563_3.swf",
+      "status": 200,
+      "bytes": 43389,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task563/movie/task_movie_563_4.swf",
+      "status": 200,
+      "bytes": 30011,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task563/movie/task_movie_563_5.swf",
+      "status": 200,
+      "bytes": 88627,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task563/movie/task_movie_563_8.swf",
+      "status": 200,
+      "bytes": 25374,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task563/movie/task_movie_563_6.swf",
+      "status": 200,
+      "bytes": 49634,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task563/movie/task_movie_563_7.swf",
+      "status": 200,
+      "bytes": 10138,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task564/movie/task_movie_564_2.swf",
+      "status": 200,
+      "bytes": 11746,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task564/movie/task_movie_564_4.swf",
+      "status": 200,
+      "bytes": 28101,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task564/movie/task_movie_564_1.swf",
+      "status": 200,
+      "bytes": 88635,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task564/movie/task_movie_564_3.swf",
+      "status": 200,
+      "bytes": 43276,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task565/movie/task_movie_565_2.swf",
+      "status": 200,
+      "bytes": 44258,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task565/movie/task_movie_565_1.swf",
+      "status": 200,
+      "bytes": 71956,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task564/movie/task_movie_564_5.swf",
+      "status": 200,
+      "bytes": 83000,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task565/movie/task_movie_565_3.swf",
+      "status": 200,
+      "bytes": 192495,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task565/movie/task_movie_565_4.swf",
+      "status": 200,
+      "bytes": 66351,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task565/task_movie_565_1.swf",
+      "status": 200,
+      "bytes": 71956,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task565/task_movie_565_2.swf",
+      "status": 200,
+      "bytes": 44258,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task566/movie/task_movie_566_1.swf",
+      "status": 200,
+      "bytes": 22219,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task565/task_movie_565_4.swf",
+      "status": 200,
+      "bytes": 66864,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task566/movie/task_movie_566_2.swf",
+      "status": 200,
+      "bytes": 43163,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task565/task_movie_565_3.swf",
+      "status": 200,
+      "bytes": 151632,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task566/movie/task_movie_566_4.swf",
+      "status": 200,
+      "bytes": 38241,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task566/movie/task_movie_566_3.swf",
+      "status": 200,
+      "bytes": 102788,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task566/movie/task_movie_566_5.swf",
+      "status": 200,
+      "bytes": 28478,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task566/movie/task_movie_566_6.swf",
+      "status": 200,
+      "bytes": 12503,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task567/movie/task_movie_567_1.swf",
+      "status": 200,
+      "bytes": 46000,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task568/movie/task_movie_568_1.swf",
+      "status": 200,
+      "bytes": 17489,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task567/movie/task_movie_567_4.swf",
+      "status": 200,
+      "bytes": 41347,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task567/movie/task_movie_567_5.swf",
+      "status": 200,
+      "bytes": 82663,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task567/movie/task_movie_567_3.swf",
+      "status": 200,
+      "bytes": 103736,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task567/movie/task_movie_567_2.swf",
+      "status": 200,
+      "bytes": 250697,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task568/movie/task_movie_568_2.swf",
+      "status": 200,
+      "bytes": 148942,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task568/movie/task_movie_568_4.swf",
+      "status": 200,
+      "bytes": 121667,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task568/movie/task_movie_568_3.swf",
+      "status": 200,
+      "bytes": 44530,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task569/movie/task_movie_569_2.swf",
+      "status": 200,
+      "bytes": 42338,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task568/movie/task_movie_568_6.swf",
+      "status": 200,
+      "bytes": 53014,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task568/movie/task_movie_568_5.swf",
+      "status": 200,
+      "bytes": 26680,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task569/movie/task_movie_569_3.swf",
+      "status": 200,
+      "bytes": 27280,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task569/movie/task_movie_569_5.swf",
+      "status": 200,
+      "bytes": 42465,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task569/movie/task_movie_569_1.swf",
+      "status": 200,
+      "bytes": 21042,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task569/movie/task_movie_569_4.swf",
+      "status": 200,
+      "bytes": 78720,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task570/movie/task_movie_570_1.swf",
+      "status": 200,
+      "bytes": 27037,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task570/movie/task_movie_570_2.swf",
+      "status": 200,
+      "bytes": 62569,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task570/movie/task_movie_570_3.swf",
+      "status": 200,
+      "bytes": 40454,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task570/movie/task_movie_570_4.swf",
+      "status": 200,
+      "bytes": 37447,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task569/movie/task_movie_569_6.swf",
+      "status": 200,
+      "bytes": 1094267,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task570/movie/task_movie_570_6.swf",
+      "status": 200,
+      "bytes": 103725,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task569/movie/task_movie_569_7.swf",
+      "status": 200,
+      "bytes": 134908,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task571/movie/task_movie_571_3.swf",
+      "status": 200,
+      "bytes": 28622,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task571/movie/task_movie_571_2.swf",
+      "status": 200,
+      "bytes": 56952,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task570/movie/task_movie_570_8.swf",
+      "status": 200,
+      "bytes": 64432,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task571/movie/task_movie_571_4.swf",
+      "status": 200,
+      "bytes": 32703,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task571/movie/task_movie_571_5.swf",
+      "status": 200,
+      "bytes": 160759,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task570/movie/task_movie_570_7.swf",
+      "status": 200,
+      "bytes": 88762,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task571/movie/task_movie_571_1.swf",
+      "status": 200,
+      "bytes": 32672,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task572/movie/task_movie_572_1.swf",
+      "status": 200,
+      "bytes": 24940,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task570/movie/task_movie_570_5.swf",
+      "status": 200,
+      "bytes": 103060,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task572/movie/task_movie_572_11.swf",
+      "status": 200,
+      "bytes": 27136,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task572/movie/task_movie_572_12.swf",
+      "status": 200,
+      "bytes": 18627,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task572/movie/task_movie_572_13.swf",
+      "status": 200,
+      "bytes": 48207,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task572/movie/task_movie_572_10.swf",
+      "status": 200,
+      "bytes": 15730,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task572/movie/task_movie_572_15.swf",
+      "status": 200,
+      "bytes": 19092,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task572/movie/task_movie_572_2.swf",
+      "status": 200,
+      "bytes": 19506,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task572/movie/task_movie_572_3.swf",
+      "status": 200,
+      "bytes": 24591,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task572/movie/task_movie_572_16.swf",
+      "status": 200,
+      "bytes": 44805,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task572/movie/task_movie_572_4.swf",
+      "status": 200,
+      "bytes": 39763,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task540/movie/task_movie_540_10.swf",
+      "status": 200,
+      "bytes": 35471,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task572/movie/task_movie_572_6.swf",
+      "status": 200,
+      "bytes": 24175,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task572/movie/task_movie_572_14.swf",
+      "status": 200,
+      "bytes": 18677,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task572/movie/task_movie_572_9.swf",
+      "status": 200,
+      "bytes": 30382,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task572/movie/task_movie_572_7.swf",
+      "status": 200,
+      "bytes": 15659,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task573/movie/task_movie_573_1.swf",
+      "status": 200,
+      "bytes": 12811,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task572/movie/task_movie_572_5.swf",
+      "status": 200,
+      "bytes": 374511,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task572/movie/task_movie_572_8.swf",
+      "status": 200,
+      "bytes": 31498,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task573/movie/task_movie_573_12.swf",
+      "status": 200,
+      "bytes": 33334,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task573/movie/task_movie_573_11.swf",
+      "status": 200,
+      "bytes": 42712,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task573/movie/task_movie_573_10.swf",
+      "status": 200,
+      "bytes": 17824,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task573/movie/task_movie_573_2.swf",
+      "status": 200,
+      "bytes": 23826,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task573/movie/task_movie_573_4.swf",
+      "status": 200,
+      "bytes": 22052,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task573/movie/task_movie_573_3.swf",
+      "status": 200,
+      "bytes": 61274,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task573/movie/task_movie_573_5.swf",
+      "status": 200,
+      "bytes": 8494,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task573/movie/task_movie_573_7.swf",
+      "status": 200,
+      "bytes": 15958,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task573/movie/task_movie_573_6.swf",
+      "status": 200,
+      "bytes": 34004,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task573/movie/task_movie_573_8.swf",
+      "status": 200,
+      "bytes": 35897,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task574/movie/task_movie_574_1.swf",
+      "status": 200,
+      "bytes": 13280,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task573/movie/task_movie_573_9.swf",
+      "status": 200,
+      "bytes": 50476,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task574/movie/task_movie_574_2.swf",
+      "status": 200,
+      "bytes": 40249,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task574/movie/task_movie_574_3.swf",
+      "status": 200,
+      "bytes": 19704,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task574/movie/task_movie_574_10.swf",
+      "status": 200,
+      "bytes": 197727,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task574/movie/task_movie_574_5.swf",
+      "status": 200,
+      "bytes": 79679,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task574/movie/task_movie_574_7.swf",
+      "status": 200,
+      "bytes": 110628,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task574/movie/task_movie_574_4.swf",
+      "status": 200,
+      "bytes": 93622,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task574/movie/task_movie_574_6.swf",
+      "status": 200,
+      "bytes": 163956,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task574/movie/task_movie_574_8.swf",
+      "status": 200,
+      "bytes": 184680,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task574/movie/task_movie_574_9.swf",
+      "status": 200,
+      "bytes": 183569,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task542/movie/task_movie_542_3.swf",
+      "status": 200,
+      "bytes": 20525,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task575/movie/task_movie_575_12.swf",
+      "status": 200,
+      "bytes": 65289,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task575/movie/task_movie_575_11.swf",
+      "status": 200,
+      "bytes": 52517,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task575/movie/task_movie_575_14.swf",
+      "status": 200,
+      "bytes": 111961,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task575/movie/task_movie_575_1.swf",
+      "status": 200,
+      "bytes": 53051,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task575/movie/task_movie_575_13.swf",
+      "status": 200,
+      "bytes": 181764,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task575/movie/task_movie_575_2.swf",
+      "status": 200,
+      "bytes": 67223,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task575/movie/task_movie_575_10.swf",
+      "status": 200,
+      "bytes": 41083,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task575/movie/task_movie_575_4.swf",
+      "status": 200,
+      "bytes": 52529,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task575/movie/task_movie_575_7.swf",
+      "status": 200,
+      "bytes": 40127,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task575/movie/task_movie_575_6.swf",
+      "status": 200,
+      "bytes": 95854,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task575/movie/task_movie_575_9.swf",
+      "status": 200,
+      "bytes": 74389,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task575/movie/task_movie_575_8.swf",
+      "status": 200,
+      "bytes": 18706,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task575/movie/task_movie_575_5.swf",
+      "status": 200,
+      "bytes": 41331,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task576/movie/task_movie_576_1.swf",
+      "status": 200,
+      "bytes": 17660,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task575/movie/task_movie_575_3.swf",
+      "status": 200,
+      "bytes": 66872,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task581/movie/task_movie_581_1.swf",
+      "status": 200,
+      "bytes": 14226,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task581/movie/task_movie_581_10.swf",
+      "status": 200,
+      "bytes": 153185,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task581/movie/task_movie_581_2.swf",
+      "status": 200,
+      "bytes": 117987,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task581/movie/task_movie_581_3.swf",
+      "status": 200,
+      "bytes": 87203,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task581/movie/task_movie_581_4.swf",
+      "status": 200,
+      "bytes": 60730,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task581/movie/task_movie_581_5.swf",
+      "status": 200,
+      "bytes": 158173,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task581/movie/task_movie_581_6.swf",
+      "status": 200,
+      "bytes": 247315,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task581/movie/task_movie_581_7.swf",
+      "status": 200,
+      "bytes": 162600,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task581/movie/task_movie_581_8.swf",
+      "status": 200,
+      "bytes": 154237,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task581/movie/task_movie_581_9.swf",
+      "status": 200,
+      "bytes": 139917,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task582/movie/task_movie_582_1.swf",
+      "status": 200,
+      "bytes": 702537,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task582/movie/task_movie_582_10.swf",
+      "status": 200,
+      "bytes": 95922,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task582/movie/task_movie_582_11.swf",
+      "status": 200,
+      "bytes": 216615,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task582/movie/task_movie_582_12.swf",
+      "status": 200,
+      "bytes": 218694,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task582/movie/task_movie_582_13.swf",
+      "status": 200,
+      "bytes": 223002,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task582/movie/task_movie_582_14.swf",
+      "status": 200,
+      "bytes": 223350,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task582/movie/task_movie_582_15.swf",
+      "status": 200,
+      "bytes": 30327,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task582/movie/task_movie_582_2.swf",
+      "status": 200,
+      "bytes": 726423,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task582/movie/task_movie_582_3.swf",
+      "status": 200,
+      "bytes": 67891,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task576/movie/task_movie_576_10.swf",
+      "status": 200,
+      "bytes": 65201,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task582/movie/task_movie_582_4.swf",
+      "status": 200,
+      "bytes": 132563,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task582/movie/task_movie_582_5.swf",
+      "status": 200,
+      "bytes": 39392,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task582/movie/task_movie_582_6.swf",
+      "status": 200,
+      "bytes": 91077,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task582/movie/task_movie_582_7.swf",
+      "status": 200,
+      "bytes": 73483,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task582/movie/task_movie_582_8.swf",
+      "status": 200,
+      "bytes": 26159,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task583/movie/task_movie_583_1.swf",
+      "status": 200,
+      "bytes": 40651,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task582/movie/task_movie_582_9.swf",
+      "status": 200,
+      "bytes": 83467,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task583/movie/task_movie_583_2.swf",
+      "status": 200,
+      "bytes": 48797,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task583/movie/task_movie_583_3.swf",
+      "status": 200,
+      "bytes": 50110,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task583/movie/task_movie_583_4.swf",
+      "status": 200,
+      "bytes": 131458,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task583/movie/task_movie_583_5.swf",
+      "status": 200,
+      "bytes": 32011,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task583/movie/task_movie_583_6.swf",
+      "status": 200,
+      "bytes": 152867,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task583/movie/task_movie_583_7.swf",
+      "status": 200,
+      "bytes": 41647,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task583/movie/task_movie_583_8.swf",
+      "status": 200,
+      "bytes": 14565,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task583/movie/task_movie_583_9.swf",
+      "status": 200,
+      "bytes": 43749,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task584/movie/task_movie_584_1.swf",
+      "status": 200,
+      "bytes": 8125,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task586/movie/task_movie_586_1.swf",
+      "status": 200,
+      "bytes": 62221,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task586/movie/task_movie_586_2.swf",
+      "status": 200,
+      "bytes": 83736,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task586/movie/task_movie_586_3.swf",
+      "status": 200,
+      "bytes": 48391,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task586/movie/task_movie_586_4.swf",
+      "status": 200,
+      "bytes": 264826,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task586/movie/task_movie_586_5.swf",
+      "status": 200,
+      "bytes": 163921,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task586/movie/task_movie_586_6.swf",
+      "status": 200,
+      "bytes": 220580,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task586/movie/task_movie_586_7.swf",
+      "status": 200,
+      "bytes": 260802,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task587/movie/task_movie_587_1.swf",
+      "status": 200,
+      "bytes": 411418,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task587/movie/task_movie_587_2.swf",
+      "status": 200,
+      "bytes": 343880,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task587/movie/task_movie_587_3.swf",
+      "status": 200,
+      "bytes": 345461,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task588/movie/task_movie_588_1.swf",
+      "status": 200,
+      "bytes": 54756,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task588/movie/task_movie_588_2.swf",
+      "status": 200,
+      "bytes": 36383,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task588/movie/task_movie_588_3.swf",
+      "status": 200,
+      "bytes": 64242,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task588/movie/task_movie_588_4.swf",
+      "status": 200,
+      "bytes": 57531,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task588/movie/task_movie_588_5.swf",
+      "status": 200,
+      "bytes": 49550,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task590/movie/task_movie_590_1.swf",
+      "status": 200,
+      "bytes": 19597,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task590/movie/task_movie_590_10.swf",
+      "status": 200,
+      "bytes": 59769,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task590/movie/task_movie_590_11.swf",
+      "status": 200,
+      "bytes": 29816,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task590/movie/task_movie_590_2.swf",
+      "status": 200,
+      "bytes": 39156,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task590/movie/task_movie_590_3.swf",
+      "status": 200,
+      "bytes": 31347,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task590/movie/task_movie_590_4.swf",
+      "status": 200,
+      "bytes": 31430,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task590/movie/task_movie_590_5.swf",
+      "status": 200,
+      "bytes": 31424,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task590/movie/task_movie_590_6.swf",
+      "status": 200,
+      "bytes": 22772,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task590/movie/task_movie_590_7.swf",
+      "status": 200,
+      "bytes": 31037,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task590/movie/task_movie_590_8.swf",
+      "status": 200,
+      "bytes": 13179,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task590/movie/task_movie_590_9.swf",
+      "status": 200,
+      "bytes": 33882,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task591/movie/task_movie_591_1.swf",
+      "status": 200,
+      "bytes": 8790,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task591/movie/task_movie_591_2.swf",
+      "status": 200,
+      "bytes": 28271,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task591/movie/task_movie_591_3.swf",
+      "status": 200,
+      "bytes": 20633,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task591/movie/task_movie_591_4.swf",
+      "status": 200,
+      "bytes": 44091,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task591/movie/task_movie_591_5.swf",
+      "status": 200,
+      "bytes": 27080,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task591/movie/task_movie_591_6.swf",
+      "status": 200,
+      "bytes": 50672,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task591/movie/task_movie_591_7.swf",
+      "status": 200,
+      "bytes": 26623,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task594/movie/task_movie_594_1.swf",
+      "status": 200,
+      "bytes": 266677,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task596/movie/task_movie_596_1.swf",
+      "status": 200,
+      "bytes": 147491,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task596/movie/task_movie_596_2.swf",
+      "status": 200,
+      "bytes": 162801,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task597/movie/task_movie_597_1.swf",
+      "status": 200,
+      "bytes": 57630,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task597/movie/task_movie_597_2.swf",
+      "status": 200,
+      "bytes": 8789,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task597/movie/task_movie_597_3.swf",
+      "status": 200,
+      "bytes": 189510,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task597/movie/task_movie_597_4.swf",
+      "status": 200,
+      "bytes": 181638,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task597/movie/task_movie_597_5.swf",
+      "status": 200,
+      "bytes": 182611,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task598/movie/task_movie_598_1.swf",
+      "status": 200,
+      "bytes": 8597,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task598/movie/task_movie_598_2.swf",
+      "status": 200,
+      "bytes": 20771,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task598/movie/task_movie_598_3.swf",
+      "status": 200,
+      "bytes": 209384,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task598/movie/task_movie_598_4.swf",
+      "status": 200,
+      "bytes": 3364,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task598/movie/task_movie_598_5.swf",
+      "status": 200,
+      "bytes": 120346,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task598/movie/task_movie_598_6.swf",
+      "status": 200,
+      "bytes": 372639,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task598/movie/task_movie_598_7.swf",
+      "status": 200,
+      "bytes": 141883,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task598/movie/task_movie_598_8.swf",
+      "status": 200,
+      "bytes": 87664,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task598/movie/task_movie_598_9.swf",
+      "status": 200,
+      "bytes": 81879,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task599/movie/task_movie_599_1.swf",
+      "status": 200,
+      "bytes": 239816,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task576/movie/task_movie_576_4.swf",
+      "status": 200,
+      "bytes": 57851,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task576/movie/task_movie_576_6.swf",
+      "status": 200,
+      "bytes": 58810,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task599/movie/task_movie_599_2.swf",
+      "status": 200,
+      "bytes": 271864,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task599/movie/task_movie_599_3.swf",
+      "status": 200,
+      "bytes": 273432,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task599/movie/task_movie_599_4.swf",
+      "status": 200,
+      "bytes": 385656,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task599/movie/task_movie_599_5.swf",
+      "status": 200,
+      "bytes": 535390,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task599/movie/task_movie_599_6.swf",
+      "status": 200,
+      "bytes": 1420807,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task599/movie/task_movie_599_7.swf",
+      "status": 200,
+      "bytes": 467080,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task576/movie/task_movie_576_5.swf",
+      "status": 200,
+      "bytes": 55827,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task576/movie/task_movie_576_2.swf",
+      "status": 200,
+      "bytes": 243403,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task600/movie/task_movie_600_1.swf",
+      "status": 200,
+      "bytes": 13608,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task601/movie/task_movie_601_1.swf",
+      "status": 200,
+      "bytes": 12372,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task601/movie/task_movie_601_2.swf",
+      "status": 200,
+      "bytes": 27126,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task601/movie/task_movie_601_3.swf",
+      "status": 200,
+      "bytes": 5417,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task601/movie/task_movie_601_4.swf",
+      "status": 200,
+      "bytes": 32480,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task601/movie/task_movie_601_5.swf",
+      "status": 200,
+      "bytes": 37305,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task601/movie/task_movie_601_6.swf",
+      "status": 200,
+      "bytes": 219079,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task601/movie/task_movie_601_7.swf",
+      "status": 200,
+      "bytes": 162747,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task601/movie/task_movie_601_8.swf",
+      "status": 200,
+      "bytes": 150549,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task601/movie/task_movie_601_9.swf",
+      "status": 200,
+      "bytes": 172889,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task602/movie/task_movie_602_1.swf",
+      "status": 200,
+      "bytes": 6514,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task602/movie/task_movie_602_10.swf",
+      "status": 200,
+      "bytes": 22396,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task602/movie/task_movie_602_11.swf",
+      "status": 200,
+      "bytes": 51410,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task602/movie/task_movie_602_12.swf",
+      "status": 200,
+      "bytes": 59818,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task602/movie/task_movie_602_2.swf",
+      "status": 200,
+      "bytes": 25654,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task602/movie/task_movie_602_3.swf",
+      "status": 200,
+      "bytes": 36074,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task602/movie/task_movie_602_4.swf",
+      "status": 200,
+      "bytes": 6027,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task602/movie/task_movie_602_5.swf",
+      "status": 200,
+      "bytes": 19534,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task602/movie/task_movie_602_6.swf",
+      "status": 200,
+      "bytes": 53273,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task602/movie/task_movie_602_7.swf",
+      "status": 200,
+      "bytes": 48598,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task602/movie/task_movie_602_8.swf",
+      "status": 200,
+      "bytes": 60474,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task602/movie/task_movie_602_9.swf",
+      "status": 200,
+      "bytes": 13921,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task603/movie/task_movie_603_1.swf",
+      "status": 200,
+      "bytes": 9021,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task603/movie/task_movie_603_10.swf",
+      "status": 200,
+      "bytes": 6501,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task603/movie/task_movie_603_11.swf",
+      "status": 200,
+      "bytes": 26346,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task603/movie/task_movie_603_12.swf",
+      "status": 200,
+      "bytes": 6487,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task603/movie/task_movie_603_13.swf",
+      "status": 200,
+      "bytes": 25791,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task603/movie/task_movie_603_2.swf",
+      "status": 200,
+      "bytes": 55820,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task603/movie/task_movie_603_3.swf",
+      "status": 200,
+      "bytes": 74098,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task603/movie/task_movie_603_4.swf",
+      "status": 200,
+      "bytes": 123367,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task603/movie/task_movie_603_5.swf",
+      "status": 200,
+      "bytes": 69311,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task603/movie/task_movie_603_6.swf",
+      "status": 200,
+      "bytes": 317029,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task603/movie/task_movie_603_7.swf",
+      "status": 200,
+      "bytes": 192541,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task603/movie/task_movie_603_8.swf",
+      "status": 200,
+      "bytes": 192569,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task603/movie/task_movie_603_9.swf",
+      "status": 200,
+      "bytes": 191620,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task604/movie/task_movie_604_1.swf",
+      "status": 200,
+      "bytes": 6528,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task604/movie/task_movie_604_10.swf",
+      "status": 200,
+      "bytes": 62365,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task604/movie/task_movie_604_11.swf",
+      "status": 200,
+      "bytes": 43998,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task604/movie/task_movie_604_12.swf",
+      "status": 200,
+      "bytes": 26292,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task604/movie/task_movie_604_13.swf",
+      "status": 200,
+      "bytes": 11658,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task604/movie/task_movie_604_14.swf",
+      "status": 200,
+      "bytes": 23779,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task604/movie/task_movie_604_15.swf",
+      "status": 200,
+      "bytes": 19660,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task604/movie/task_movie_604_16.swf",
+      "status": 200,
+      "bytes": 17660,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task604/movie/task_movie_604_17.swf",
+      "status": 200,
+      "bytes": 45111,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task604/movie/task_movie_604_18.swf",
+      "status": 200,
+      "bytes": 11493,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task604/movie/task_movie_604_3.swf",
+      "status": 200,
+      "bytes": 31818,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task604/movie/task_movie_604_2.swf",
+      "status": 200,
+      "bytes": 5010,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task604/movie/task_movie_604_5.swf",
+      "status": 200,
+      "bytes": 58041,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task604/movie/task_movie_604_4.swf",
+      "status": 200,
+      "bytes": 24677,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task604/movie/task_movie_604_6.swf",
+      "status": 200,
+      "bytes": 120813,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task604/movie/task_movie_604_7.swf",
+      "status": 200,
+      "bytes": 43598,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task604/movie/task_movie_604_8.swf",
+      "status": 200,
+      "bytes": 28953,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task604/movie/task_movie_604_9.swf",
+      "status": 200,
+      "bytes": 35778,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task605/movie/task_movie_605_1.swf",
+      "status": 200,
+      "bytes": 14820,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task605/movie/task_movie_605_2.swf",
+      "status": 200,
+      "bytes": 25671,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task576/movie/task_movie_576_8.swf",
+      "status": 200,
+      "bytes": 60099,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task605/movie/task_movie_605_3.swf",
+      "status": 200,
+      "bytes": 32332,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task576/movie/task_movie_576_9.swf",
+      "status": 200,
+      "bytes": 58479,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task576/movie/task_movie_576_7.swf",
+      "status": 200,
+      "bytes": 111076,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task607/movie/task_movie_607_3.swf",
+      "status": 200,
+      "bytes": 22735,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task608/movie/task_movie_608_1.swf",
+      "status": 200,
+      "bytes": 6511,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task608/movie/task_movie_608_3.swf",
+      "status": 200,
+      "bytes": 27568,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task608/movie/task_movie_608_2.swf",
+      "status": 200,
+      "bytes": 52625,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task607/movie/task_movie_607_2.swf",
+      "status": 200,
+      "bytes": 7433,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task576/movie/task_movie_576_3.swf",
+      "status": 200,
+      "bytes": 122355,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task607/movie/task_movie_607_1.swf",
+      "status": 200,
+      "bytes": 22976,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task608/movie/task_movie_608_5.swf",
+      "status": 200,
+      "bytes": 199573,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task608/movie/task_movie_608_4.swf",
+      "status": 200,
+      "bytes": 191122,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task608/movie/task_movie_608_6.swf",
+      "status": 200,
+      "bytes": 331117,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task607/movie/task_movie_607_4.swf",
+      "status": 200,
+      "bytes": 17755,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task609/movie/task_movie_609_5.swf",
+      "status": 200,
+      "bytes": 9072,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task608/movie/task_movie_608_7.swf",
+      "status": 200,
+      "bytes": 240169,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task609/movie/task_movie_609_2.swf",
+      "status": 200,
+      "bytes": 459594,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task609/movie/task_movie_609_4.swf",
+      "status": 200,
+      "bytes": 427556,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task609/movie/task_movie_609_6.swf",
+      "status": 200,
+      "bytes": 9077,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task609/movie/task_movie_609_1.swf",
+      "status": 200,
+      "bytes": 427325,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task609/movie/task_movie_609_3.swf",
+      "status": 200,
+      "bytes": 413957,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task610/movie/task_movie_610_2.swf",
+      "status": 200,
+      "bytes": 7298,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task610/movie/task_movie_610_3.swf",
+      "status": 200,
+      "bytes": 13522,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task610/movie/task_movie_610_1.swf",
+      "status": 200,
+      "bytes": 7297,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task610/movie/task_movie_610_6.swf",
+      "status": 200,
+      "bytes": 7320,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task610/movie/task_movie_610_8.swf",
+      "status": 200,
+      "bytes": 7298,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task610/movie/task_movie_610_5.swf",
+      "status": 200,
+      "bytes": 13520,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task610/movie/task_movie_610_7.swf",
+      "status": 200,
+      "bytes": 24700,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task611/movie/task_movie_611_2.swf",
+      "status": 200,
+      "bytes": 32872,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task611/movie/task_movie_611_5.swf",
+      "status": 200,
+      "bytes": 13076,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task610/movie/task_movie_610_4.swf",
+      "status": 200,
+      "bytes": 66396,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task611/movie/task_movie_611_3.swf",
+      "status": 200,
+      "bytes": 18270,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task611/movie/task_movie_611_1.swf",
+      "status": 200,
+      "bytes": 18269,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task611/movie/task_movie_611_7.swf",
+      "status": 200,
+      "bytes": 11081,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task611/movie/task_movie_611_4.swf",
+      "status": 200,
+      "bytes": 18270,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task611/movie/task_movie_611_6.swf",
+      "status": 200,
+      "bytes": 33423,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task611/movie/task_movie_611_8.swf",
+      "status": 200,
+      "bytes": 37862,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task612/movie/task_movie_612_1.swf",
+      "status": 200,
+      "bytes": 11864,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task612/movie/task_movie_612_2.swf",
+      "status": 200,
+      "bytes": 12190,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task612/movie/task_movie_612_4.swf",
+      "status": 200,
+      "bytes": 11860,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task612/movie/task_movie_612_11.swf",
+      "status": 200,
+      "bytes": 871180,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task612/movie/task_movie_612_14.swf",
+      "status": 200,
+      "bytes": 664765,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task612/movie/task_movie_612_5.swf",
+      "status": 200,
+      "bytes": 20801,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task612/movie/task_movie_612_7.swf",
+      "status": 200,
+      "bytes": 11820,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task612/movie/task_movie_612_12.swf",
+      "status": 200,
+      "bytes": 801177,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task612/movie/task_movie_612_3.swf",
+      "status": 200,
+      "bytes": 703420,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task612/movie/task_movie_612_6.swf",
+      "status": 200,
+      "bytes": 687006,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task612/movie/task_movie_612_9.swf",
+      "status": 200,
+      "bytes": 12271,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task612/movie/task_movie_612_8.swf",
+      "status": 200,
+      "bytes": 642679,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task613/movie/task_movie_613_1.swf",
+      "status": 200,
+      "bytes": 18841,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task613/movie/task_movie_613_2.swf",
+      "status": 200,
+      "bytes": 230657,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task613/movie/task_movie_613_5.swf",
+      "status": 200,
+      "bytes": 11950,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task613/movie/task_movie_613_6.swf",
+      "status": 200,
+      "bytes": 31078,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task613/movie/task_movie_613_7.swf",
+      "status": 200,
+      "bytes": 18869,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task613/movie/task_movie_613_4.swf",
+      "status": 200,
+      "bytes": 257723,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task613/movie/task_movie_613_8.swf",
+      "status": 200,
+      "bytes": 20552,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task612/movie/task_movie_612_10.swf",
+      "status": 200,
+      "bytes": 22552,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task612/movie/task_movie_612_15.swf",
+      "status": 200,
+      "bytes": 11591,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task613/movie/task_movie_613_3.swf",
+      "status": 200,
+      "bytes": 15491,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task615/movie/task_movie_615_1.swf",
+      "status": 200,
+      "bytes": 374786,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task615/movie/task_movie_615_2.swf",
+      "status": 200,
+      "bytes": 107259,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task615/movie/task_movie_615_3.swf",
+      "status": 200,
+      "bytes": 213855,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task616/movie/task_movie_616_1.swf",
+      "status": 200,
+      "bytes": 634420,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task616/movie/task_movie_616_2.swf",
+      "status": 200,
+      "bytes": 16328,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task616/movie/task_movie_616_3.swf",
+      "status": 200,
+      "bytes": 59569,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task616/movie/task_movie_616_4.swf",
+      "status": 200,
+      "bytes": 34315,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task616/movie/task_movie_616_5.swf",
+      "status": 200,
+      "bytes": 108503,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task616/movie/task_movie_616_6.swf",
+      "status": 200,
+      "bytes": 34293,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task616/movie/task_movie_616_7.swf",
+      "status": 200,
+      "bytes": 438192,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task617/movie/task_movie_617_1.swf",
+      "status": 200,
+      "bytes": 23063,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task614/movie/task_movie_614_1.swf",
+      "status": 200,
+      "bytes": 8586,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task617/movie/task_movie_617_2.swf",
+      "status": 200,
+      "bytes": 13076,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task617/movie/task_movie_617_3.swf",
+      "status": 200,
+      "bytes": 17956,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task617/movie/task_movie_617_4.swf",
+      "status": 200,
+      "bytes": 170889,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task617/movie/task_movie_617_5.swf",
+      "status": 200,
+      "bytes": 13076,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task617/movie/task_movie_617_6.swf",
+      "status": 200,
+      "bytes": 68974,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task618/movie/task_movie_618_1.swf",
+      "status": 200,
+      "bytes": 487481,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task618/movie/task_movie_618_2.swf",
+      "status": 200,
+      "bytes": 453065,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task618/movie/task_movie_618_3.swf",
+      "status": 200,
+      "bytes": 458078,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task618/movie/task_movie_618_4.swf",
+      "status": 200,
+      "bytes": 450812,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task618/movie/task_movie_618_5.swf",
+      "status": 200,
+      "bytes": 460867,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task618/movie/task_movie_618_6.swf",
+      "status": 200,
+      "bytes": 430698,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task618/movie/task_movie_618_7.swf",
+      "status": 200,
+      "bytes": 521017,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task618/movie/task_movie_618_8.swf",
+      "status": 200,
+      "bytes": 440639,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task619/movie/task_movie_619_1.swf",
+      "status": 200,
+      "bytes": 9530,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task620/movie/task_movie_620_1.swf",
+      "status": 200,
+      "bytes": 548233,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task620/movie/task_movie_620_2.swf",
+      "status": 200,
+      "bytes": 587380,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task620/movie/task_movie_620_3.swf",
+      "status": 200,
+      "bytes": 555014,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task620/movie/task_movie_620_4.swf",
+      "status": 200,
+      "bytes": 584293,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task620/movie/task_movie_620_5.swf",
+      "status": 200,
+      "bytes": 563058,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task620/movie/task_movie_620_6.swf",
+      "status": 200,
+      "bytes": 663398,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task621/movie/task_movie_621_1.swf",
+      "status": 200,
+      "bytes": 236281,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task621/movie/task_movie_621_2.swf",
+      "status": 200,
+      "bytes": 193256,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task622/movie/task_movie_622_1.swf",
+      "status": 200,
+      "bytes": 373113,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task622/movie/task_movie_622_2.swf",
+      "status": 200,
+      "bytes": 380713,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task622/movie/task_movie_622_3.swf",
+      "status": 200,
+      "bytes": 335109,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task614/movie/task_movie_614_2.swf",
+      "status": 200,
+      "bytes": 11299,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task614/movie/task_movie_614_3.swf",
+      "status": 200,
+      "bytes": 12520,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task622/movie/task_movie_622_4.swf",
+      "status": 200,
+      "bytes": 129040,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task622/movie/task_movie_622_5.swf",
+      "status": 200,
+      "bytes": 110735,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task622/movie/task_movie_622_6.swf",
+      "status": 200,
+      "bytes": 503409,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task622/movie/task_movie_622_7.swf",
+      "status": 200,
+      "bytes": 499269,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task623/movie/task_movie_623_1.swf",
+      "status": 200,
+      "bytes": 371206,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task623/movie/task_movie_623_2.swf",
+      "status": 200,
+      "bytes": 381091,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task623/movie/task_movie_623_3.swf",
+      "status": 200,
+      "bytes": 465423,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task623/movie/task_movie_623_4.swf",
+      "status": 200,
+      "bytes": 72232,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task623/movie/task_movie_623_5.swf",
+      "status": 200,
+      "bytes": 86740,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task623/movie/task_movie_623_6.swf",
+      "status": 200,
+      "bytes": 103344,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task623/movie/task_movie_623_7.swf",
+      "status": 200,
+      "bytes": 92219,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task623/movie/task_movie_623_8.swf",
+      "status": 200,
+      "bytes": 168416,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task624/movie/task_movie_624_1.swf",
+      "status": 200,
+      "bytes": 87808,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task624/movie/task_movie_624_10.swf",
+      "status": 200,
+      "bytes": 464165,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task624/movie/task_movie_624_2.swf",
+      "status": 200,
+      "bytes": 113876,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task624/movie/task_movie_624_3.swf",
+      "status": 200,
+      "bytes": 97732,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task624/movie/task_movie_624_4.swf",
+      "status": 200,
+      "bytes": 121966,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task624/movie/task_movie_624_5.swf",
+      "status": 200,
+      "bytes": 83053,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task624/movie/task_movie_624_6.swf",
+      "status": 200,
+      "bytes": 88184,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task624/movie/task_movie_624_7.swf",
+      "status": 200,
+      "bytes": 276304,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task624/movie/task_movie_624_8.swf",
+      "status": 200,
+      "bytes": 105533,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task624/movie/task_movie_624_9.swf",
+      "status": 200,
+      "bytes": 135351,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task614/movie/task_movie_614_6.swf",
+      "status": 200,
+      "bytes": 11834,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task625/movie/task_movie_625_1.swf",
+      "status": 200,
+      "bytes": 83013,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task625/movie/task_movie_625_2.swf",
+      "status": 200,
+      "bytes": 88441,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task625/movie/task_movie_625_3.swf",
+      "status": 200,
+      "bytes": 287478,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task625/movie/task_movie_625_4.swf",
+      "status": 200,
+      "bytes": 308225,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task625/movie/task_movie_625_5.swf",
+      "status": 200,
+      "bytes": 372676,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task625/movie/task_movie_625_6.swf",
+      "status": 200,
+      "bytes": 426492,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task625/movie/task_movie_625_7.swf",
+      "status": 200,
+      "bytes": 351127,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task626/movie/task_movie_626_1.swf",
+      "status": 200,
+      "bytes": 40331,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task626/movie/task_movie_626_10.swf",
+      "status": 200,
+      "bytes": 141947,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task626/movie/task_movie_626_11.swf",
+      "status": 200,
+      "bytes": 143197,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task626/movie/task_movie_626_12.swf",
+      "status": 200,
+      "bytes": 58690,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task626/movie/task_movie_626_13.swf",
+      "status": 200,
+      "bytes": 513553,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task626/movie/task_movie_626_14.swf",
+      "status": 200,
+      "bytes": 11909,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task626/movie/task_movie_626_15.swf",
+      "status": 200,
+      "bytes": 17563,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task626/movie/task_movie_626_16.swf",
+      "status": 200,
+      "bytes": 229467,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task626/movie/task_movie_626_17.swf",
+      "status": 200,
+      "bytes": 502223,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task626/movie/task_movie_626_2.swf",
+      "status": 200,
+      "bytes": 5653,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task626/movie/task_movie_626_3.swf",
+      "status": 200,
+      "bytes": 730264,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task626/movie/task_movie_626_4.swf",
+      "status": 200,
+      "bytes": 18740,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task626/movie/task_movie_626_5.swf",
+      "status": 200,
+      "bytes": 5518,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task626/movie/task_movie_626_6.swf",
+      "status": 200,
+      "bytes": 13531,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task614/movie/task_movie_614_5.swf",
+      "status": 200,
+      "bytes": 17197,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task626/movie/task_movie_626_7.swf",
+      "status": 200,
+      "bytes": 341431,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task627/movie/task_movie_627_2.swf",
+      "status": 200,
+      "bytes": 187639,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task626/movie/task_movie_626_8.swf",
+      "status": 200,
+      "bytes": 10147,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task612/movie/task_movie_612_13.swf",
+      "status": 200,
+      "bytes": 664635,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task626/movie/task_movie_626_9.swf",
+      "status": 200,
+      "bytes": 56441,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task627/movie/task_movie_627_1.swf",
+      "status": 200,
+      "bytes": 87339,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task627/movie/task_movie_627_3.swf",
+      "status": 200,
+      "bytes": 95690,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task627/movie/task_movie_627_4.swf",
+      "status": 200,
+      "bytes": 106875,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task627/movie/task_movie_627_5.swf",
+      "status": 200,
+      "bytes": 180119,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task628/movie/task_movie_628_1.swf",
+      "status": 200,
+      "bytes": 17297,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task629/movie/task_movie_629_1.swf",
+      "status": 200,
+      "bytes": 291130,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task629/movie/task_movie_629_2.swf",
+      "status": 200,
+      "bytes": 192993,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task629/movie/task_movie_629_3.swf",
+      "status": 200,
+      "bytes": 217473,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task629/movie/task_movie_629_4.swf",
+      "status": 200,
+      "bytes": 230251,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task630/movie/task_movie_630_1.swf",
+      "status": 200,
+      "bytes": 90088,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task630/movie/task_movie_630_2.swf",
+      "status": 200,
+      "bytes": 162658,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task630/movie/task_movie_630_3.swf",
+      "status": 200,
+      "bytes": 174171,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task630/movie/task_movie_630_4.swf",
+      "status": 200,
+      "bytes": 157011,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task630/movie/task_movie_630_5.swf",
+      "status": 200,
+      "bytes": 156173,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task630/movie/task_movie_630_6.swf",
+      "status": 200,
+      "bytes": 159445,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task631/movie/task_movie_631_1.swf",
+      "status": 200,
+      "bytes": 191527,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task632/movie/task_movie_632_1.swf",
+      "status": 200,
+      "bytes": 75329,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task632/movie/task_movie_632_2.swf",
+      "status": 200,
+      "bytes": 77839,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task632/movie/task_movie_632_3.swf",
+      "status": 200,
+      "bytes": 89807,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task632/movie/task_movie_632_4.swf",
+      "status": 200,
+      "bytes": 121416,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task633/movie/task_movie_633_1.swf",
+      "status": 200,
+      "bytes": 552326,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task633/movie/task_movie_633_2.swf",
+      "status": 200,
+      "bytes": 554714,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task633/movie/task_movie_633_3.swf",
+      "status": 200,
+      "bytes": 71184,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task633/movie/task_movie_633_4.swf",
+      "status": 200,
+      "bytes": 64997,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task633/movie/task_movie_633_5.swf",
+      "status": 200,
+      "bytes": 110629,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task633/movie/task_movie_633_6.swf",
+      "status": 200,
+      "bytes": 191040,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task634/movie/task_movie_634_1.swf",
+      "status": 200,
+      "bytes": 67223,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task634/movie/task_movie_634_2.swf",
+      "status": 200,
+      "bytes": 91728,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task634/movie/task_movie_634_3.swf",
+      "status": 200,
+      "bytes": 102471,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task634/movie/task_movie_634_4.swf",
+      "status": 200,
+      "bytes": 131346,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task635/movie/task_movie_635_1.swf",
+      "status": 200,
+      "bytes": 76270,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task635/movie/task_movie_635_2.swf",
+      "status": 200,
+      "bytes": 82238,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task635/movie/task_movie_635_3.swf",
+      "status": 200,
+      "bytes": 87480,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task635/movie/task_movie_635_4.swf",
+      "status": 200,
+      "bytes": 111273,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task636/movie/task_movie_636_1.swf",
+      "status": 200,
+      "bytes": 84223,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task636/movie/task_movie_636_2.swf",
+      "status": 200,
+      "bytes": 112339,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task636/movie/task_movie_636_3.swf",
+      "status": 200,
+      "bytes": 384198,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task614/movie/task_movie_614_4.swf",
+      "status": 200,
+      "bytes": 11814,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task636/movie/task_movie_636_4.swf",
+      "status": 200,
+      "bytes": 355524,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task637/movie/task_movie_637_1.swf",
+      "status": 200,
+      "bytes": 654391,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task637/movie/task_movie_637_2.swf",
+      "status": 200,
+      "bytes": 658616,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task637/movie/task_movie_637_3.swf",
+      "status": 200,
+      "bytes": 665227,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task638/movie/task_movie_638_1.swf",
+      "status": 200,
+      "bytes": 142204,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task638/movie/task_movie_638_2.swf",
+      "status": 200,
+      "bytes": 148361,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task638/movie/task_movie_638_3.swf",
+      "status": 200,
+      "bytes": 171216,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task638/movie/task_movie_638_4.swf",
+      "status": 200,
+      "bytes": 168294,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task638/movie/task_movie_638_5.swf",
+      "status": 200,
+      "bytes": 152058,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task639/movie/task_movie_639_1.swf",
+      "status": 200,
+      "bytes": 142723,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task639/movie/task_movie_639_2.swf",
+      "status": 200,
+      "bytes": 153029,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task639/movie/task_movie_639_3.swf",
+      "status": 200,
+      "bytes": 162612,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task639/movie/task_movie_639_4.swf",
+      "status": 200,
+      "bytes": 153513,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task639/movie/task_movie_639_5.swf",
+      "status": 200,
+      "bytes": 100617,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task639/movie/task_movie_639_6.swf",
+      "status": 200,
+      "bytes": 175555,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task639/movie/task_movie_639_7.swf",
+      "status": 200,
+      "bytes": 125321,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task640/movie/task_movie_640_1.swf",
+      "status": 200,
+      "bytes": 75063,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task640/movie/task_movie_640_2.swf",
+      "status": 200,
+      "bytes": 1169782,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task640/movie/task_movie_640_3.swf",
+      "status": 200,
+      "bytes": 84821,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task640/movie/task_movie_640_4.swf",
+      "status": 200,
+      "bytes": 73593,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task640/movie/task_movie_640_5.swf",
+      "status": 200,
+      "bytes": 112785,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task640/movie/task_movie_640_6.swf",
+      "status": 200,
+      "bytes": 134052,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task640/movie/task_movie_640_7.swf",
+      "status": 200,
+      "bytes": 620893,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task640/movie/task_movie_640_8.swf",
+      "status": 200,
+      "bytes": 155140,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task640/movie/task_movie_640_9.swf",
+      "status": 200,
+      "bytes": 132513,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task641/movie/task_movie_641_1.swf",
+      "status": 200,
+      "bytes": 168514,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task641/movie/task_movie_641_2.swf",
+      "status": 200,
+      "bytes": 181414,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task641/movie/task_movie_641_3.swf",
+      "status": 200,
+      "bytes": 119416,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task641/movie/task_movie_641_4.swf",
+      "status": 200,
+      "bytes": 138320,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task642/movie/task_movie_642_1.swf",
+      "status": 200,
+      "bytes": 86265,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task642/movie/task_movie_642_2.swf",
+      "status": 200,
+      "bytes": 102356,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task642/movie/task_movie_642_3.swf",
+      "status": 200,
+      "bytes": 200869,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task642/movie/task_movie_642_4.swf",
+      "status": 200,
+      "bytes": 176136,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task642/movie/task_movie_642_5.swf",
+      "status": 200,
+      "bytes": 123836,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task643/movie/task_movie_643_1.swf",
+      "status": 200,
+      "bytes": 198346,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task643/movie/task_movie_643_2.swf",
+      "status": 200,
+      "bytes": 167821,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task643/movie/task_movie_643_3.swf",
+      "status": 200,
+      "bytes": 185686,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task643/movie/task_movie_643_4.swf",
+      "status": 200,
+      "bytes": 1528282,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task644/movie/task_movie_644_1.swf",
+      "status": 200,
+      "bytes": 477547,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task644/movie/task_movie_644_2.swf",
+      "status": 200,
+      "bytes": 514711,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task644/movie/task_movie_644_3.swf",
+      "status": 200,
+      "bytes": 233904,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task644/movie/task_movie_644_4.swf",
+      "status": 200,
+      "bytes": 549529,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task645/movie/task_movie_645_1.swf",
+      "status": 200,
+      "bytes": 204544,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task645/movie/task_movie_645_2.swf",
+      "status": 200,
+      "bytes": 198120,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task646/movie/task_movie_646_1.swf",
+      "status": 200,
+      "bytes": 209083,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task646/movie/task_movie_646_2.swf",
+      "status": 200,
+      "bytes": 165149,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task647/movie/task_movie_647_1.swf",
+      "status": 200,
+      "bytes": 183569,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task647/movie/task_movie_647_2.swf",
+      "status": 200,
+      "bytes": 226540,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task647/movie/task_movie_647_3.swf",
+      "status": 200,
+      "bytes": 200711,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task647/movie/task_movie_647_4.swf",
+      "status": 200,
+      "bytes": 216620,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task647/movie/task_movie_647_5.swf",
+      "status": 200,
+      "bytes": 130568,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task647/movie/task_movie_647_6.swf",
+      "status": 200,
+      "bytes": 196330,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task647/movie/task_movie_647_7.swf",
+      "status": 200,
+      "bytes": 206606,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task648/movie/task_movie_648_1.swf",
+      "status": 200,
+      "bytes": 235889,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task648/movie/task_movie_648_2.swf",
+      "status": 200,
+      "bytes": 242782,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task648/movie/task_movie_648_3.swf",
+      "status": 200,
+      "bytes": 290165,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task648/movie/task_movie_648_4.swf",
+      "status": 200,
+      "bytes": 114054,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task648/movie/task_movie_648_5.swf",
+      "status": 200,
+      "bytes": 190760,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task649/movie/task_movie_649_1.swf",
+      "status": 200,
+      "bytes": 70030,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task649/movie/task_movie_649_2.swf",
+      "status": 200,
+      "bytes": 75788,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task650/movie/task_movie_650_1.swf",
+      "status": 200,
+      "bytes": 169668,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task650/movie/task_movie_650_2.swf",
+      "status": 200,
+      "bytes": 179655,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task650/movie/task_movie_650_3.swf",
+      "status": 200,
+      "bytes": 96095,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task650/movie/task_movie_650_4.swf",
+      "status": 200,
+      "bytes": 188961,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task650/movie/task_movie_650_5.swf",
+      "status": 200,
+      "bytes": 153778,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task650/movie/task_movie_650_6.swf",
+      "status": 200,
+      "bytes": 196209,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task650/movie/task_movie_650_7.swf",
+      "status": 200,
+      "bytes": 178851,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task651/movie/task_movie_651_1.swf",
+      "status": 200,
+      "bytes": 214168,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task651/movie/task_movie_651_2.swf",
+      "status": 200,
+      "bytes": 195528,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task651/movie/task_movie_651_3.swf",
+      "status": 200,
+      "bytes": 584747,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task651/movie/task_movie_651_4.swf",
+      "status": 200,
+      "bytes": 564282,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task651/movie/task_movie_651_5.swf",
+      "status": 200,
+      "bytes": 130401,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task651/movie/task_movie_651_6.swf",
+      "status": 200,
+      "bytes": 184541,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task651/movie/task_movie_651_7.swf",
+      "status": 200,
+      "bytes": 210868,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task652/movie/task_movie_652_1.swf",
+      "status": 200,
+      "bytes": 161107,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task652/movie/task_movie_652_2.swf",
+      "status": 200,
+      "bytes": 146384,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task652/movie/task_movie_652_3.swf",
+      "status": 200,
+      "bytes": 149969,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task652/movie/task_movie_652_4.swf",
+      "status": 200,
+      "bytes": 150109,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task652/movie/task_movie_652_5.swf",
+      "status": 200,
+      "bytes": 178867,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task652/movie/task_movie_652_6.swf",
+      "status": 200,
+      "bytes": 177045,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task653/movie/task_movie_653_1.swf",
+      "status": 200,
+      "bytes": 316188,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task653/movie/task_movie_653_2.swf",
+      "status": 200,
+      "bytes": 238583,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task653/movie/task_movie_653_3.swf",
+      "status": 200,
+      "bytes": 743018,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task654/movie/task_movie_654_2.swf",
+      "status": 200,
+      "bytes": 305121,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task654/movie/task_movie_654_1.swf",
+      "status": 200,
+      "bytes": 165555,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task654/movie/task_movie_654_3.swf",
+      "status": 200,
+      "bytes": 123119,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task654/movie/task_movie_654_4.swf",
+      "status": 200,
+      "bytes": 142696,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task655/movie/task_movie_655_1.swf",
+      "status": 200,
+      "bytes": 98150,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task655/movie/task_movie_655_2.swf",
+      "status": 200,
+      "bytes": 104090,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task655/movie/task_movie_655_3.swf",
+      "status": 200,
+      "bytes": 106958,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task656/movie/task_movie_656_1.swf",
+      "status": 200,
+      "bytes": 88666,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task656/movie/task_movie_656_2.swf",
+      "status": 200,
+      "bytes": 93599,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task656/movie/task_movie_656_3.swf",
+      "status": 200,
+      "bytes": 360173,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task656/movie/task_movie_656_4.swf",
+      "status": 200,
+      "bytes": 372061,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task656/movie/task_movie_656_5.swf",
+      "status": 200,
+      "bytes": 361602,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task657/movie/task_movie_657_1.swf",
+      "status": 200,
+      "bytes": 91834,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task657/movie/task_movie_657_2.swf",
+      "status": 200,
+      "bytes": 167227,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task657/movie/task_movie_657_3.swf",
+      "status": 200,
+      "bytes": 113172,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task657/movie/task_movie_657_4.swf",
+      "status": 200,
+      "bytes": 111960,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task658/movie/task_movie_658_1.swf",
+      "status": 200,
+      "bytes": 195482,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task658/movie/task_movie_658_2.swf",
+      "status": 200,
+      "bytes": 200276,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task658/movie/task_movie_658_3.swf",
+      "status": 200,
+      "bytes": 172242,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task658/movie/task_movie_658_4.swf",
+      "status": 200,
+      "bytes": 188900,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task658/movie/task_movie_658_5.swf",
+      "status": 200,
+      "bytes": 186689,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task658/movie/task_movie_658_6.swf",
+      "status": 200,
+      "bytes": 207120,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task659/movie/task_movie_659_1.swf",
+      "status": 200,
+      "bytes": 226737,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task659/movie/task_movie_659_2.swf",
+      "status": 200,
+      "bytes": 226730,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task659/movie/task_movie_659_3.swf",
+      "status": 200,
+      "bytes": 169264,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task659/movie/task_movie_659_4.swf",
+      "status": 200,
+      "bytes": 341808,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task659/movie/task_movie_659_5.swf",
+      "status": 200,
+      "bytes": 172121,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task659/movie/task_movie_659_6.swf",
+      "status": 200,
+      "bytes": 379909,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task659/movie/task_movie_659_7.swf",
+      "status": 200,
+      "bytes": 163921,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task660/movie/task_movie_660_1.swf",
+      "status": 200,
+      "bytes": 166424,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task660/movie/task_movie_660_2.swf",
+      "status": 200,
+      "bytes": 161461,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task661/movie/task_movie_661_3.swf",
+      "status": 200,
+      "bytes": 1108158,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task660/movie/task_movie_660_3.swf",
+      "status": 200,
+      "bytes": 155652,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task661/movie/task_movie_661_1.swf",
+      "status": 200,
+      "bytes": 184643,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task661/movie/task_movie_661_2.swf",
+      "status": 200,
+      "bytes": 186081,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task662/movie/task_movie_662_1.swf",
+      "status": 200,
+      "bytes": 194682,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task662/movie/task_movie_662_2.swf",
+      "status": 200,
+      "bytes": 168158,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task663/movie/task_movie_663_1.swf",
+      "status": 200,
+      "bytes": 455161,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task663/movie/task_movie_663_2.swf",
+      "status": 200,
+      "bytes": 392672,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task663/movie/task_movie_663_3.swf",
+      "status": 200,
+      "bytes": 155212,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task663/movie/task_movie_663_4.swf",
+      "status": 200,
+      "bytes": 609574,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task663/movie/task_movie_663_5.swf",
+      "status": 200,
+      "bytes": 119915,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task663/movie/task_movie_663_6.swf",
+      "status": 200,
+      "bytes": 104192,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task664/movie/task_movie_664_1.swf",
+      "status": 200,
+      "bytes": 238990,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task664/movie/task_movie_664_2.swf",
+      "status": 200,
+      "bytes": 196747,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task614/movie/task_movie_614_8.swf",
+      "status": 200,
+      "bytes": 554767,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task664/movie/task_movie_664_3.swf",
+      "status": 200,
+      "bytes": 198609,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task664/movie/task_movie_664_4.swf",
+      "status": 200,
+      "bytes": 963493,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task664/movie/task_movie_664_5.swf",
+      "status": 200,
+      "bytes": 577355,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task664/movie/task_movie_664_6.swf",
+      "status": 200,
+      "bytes": 601797,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task664/movie/task_movie_664_7.swf",
+      "status": 200,
+      "bytes": 641968,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task665/movie/task_movie_665_1.swf",
+      "status": 200,
+      "bytes": 190753,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task665/movie/task_movie_665_2.swf",
+      "status": 200,
+      "bytes": 231591,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task665/movie/task_movie_665_3.swf",
+      "status": 200,
+      "bytes": 212785,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task665/movie/task_movie_665_4.swf",
+      "status": 200,
+      "bytes": 747396,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task665/movie/task_movie_665_5.swf",
+      "status": 200,
+      "bytes": 805985,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task665/movie/task_movie_665_6.swf",
+      "status": 200,
+      "bytes": 747621,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task666/movie/task_movie_666_1.swf",
+      "status": 200,
+      "bytes": 842311,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task666/movie/task_movie_666_2.swf",
+      "status": 200,
+      "bytes": 637728,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task667/movie/task_movie_667_1.swf",
+      "status": 200,
+      "bytes": 201570,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task667/movie/task_movie_667_2.swf",
+      "status": 200,
+      "bytes": 215282,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task667/movie/task_movie_667_3.swf",
+      "status": 200,
+      "bytes": 228419,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task667/movie/task_movie_667_4.swf",
+      "status": 200,
+      "bytes": 206014,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task667/movie/task_movie_667_5.swf",
+      "status": 200,
+      "bytes": 219538,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task667/movie/task_movie_667_6.swf",
+      "status": 200,
+      "bytes": 175853,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task667/movie/task_movie_667_7.swf",
+      "status": 200,
+      "bytes": 153153,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task668/movie/task_movie_668_1.swf",
+      "status": 200,
+      "bytes": 230434,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task614/movie/task_movie_614_7.swf",
+      "status": 200,
+      "bytes": 648357,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/newTask/task668/movie/task_movie_668_2.swf",
+      "status": 200,
+      "bytes": 241221,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task668/movie/task_movie_668_3.swf",
+      "status": 200,
+      "bytes": 223388,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task669/movie/task_movie_669_1.swf",
+      "status": 200,
+      "bytes": 180851,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task669/movie/task_movie_669_2.swf",
+      "status": 200,
+      "bytes": 202798,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task669/movie/task_movie_669_3.swf",
+      "status": 200,
+      "bytes": 797535,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task669/movie/task_movie_669_4.swf",
+      "status": 200,
+      "bytes": 1440141,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task669/movie/task_movie_669_5.swf",
+      "status": 200,
+      "bytes": 265237,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task670/movie/task_movie_670_1.swf",
+      "status": 200,
+      "bytes": 281560,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task670/movie/task_movie_670_2.swf",
+      "status": 200,
+      "bytes": 385467,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task670/movie/task_movie_670_3.swf",
+      "status": 200,
+      "bytes": 406211,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task670/movie/task_movie_670_4.swf",
+      "status": 200,
+      "bytes": 1121588,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task670/movie/task_movie_670_5.swf",
+      "status": 200,
+      "bytes": 476802,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task670/movie/task_movie_670_6.swf",
+      "status": 200,
+      "bytes": 449478,
+      "hit": "HIT"
+    },
+    {
+      "p": "resource/newTask/task670/movie/task_movie_670_7.swf",
+      "status": 200,
+      "bytes": 402084,
+      "hit": "HIT"
+    }
+  ]
+}

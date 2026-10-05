@@ -1,0 +1,1235 @@
+﻿ID	备注	class	action	static	db
+201	登录Online Server	loginonline.LoginOnlineSreRes	doAction		1
+202	未知			1	1
+203	获取基本属性			1	1
+204	获取场景里人物信息	getSceneUserInfo.GetSceneUserRes	getSceneUser		1
+207	获取用户基本属性	getUserBasicInfo.GetUserBasicInfoRes	getUserBasicInfo		1
+208	修改用户昵称	modUserInfo.ModUserInfoRes	modUserInfo		1
+209	修改颜色	modUserColor.ModUserColorRes	modUserColor		1
+210	开关门(1:关,0:开)	lockHome.lockHomeRes	doAction		1
+211	购买宠物	petSocket.adoptPet.adoptPetRes	doAction		1
+212	拉宠物信息	petSocket.adoptPet.petInfoRes	parseBA		1
+214	拉宠物数量	petSocket.adoptPet.petNumRes	parseBA		1
+215	宠物跟随(1),还是回家(0)	petSocket.adoptPet.petFollowRes	parseBA		
+216	SMC任务列表	task.TaskGetListProtocol	decode	0	0
+217	SMC更新任务列表	task.TaskChangeProtocol	decode	0	0
+218	宠物改名	petSocket.adoptPet.modPetNickRes	parseBA		1
+219	宠物play	petSocket.adoptPet.petPlayRes	parseBA		
+220	宠物位置	petSocket.adoptPet.petPosRes	parseBA		1
+221	宠物死亡	petSocket.adoptPet.petDead	parseBA		
+222	宠物托管成功	petSocket.keepPet.petKeepRes	parseBA		1
+223	取消托管的宠物成功	petSocket.keepPet.petBackKeepRes	parseBA		1
+224	取我托管的宠物	petSocket.keepPet.mypetKeepRes	parseBA		1
+225	接宠物任务	petSocket.learnPet.BeginLearnRes	getBackFun		1
+226	终止宠物任务	petSocket.learnPet.StopLearnRes	getBackFun		1
+227	将宠物任务设置为完成	petSocket.learnPet.OverLearnRes	getBackFun		1
+228	拉取宠物任务列表	petSocket.learnPet.OneLearnListRes	getBackFun		1
+229	拉取任务中的宠物列表	petSocket.learnPet.AllLearnListRes	getBackFun		
+230	索要宠物	petSocket.askingPet.PetAskRes	getBackFun		1
+231	把这只拉姆变成超级的	petSocket.adoptPet.ChangeSuperPetRes	parseBA		1
+232	查询是否已有超级拉姆	petSocket.adoptPet.IsSuperPetRes	parseBA		
+233	拉宠物在地图中的数量	petSocket.adoptPet.petMapNumRes	parseBA		
+234	宠物在地图进出	petSocket.adoptPet.petEnterLeaveMapRes	parseBA		
+235	在外宠物跟随(1),还是回家(0)	petSocket.adoptPet.petFollowOutRes	parseBA		
+236	宠物学搞怪技能	freakClass.PetFreakRes	getBackFun		1
+237	使用喂养道具(清泥巴)	petSocket.adoptPet.petToolRes	parseBA		
+238	宠物变色技能	petSocket.adoptPet.petChangeColorRes	parseBA		1
+239	宠物回家	petSocket.adoptPet.petPlayRes	petback	1	
+240	在家园和牧场拉宠物信息	home.homeSocket	res_queryHaveSuperLamu		1
+241	搜索MOLE在哪里	searchMole.searchMoleRes	parseBA		1
+242	获取自定义交互	OperationJob.GetMutualRes	getBackFun		1
+243	设定自定义交互	OperationJob.SetMutualRes	getBackFun		1
+244	获取任务Buffer	task.TaskGetBufferProtocol	decode	0	0
+245	设置任务Buffer	task.TaskSetBufferProtocol	decode	0	0
+246	设定自定义交互	smc.expandItem.RemoveLoopJobRes	decode	0	0
+248	完成任物获取任物奖品	getTaskPrize.GetTaskPrize	getTaskPrizeResponse	1	1
+251	召唤超级拉姆	callSuperLamu.CallSuperLamu	res_callSuperLamu	1	1
+301	看报纸	action.ActionRes	stageAction	1	
+302	聊天信息	chat.ChatMsgRes	doAction		
+303	走路	walk.WalkMsgRes	doAction		
+305	动作	action.ActionRes	action		
+306	扔道具	throwItem.ThrowItemRes	throwItem		1
+307	选择题	choiceSubject.ChoiceSubjectRes	choiceSubject		
+308	SMC捡道具	smc.PickItem.PickItemRes	pickItem		1
+309	收集道具	task.TaskOverProtocol	decode	0	0
+310	举报	impeach.ImpeachRes	impeach		1
+311	投稿	PageSandMsg.sandMsgRes	getBackFun		1
+312	叨叨墙	ddq.DDQres	ddq	1	1
+313	拉取叨叨墙	ddpListAll.DDQListAllRes	listAll	1	1
+314	查找叨叨墙留言	ddqLookUp.LookUpRes	lookUp	1	1
+315	滑梯.把人移动到指定位置	moleAction.moleActionRes	moleAction		
+316	叨叨墙献花			1	
+317	场景随机道具	randomItemLogic.randomItemRes	doAtcion	1	
+318	捡随机生成道具	CollectRrandomItemLoginc.CollectRrandomItemRes	doAtcion	1	1
+319	未知			1	1
+320	请求生成道具	getRandomItem.GetRandomItemRes	doAtcion	1	
+321	物品交换不更新任务列表	CSItems.CSRes	getBackFun		
+322	拉取叨叨墙	ddpListAll.CheckedListRes	listAll	1	
+401	进入地图	enterMapOrRoom.EnterMapOrRoomRes	enterMapRoomRes		
+402	离开地图	leaveMapOrRoom.LeaveMapRes	leaveMap		
+403	进入游戏	enterGame.EnterGameRes	decode	0	0
+404	离开游戏	leaveGame.LeaveGameRes	leaveGameres		
+405	场景用户信息	allsceneuser.AllSceneUserRes	doAction		
+406	获取地图信息	listmapmsg.ListMapMsgRes	doAction		
+407	单机游戏提交积分	singleGame.SingleGameRes	singgame		1
+408	取各地图的在线用户数	getMapheat.getMapheatRes	doAction		
+409	取用户小屋信息	getRoomInfo.GetRoomInfoRes	getRoomInfo		1
+410	保存小屋道具	savaRoomItem.SavaRoomItemRes	savaRoomItem		1
+412	会员小屋展示列表	getRoomInfo.GetRoomListReq	getVipFun	1	
+414	获取地图中最新进入的几个用户	freshUser.FreshUserRes	freshUser	1	
+415	保存小屋背景	savaRoomItem.SavaRoomItemRes	savaRoomBGSucc		
+421	游戏组信息	gameGroup.GameGroupRes	gameGroup		
+421	游戏组别	gameGroup.GameGroupRes	gameGroup		
+422	游戏场景状态	fiveChess.FiveChessStatusRes	fiveChessStatus		
+423	单机游戏动作	singleGame.SingleGameActionRes	getAction		
+424	单机游戏其它人信息	singleGamdLogic.singleJoinOtherRes	doAction		
+425	足球场上每个人的信息	footBall.getBallInfoRes	getBallInfo		
+426	根据游戏ID获得登入签登入Session	session.BringTagoutLoginSocket	res_res_getSID	1	1
+431	加入足球游戏	footBall.joinFootballRes	enterGameres		
+432	进球	footBall.ballGoalRes	getBallInfo		
+433	控制足球	footBall.ctrlFootBallRes	getBallInfo		
+434	时间提示	footBall.FootballMinuteRes	parseBA		
+436	初始化足球位置	footBall.FootBallInitPosRes	getBallInfo		
+437	踢球	footBall.getBallPathRes	getBallInfo		
+438	离开足球游戏	footBall.exitFootballRes	exitGameres		
+440	足球游戏结束(10分种满，或者人没了)	footBall.FootballOverRes	leaveGameres		
+441	足球游戏离开	footBall.LeaveFootballRes	leaveGameres		
+461	获取截图Session	cupMap.cupMapRes	doAction		
+462	获取PainterSession	cupMap.PainterSessionRes	doAction		
+501	购买道具	shopItem.BuyItemRes	buyItemSuccess		1
+503	使用用户装扮道具	useUserDItem.UseUserItemRigRes	useUserRig		1
+504	使用特效道具	throwItem.ThrowEffectItemRes	throwItem		1
+505	使用喂养道具	petSocket.adoptPet.petFoodRes	parseBA		1
+507	查看背包	lookBag.LookBagRes	lookBagRes		1
+508	丢弃道具			1	1
+509	列出商店里可卖的道具	listShopItem.ListShopItemRes	listShopItemRes		
+510	变身道具失效通知	throwItem.ThrowEffectItemRes	ItemInvalidation		
+511	获取某一道具的数目	GetItemCount.GetItemCountRes	decode	0	0
+512	giveMeMoney	giveMeMoney.giveMeMoneyRes	money		1
+513	衣服回收	clothcollect.ClothColletResult	doAction		
+514	出售物品给大头鞋	clothcollect.ClothColletSaleResult	doAction		1
+515	合成物品	composeFood.ComposeFoodRes	compose		1
+516	强制变身道具失效	throwItem.RemovEffectRes	throwItem		
+517	拉取不同类型的多个物品信息	GetGoodsInfoByArr	decode	0	0
+601	邀请好友到场景	requestFriendToRoom.RequestFriendToRoomRes	requestFriendToRoom		
+602	应答好友邀请	reponseFriendInvate.ResponseFriendInvateRes	responseFriendInvate		
+603	加好友请求发送成功	addFrends.AddFrendsRes	addfrend		
+604	应答加为好友请求	responsetAddFrend.ResAddFrendRes	resAddFrend		1
+605	删除好友	delFrend.DelFrendRes	delFrends		1
+607	加黑名单	addBlackList.AddBlackListRes	addBlackList		1
+608	删除黑名单	delBlackList.DelBlackListRes	delBlackList		1
+609	获得黑名单列表	getBlackList.GetBlackListRes	getBlackList		1
+610	查看是否在线	lookOverFriendOnline.LookOverFriendOnlineRes	lookOverFriendOnline		1
+611	查看好友家园和宠物是否有更新	lookOverFriendOnline.LookOverFriendOnlineRes	lookOverFriendHome	1	1
+612	批量删除好友	delFrend.DelFrendReq	res_DeleteFriends	1	1
+701	摩尔大使,被推荐用户交任务	RocExpliain.RocChangJobRes	RocChangJobBack		1
+702	摩尔大使查找子级的返回	RocExpliain.RocExplianRes	RocExplianBack		1
+751	许愿成功	wishpond.WishPondResult	parseSendWish	1	1
+752	开启愿望成功	wishpond.WishPondResult	onOpenWish	1	1
+753	拉取愿望列表	wishpond.WishPondResult	parseList	1	1
+754	检查我当天是否许过愿	wishpond.WishPondResult	parseWishStatus	1	1
+801	发送明信片返回成功	postCard.sandOneCardRes	getBackFun		1
+802	获取所有明信片ID	postCard.getAllCardRes	getBackFun		1
+803	读取一张明信片	postCard.getOneCardRes	getBackFun		1
+804	删除一张明信片	postCard.delOneCardRes	getBackFun		1
+805	仅读取未读过的明信片数目	postCard.getOnlyNumRes	getBackFun		1
+806	删除全部明信片	postCard.delAllCardRes	getBackFun		
+807	拉取卡牌对战经验	queryTrainResult.queryTrainResult	res_queryTrainResultFun	1	1
+808	标记邮件是否领过礼物	postCard.allMailInfoSocket	res_recordMailInfo	1	1
+809	拉取用户所有邮件的基本信息	postCard.allMailInfoSocket	res_lookMailInfo	1	1
+810	删除部分邮件	postCard.allMailInfoSocket	res_deletePartMail	1	1
+901	小屋热度（花）	getFrendList.GetFlowersRes	parseBA		1
+903	送（花，泥）	getFrendList.sendFlowersRes	parseBA		1
+904	最近访客	getFrendList.GetVisitorRes	parseBA		1
+907	增加留言信息	SpecialGoodsSocket.addHouseMsgRes	parseBA		1
+908	审核留言信息	SpecialGoodsSocket.checkHouseMsgRes	parseBA		
+909	小屋留言信息	SpecialGoodsSocket.HouseMsgRes	parseBA		1
+910	删除留言信息	SpecialGoodsSocket.delHouseMsgRes	parseBA		
+911	回复留言信息	SpecialGoodsSocket.addHouseReplyRes	parseBA		
+912	获取毛毛树信息	SpecialGoodsSocket.maomaotree.MaoMaoTreeRes	parseBA		1
+913	给毛毛树浇水施肥	SpecialGoodsSocket.maomaotree.MaoMaoTreeWaterRes	parseBA		1
+914	获取给毛毛树浇水施肥的用户列表	SpecialGoodsSocket.maomaotree.MaoMaoTreeListRes	parseBA		1
+915	摘一个毛毛树果实	SpecialGoodsSocket.maomaotree.MaoMaoTreePickRes	parseBA		1
+916	小屋特殊的物品在小屋中的表现信息	SpecialGoodsSocket.SpecialGoodsRes	parseBA		1
+917	SMC 等级信息	smc.ListItem.getSMCLevelRes	parseBA		1
+918	增加SMC 等级	smc.ListItem.setSMCLevelRes	parseBA		1
+919	查询建筑师等级经验	NPCJob.NpcJobSocket	res_architectInfo	1	1
+951	设置用户生日	birthdayAirShip.AirShipRes	airShip	1	1
+952	获取生日套装	birthday.getBirthdayCloth	ActionRes		
+953	取消生日套装	birthday.delBirthdayCloth	ActionRes		
+967	写入元宵节许愿	newYearWish.NewYearWish	writeNewYearWishResponse	1	1
+968	读取元宵节许愿	newYearWish.NewYearWish	getNewYearWishResponse	1	1
+971	查看本服派对列表	moleParty.MolePartySocket	onListParty	1	1
+972	创建一个派对	moleParty.MolePartySocket	onCreateParty	1	1
+973	查看用户创建的派对	moleParty.MolePartySocket	onListMyParty	1	1
+974	查看本服派对数量	moleParty.MolePartySocket	onGetAllNum	1	1
+981	设置春联	setDistich.SetDistichRes	setDistich	1	1
+982	拉取春联	listDistich.ListDistichRes	listDistich	1	1
+984	使用元宝交换物品	changeGoldNum.ChangeGoldNumRes	changeGoldNum	1	1
+986	使用元宝交换物品	getGold.GoldChangeRes	goldChange	1	1
+990	福信息	SpecialGoodsSocket.blessing.BlessingRes	parseBA	1	1
+991	+福	SpecialGoodsSocket.blessing.AddBlessingRes	parseBA	1	1
+992	+福的人	SpecialGoodsSocket.blessing.BlessingListRes	parseBA	1	1
+993	带冒子	becomeCorpse.BecomeHatSocket	ChangeHat	1	
+994	去冒子	becomeCorpse.BecomeHatSocket	ChangeLahm	1	
+995	拉取一条街建筑物信息	oneBigStreetSocket.oneBigStreetSocket	res_oneBigStreetHouse	1	1
+996	创建建筑物	oneBigStreetSocket.oneBigStreetSocket	res_creatHouse	1	1
+997	取得土地使用许可证	oneBigStreetSocket.oneBigStreetSocket	res_houseCertificate	1	1
+998	设置建筑物名称	oneBigStreetSocket.oneBigStreetSocket	res_setHouseName	1	1
+1000	查询格子总数	oneBigStreetSocket.oneBigStreetSocket	res_queryGirdTotal	1	1
+1001	创建噜噗群	huluGroup.createGroup	ActionRes		1
+1002	邀请好友加入群	huluGroup.inviteFriendToMyGroup	ActionRes		1
+1003	请求加入群	huluGroup.requestAddToGroup	ActionRes		1
+1004	同意加入我的群	huluGroup.postilToMyGroup	ActionRes		
+1005	退出群	huluGroup.outGroup	ActionRes		1
+1006	把某成员提出群	huluGroup.kickoutMyGroup	ActionRes		1
+1007	解散噜噗群	huluGroup.breakMyGroup	ActionRes		1
+1008	修改群公告	huluGroup.modMyGroupInfo	ActionRes		1
+1009	群聊	huluGroup.huluChat	ActionRes		0
+1010	获取咕噜噗群列表	huluGroup.getGroupList	getList		1
+1011	获取群详细信息	huluGroup.getGroupBaseInfo	ActionRes		1
+1012	设置群屏蔽状态	huluGroup.screenGroupMsg	ActionRes		
+1013	设置建筑物内部样式	oneBigStreetSocket.oneBigStreetSocket	res_setHouseInnerStyle	1	1
+1014	拉取店铺内的信息	oneBigStreetSocket.oneBigStreetSocket	res_restaurantInfo	1	1
+1015	雇佣服务员	oneBigStreetSocket.oneBigStreetSocket	res_empUser	1	1
+1016	解雇服务员	oneBigStreetSocket.oneBigStreetSocket	res_removeEmpUser	1	1
+1017	开始制作菜	oneBigStreetSocket.oneBigStreetSocket	res_makeFood	1	1
+1018	端菜吃菜	oneBigStreetSocket.oneBigStreetSocket	res_checkFoodNum	1	1
+1019	倒菜与清洁灶台	oneBigStreetSocket.oneBigStreetSocket	res_clearFood	1	1
+1020	设置菜的状态	oneBigStreetSocket.oneBigStreetSocket	res_setMakeFoodState	1	1
+1021	把菜端到保鲜桌	oneBigStreetSocket.oneBigStreetSocket	res_moveMakeFoodLocation	1	1
+1022	拉取服务员列表	oneBigStreetSocket.oneBigStreetSocket	res_getEmpList	1	1
+1023	拉取离线餐厅信息	oneBigStreetSocket.oneBigStreetSocket	res_getUnOnlineInfo	1	1
+1024	拉取解锁物品列表	oneBigStreetSocket.oneBigStreetSocket	res_unLockGoods	1	1
+1025	减少好评度	oneBigStreetSocket.oneBigStreetSocket	res_lowerHouseFavor	1	1
+1026	房间信息改变通知	oneBigStreetSocket.oneBigStreetSocket	res_HouseInfoChange	1	1
+1027	查询米米号对应的餐厅	oneBigStreetSocket.oneBigStreetSocket	res_queryHouseByUid	1	1
+1028	拉取自己拉姆雇主UID	oneBigStreetSocket.oneBigStreetSocket	res_whereMyLamu	1	1
+1029	获得荣誉通知	oneBigStreetSocket.oneBigStreetSocket	res_honorChange	1	1
+1030	拉取荣誉列表	oneBigStreetSocket.oneBigStreetSocket	res_getHonorList	1	1
+1031	查看餐厅随机事件	oneBigStreetSocket.oneBigStreetSocket	res_queryRestaurantEvent	1	1
+1032	解决随机事件	oneBigStreetSocket.oneBigStreetSocket	res_randomEventOver	1	1
+1034	拉取好友餐厅排名信息	oneBigStreetSocket.oneBigStreetSocket	res_getFirendRestaurantRank	1	1
+1035	扣除粽子	oneBigStreetSocket.oneBigStreetSocket	res_delFoodByID	1	1
+1036	领取团队奖项	lamuSport.lamuSportInfo	res_GetReceivePrize	1	1
+1037	领取个人奖项	lamuSport.lamuSportInfo	res_GetPersonalPrize	1	1
+1038	查看名次	lamuSport.lamuSportInfo	res_GetTeamRankin	1	1
+1040	查询餐厅食物个数	oneBigStreetSocket.oneBigStreetSocket	res_queryFoodCount	1	1
+1041	查询游戏记录	gameRecord.GameRecordSocket	getRecordDataRes	1	1
+1043	查询可收购菜	oneBigStreetSocket.oneBigStreetSocket	res_querySellFood	1	1
+1044	收购菜	oneBigStreetSocket.oneBigStreetSocket	res_getSellFood	1	1
+1046	获取菜品制作次数和星级	oneBigStreetSocket.oneBigStreetSocket	res_queryMakeFoodCount	1	1
+1047	通知菜品星级提升	oneBigStreetSocket.oneBigStreetSocket	res_msgFoodUplevel	1	1
+1049	设置建筑物样式	oneBigStreetSocket.oneBigStreetSocket	res_setHouseStyle	1	1
+1098	查看临时数据	ephemeral.ephemeralDataSocket	res_getObjData	1	1
+1099	设置临时数据	ephemeral.ephemeralDataSocket	res_setObjData	1	1
+1100	好友上线通知	onlineNotice.FriendsNoticeRes	noticeHandler		0
+1110	拉取蘑菇问题答案	mushRoom.MushRoomRes	mushRoom	1	
+1111	获得跑步奖励	runAward.RunAwardRes	runAward	1	1
+1112	拉取蘑菇问题总数	mushRoom.MushRoomCountRes	mushRoomCount	1	
+1113	获得跑步次数	runAward.RunAwardRes	getRunTimes	1	1
+1114	宠物在店里玩增加心情	petSocket.adoptPet.petPlayRes	petshopplay	1	
+1115	发现物品	findGoods.FindGoodsRes	findGoods	1	1
+1116	赠送物品	presentGoods.PresentGoodsRes	GetInfo	1	1
+1117	每天限量增加物品	getItemEveryDay.GetItemEveryDay	res_getItemEveryDay	1	1
+1118	弹珠台奖励	getItemEveryDay.GetItemEveryDay	res_getItemEveryDay2	1	1
+1121	宠物换衣服	petSocket.adoptPet.petClothRes	parse_cloth	1	1
+1122	宠物换荣誉	petSocket.adoptPet.petClothRes	parse_honor	1	1
+1123	宠物买道具	petSocket.adoptPet.petClothRes	buy_item	1	1
+1124	宠物拥有的道具	petSocket.adoptPet.petClothRes	get_item	1	1
+1125	超拉领取超拉战袍	petSocket.adoptPet.petClothRes	res_getSLCloth	1	1
+1126	拉姆加速成长	petSocket.lamuSocket	res_AccelerationPullulation	1	1
+1127	设置拉姆技能	petSocket.lamuSocket	res_setPetStep5Skill	1	1
+1128	拉姆世界兑换随机物品	ephemeral.ephemeralDataSocket	res_convertItem	1	1
+1129	 伊莲慈善派对捐钱捐物	elaineParty.ElainePartySocket	res_CharityOffer	1	1
+1130	 伊莲慈善派对捐赠排名	elaineParty.ElainePartySocket	res_CheckCharityDonateRanking	1	1
+1131	 伊莲慈善派对捐赠信息	elaineParty.ElainePartySocket	res_CharityDonateInfo	1	1
+1131	拉姆报名	lookUpPetSingUpNum.PetSignUpRes	petSignUp	1	1
+1132	变成水桶	waterTub.WaterTupRes	waterTub	1	
+1133	变水桶超时	waterTub.WaterTubOverTimeRes	overTime	1	
+1134	提交送水	sendWater.SendWaterRes	sendWater	1	1
+1135	拉姆提交比赛分数	petSendScore.PetSendScoreRes	sendScore	1	1
+1136	拉取用户所有拉姆的成绩	petSport.petsResult.petsResultRes	getPetsResultRes		1
+1137	按日期拉取所有运动队的奖牌数	petSport.sportBoard.sportBoardRes	getBoardRes		1
+1138	拉取某项比赛的最高成绩	getPetTopScore.GetPetTopScoreRes	getPetTopScore	1	1
+1139	拉取某队所有奖牌数	listAllMedal.ListAllMedalRes	listAllMedal	1	1
+1140	获取奖牌奖杯请求	petAward.PetAwardRes	petAward	1	1
+1141	拉姆王奖励形象	waterTub.WaterTupRes	waterTub	1	
+1142	拉姆王惩罚形象	waterTub.WaterTupRes	waterTub	1	
+1143	拉姆王奖励形象超时	waterTub.WaterTubOverTimeRes	overTime	1	
+1144	拉姆王惩罚形象超时	waterTub.WaterTubOverTimeRes	overTime	1	
+1151	报名选队	lamuSport.joinLamuSport	res_GetJoinTeam	1	1
+1152	查询已选的队	lamuSport.joinLamuSport	res_seeTeam	1	1
+1153	获取队服	lamuSport.joinLamuSport	res_getJersey	1	1
+1192	查询家园种值种子或牧场放养动物	queryCropsOrAnimalsSocket	setqueryResponse	1	1
+1201	获取用户所有存款信息请求	bank.listDepositRecords.listDepositRecordsRes	getDepositRecordsRes		1
+1202	存款请求	bank.deposit.depositRes	getDepositRes		1
+1203	取款请求	bank.drawout.drawoutRes	getDrawoutRes		1
+1204	查询拉姆技能任务状态	petClass.ListItem.PetStep5ClassSocket	res_askPetStep5Class	1	1
+1205	设置拉姆技能任务状态	petClass.ListItem.PetStep5ClassSocket	res_setPetStep5Class	1	1
+1208	建造拉姆神殿	petClass.ListItem.PetStep5ClassSocket	res_setPillarHeight	1	1
+1209	技能获得物品	petSocket.lamuSocket	res_getSkillItem	1	1
+1210	得到神殿的建造进度	petClass.ListItem.PetStep5ClassSocket	res_getPillarHeight	1	1
+1212	拉姆变身协议	petSocket.lamuSocket	res_useSkill	1	
+1213	查询所有在任务中的拉姆技能任务状态	petClass.ListItem.PetStep5ClassSocket	res_askAllPetStep5Class	1	1
+1214	还原拉姆变身协议	petSocket.lamuSocket	res_revertSkill	1	
+1215	查看临时数据	ephemeral.ephemeralDataSocket	res_getData	1	1
+1216	设置临时数据	ephemeral.ephemeralDataSocket	res_setData	1	1
+1217	设置拉姆技能系	petClass.ListItem.PetStep5ClassSocket	res_setPetSkillType	1	1
+1218	设置拉姆技能技能框	petSocket.lamuSocket	res_setPetSkillBox	1	1
+1220	获得建筑任务奖励	lamubuild.lamuBuild	res_getBuild	1	1
+1221	修复红衣的协议	card.CardNumRes	res_repairRedCloth	1	0
+1222	土林长老得到卡牌	queryTrainResult.queryTrainResult	res_receiveCardBrand	1	1
+1223	检查用户是否有基础卡牌	queryTrainResult.queryTrainResult	res_queryNewCardBook	1	1
+1224	得到流浪商人的物品	AgicalGoods.AgicalGoodsSocket	res_getWillAgicalGoods	1	1
+1225	检查用户是否有基础卡牌	AgicalGoods.AgicalGoodsSocket	res_setWillAgicalGoods	1	1
+1226	在任务中领取龙蛋	queryTrainResult.queryTrainResult	res_recDragonEggs	1	1
+1227	拉取飞龙背包	dragon.DragonBagSocket	getDragonBagResponse	1	1
+1228	设置飞龙状态	dragon.DragonBagSocket	setDragonStateResponse	1	1
+1229	放生飞龙	dragon.DragonBagSocket	setDragonFreeResponse	1	1
+1231	喂龙	dragon.DragonBagSocket	feedDragonResponse	1	1
+1232	神奇糖豆换糖果变身果实	exchange.GoodsExchangeSocket	goodsExchangeRes	1	1
+1233	龙孵蛋	HatchLongEgg.HatchLongEggSocket	res_hatchLongEgg	1	1
+1234	加速龙的孵蛋	HatchLongEgg.HatchLongEggSocket	res_speedHatchLongEgg	1	1
+1235	领取幼龙	HatchLongEgg.HatchLongEggSocket	res_getLongEgg	1	1
+1237	获取龙孵蛋的时间	HatchLongEgg.HatchLongEggSocket	res_getLongEggTimer	1	1
+1238	拉取飞龙信息	dragon.DragonBagSocket	updataResponse	1	1
+1239	查询是否已经是森林骑士	myProfession.MyProfessionRes	res_checkIsSLKnight	1	1
+1240	火神杯报名	lamuSport.joinLamuSport	res_getFireSport	1	1
+1241	获取报名的队伍	lamuSport.joinLamuSport	res_getContingent	1	1
+1242	获取随机物品协议	superlamuParty.superlamuPartySocket	res_treasurebowl	1	1
+1243	兑换物品	CSItems.exchange	res_exchange_goods	1	1
+1244	得到各个队的奖牌数	lamuSport.joinLamuSport	res_seeMedalsNum	1	1
+1245	得到个人的奖牌数	lamuSport.joinLamuSport	res_seePersonalMedals	1	1
+1246	2010火神杯小游戏奖励	hotCup.hotCupSocket	decode	0	0
+1247	添加物品到友谊宝盒	friendBox.FriendBoxSocket	setFriendBoxResponse	1	1
+1248	获取物品从友谊宝盒	friendBox.FriendBoxSocket	getFriendBoxResponse	1	1
+1249	查询友谊宝盒物品信息	friendBox.FriendBoxSocket	getFriendBoxInfoResponse	1	1
+1250	查询获取友谊宝盒物品历史信息	friendBox.FriendBoxSocket	getFriendBoxRecordResponse	1	1
+1251	火神杯领奖	fireSport.FireAwards	res_GetAward	1	1
+1252	升级飞龙背包	dragon.DragonBagSocket	setBagLeavelUpResponse	1	1
+1254	 领取新学期大礼包	daLiBao.DaliBao	res_GetDaLiBao	1	1
+1255	查询用户是否有神力超级拉姆	HasShenliLamu.HasShenliLamu	res_GetShenliLamu	1	1
+1256	 点点豆购买	shopItem.BuyDiDiDouSocket	buyItemResponse	0	1
+1257	删除死亡的拉姆	petSocket.lamuSocket	res_setLamuLeave	1	1
+1258	国庆拿东西	CSItems.exchange	res_celebrate	1	1
+1260	 伊莲慈善派对竞猜出价	elaineParty.ElainePartySocket	res_GuessGameOfferPrice	1	1
+1261	 伊莲慈善派对竞猜查询和通知竞猜开始	elaineParty.ElainePartySocket	res_GuessGameCheck	1	1
+1262	 伊莲慈善派对竞猜结束	elaineParty.ElainePartySocket	res_GuessGameEnd	1	1
+1263	 拉取教室内景解锁	lahmClassRoomSocket.lahmClassRoomSocket	res_unlockClassRoomInnerStyle	1	1
+1264	 拉姆教室教师荣誉	lahmClassRoomSocket.lahmClassRoomSocket	res_GetTeacherHonerInfo	1	1
+1265	 通知获得教室荣誉	lahmClassRoomSocket.lahmClassRoomSocket	res_honorChange	1	1
+1266	 拉姆教室学生回答问题	lahmClassRoomSocket.lahmClassRoomSocket	res_lahmQuestion	1	1
+1267	拉姆体育课成绩提交	LamuScore.LamuScoreSocket	res_lamuSport	1	1
+1268	 拉姆教室好友排名	lahmClassRoomSocket.lahmClassRoomSocket	res_GetFriendsRankInfo	1	1
+1269	查询SMC等级经验	NPCJob.NpcJobSocket	res_smcProfessional	1	1
+1270	 使用教室道具	lahmClassRoomSocket.lahmClassRoomSocket	res_usingItem	1	1
+1271	 拉取教室道具	lahmClassRoomSocket.lahmClassRoomSocket	res_queryClassRoomGoods	1	1
+1272	 教学回忆(去向)	lahmClassRoomSocket.lahmClassRoomSocket	res_queryTeachRecall	1	1
+1273	 学期毕业	lahmClassRoomSocket.lahmClassRoomSocket	res_queryGraduation	1	1
+1274	 创建拉姆教室	lahmClassRoomSocket.lahmClassRoomSocket	res_creatClassRoom	1	1
+1275	 查询格子数	lahmClassRoomSocket.lahmClassRoomSocket	res_queryLahmClassRoomGrid	1	1
+1276	 拉取格子信息	lahmClassRoomSocket.lahmClassRoomSocket	res_getGridOfClassRoomInfo	1	1
+1277	 设置拉姆教室的名称	lahmClassRoomSocket.lahmClassRoomSocket	res_setClassRoomName	1	1
+1278	 设置建拉姆教室的内部样式	lahmClassRoomSocket.lahmClassRoomSocket	res_setClassRoomInnerStyle	1	1
+1279	 拉取教室内的信息	lahmClassRoomSocket.lahmClassRoomSocket	res_getClassRoomInfo	1	1
+1280	 拉取生源信息	lahmClassRoomSocket.lahmClassRoomSocket	res_getStudentInfo	1	1
+1281	 添加学生信息	lahmClassRoomSocket.lahmClassRoomSocket	res_setStudentInfo	1	1
+1282	 删除所有学生信息	lahmClassRoomSocket.lahmClassRoomSocket	res_delAllStudentInfo	1	1
+1283	 学生档案信息	lahmClassRoomSocket.lahmClassRoomSocket	res_queryStudentArchive	1	1
+1284	 教师档案信息	lahmClassRoomSocket.lahmClassRoomSocket	res_queryTeacherArchive	1	1
+1285	 拉取教学计划	lahmClassRoomSocket.lahmClassRoomSocket	res_getCoursePlan	1	1
+1286	 开始上课	lahmClassRoomSocket.lahmClassRoomSocket	res_startClass	1	1
+1288	 下课	lahmClassRoomSocket.lahmClassRoomSocket	res_classOver	1	1
+1289	 拉取课程教学次数	lahmClassRoomSocket.lahmClassRoomSocket	res_getCourseCount	1	1
+1290	 通知教师基本信息	lahmClassRoomSocket.lahmClassRoomSocket	res_classBaseInfo	1	1
+1291	 通知教师基本信息	lahmClassRoomSocket.lahmClassRoomSocket	res_classEvent	1	1
+1292	 考试	lahmClassRoomSocket.lahmClassRoomSocket	res_courseTest	1	1
+1293	 拉取考试信息	lahmClassRoomSocket.lahmClassRoomSocket	res_getCourseTestInfo	1	1
+1294	 查询是否创建教室	lahmClassRoomSocket.lahmClassRoomSocket	res_queryhaveClass	1	1
+1295	 拉取拉姆教室的一个随机用户	lahmClassRoomSocket.lahmClassRoomSocket	res_getUserIdByLamuClassRoom	1	1
+1296	 查询上课状态	lahmClassRoomSocket.lahmClassRoomSocket	res_queryClassState	1	1
+1297	给植物施肥	home.seedRes	res_Fertilizer	1	1
+1298	给花儿授粉	home.seedRes	res_Pollination	1	1
+1299	田地更翻	home.seedRes	delete_field	1	1
+1300	更新植物属性	home.seedRes	get_seed2_info	1	1
+1301	查看用户家园	home.GetHomeInfoRes	GetInfo	1	1
+1302	保存家园道具	home.GetHomeInfoRes	SaveHomeDepot	1	1
+1303	查看家园仓库道具	home.GetHomeInfoRes	GetHomeDepotInfo	1	1
+1304	种植种子	home.seedRes	Planting_seed	1	1
+1305	删除芽苗	home.seedRes	delete_seed	1	1
+1306	给芽苗浇水	home.seedRes	IrrigateWater	1	1
+1307	给芽苗除虫	home.seedRes	UseInsecticide	1	1
+1308	获取单个芽苗的属性	home.seedRes	get_seed_info	1	1
+1309	收获果实	home.seedRes	gainFruitage	1	1
+1310	卖果实	sellFruit.SellFruitRes	getSoldFruitRes		1
+1311	家园来客	home.GetHomeInfoRes	HomeGuestList	1	1
+1312	保存家园中用过的（邻居用）	home.GetHomeInfoRes	SaveHomeUsedGood	1	1
+1313	这个用户是否存在	home.GetHomeInfoRes	UserExistResult	1	1
+1314	用户FLAG	home.GetHomeInfoRes	UserFlagResult	1	
+1315	防沉迷	PlayMoleTime.PlayMoleTimeRes	PlayTime	1	
+1316	获得兔子偷吃的果实	home.seedRes	coneyGainFruitage	1	1
+1317	要生肖帽子	presentGoods.PresentGoodsRes	Gethat	1	1
+1318	拿盒子中的物品	home.GetHomeInfoRes	getgoodsinboxSucc	1	1
+1319	拿盒子中的物品的人的列表	home.GetHomeInfoRes	getgoodsinboxList	1	1
+1327	问卷调查 投票	award.QuGameSockte	res_quGame_create	1	1
+1328	获取我的职业	myProfession.MyProfessionRes	GetMyProfession	1	1
+1329	领取smc工资	getPay.GetPayRes	getPay	1	1
+1330	查看smc工资	getPay.seeGetPayRes	getPay	1	1
+1334	用户累计在线时间	PlayMoleTime.PlayMoleTimeRes	totalOnlineTimesRes	1	
+1335	防沉迷剩余时间	PlayMoleTime.PlayMoleTimeRes	hasLeftTimesRes	1	
+1341	摩尔偷果实	home.seedRes	thiefGainFruitage	1	1
+1352	赠送物品3换１送好友	presentGoods.PresentGoodsRes	PresentSucc	1	1
+1353	换礼物	presentGoods.PresentGoodsReq	res_getMyPresent	1	1
+1354	拉取送礼物的次数	presentGoods.PresentGoodsReq	res_sendPresentNum	1	1
+1361	获取牧场总体信息	farm.farmSocket	res_farm_info	1	1
+1362	查看牧场仓库道具	farm.farmSocket	res_farm_depot	1	1
+1363	捕获动物	farm.farmSocket	res_catch_animal	1	1
+1364	增加饲料       	farm.farmSocket	res_add_feed	1	1
+1365	饲养动物       	farm.farmSocket	res_feed_animal	1	1
+1366	获取所有鱼的信息	farm.farmSocket	res_animal_info_fish	1	1
+1367	加水           	farm.farmSocket	res_animal_info_addwater	1	1
+1368	访问者         	farm.farmSocket	res_farmGuest	1	1
+1369	查看牧场饲料房道具	farm.farmSocket	res_farm_feedroom	1	1
+1370	换牧场背景      	farm.farmSocket	res_changeBG	1	1
+1371	锁         	farm.farmSocket	res_lockPool	1	1
+1372	领羊        	farm.farmSocket	res_getsheep	1	1
+1373	输出20只羊后超拉领取奖励	farm.farmSocket	res_gethomebg	1	1
+1374	带牧场动物在身上	farm.farmSocket	res_farm_follow	1	1
+1375	动物在外面放牧	farm.farmSocket	res_outMap_feed	1	1
+1376	用户家里的动物在挨饿	farm.farmSocket	res_farm_hunger	1	1
+1377	放生动物	farm.farmSocket	res_letgo_animal	1	1
+1377	放生	farm.farmSocket	res_letgo_animal	1	1
+1381	查询盔甲的防御值         	armor.ArmorSocket	res_GetDefense	1	1
+1382	改变盔甲的防御值         	armor.ArmorSocket	res_SetDefense	1	1
+1383	查询5个石头         	armor.ArmorSocket	res_GetStone	1	1
+1384	设置5个石头中的一个值	armor.ArmorSocket	res_SetStone	1	1
+1385	要钱	giveMeMoney.giveMeMoneyReq	res_givememoney	1	1
+1386	sl专属物品线索要钱	callSuperLamu.CallSuperLamu	res_consumeMoleMoney	1	1
+1387	获取企鹅蛋的孵化次数或客户端数据	PenguinFindSocket.PenguinFindSocket	res_getPenguinData	1	1
+1388	设置企鹅蛋的孵化次数或客户端数据	PenguinFindSocket.PenguinFindSocket	res_setPenguinData	1	1
+1389	购买多件衣服	buyCloth.buyMoreClothSocket	res_buyCloth	1	1
+1390	获得抽奖勇士证书的次数	randomPrzie.RandomPrzie	gotPrizeTimesResponse	1	1
+1392	抽取勇士证书	randomPrzie.RandomPrzie	prizeResponse	1	1
+1393	查询宠物装扮	SLLevelGetPresent.SLLevelGetPresentSocket	res_HavePetCloth	1	1
+1394	查询道具是否在背包中	LookBagSocket	res_lookBag	1	1
+1400	设置吉吉乐卡牌兑换	JJLCard.SetJJLCardRes	backFun		1
+1401	获取某人吉吉乐卡牌数据	JJLCard.GetJJLCardRes	backFun		1
+1402	兑换吉吉乐卡牌	JJLCard.ExchangeJJLCardRes	backFun		1
+1403	查询那些用户可以兑换指定的卡牌	JJLCard.SearchCardRes	backFun		1
+1404	升级卡牌兑换服装或米币	JJLCard.ExchangeJJLClothRes	backFun		1
+1406	兑换魔法卡片	JJLCard.ExchangeMagicCardRes	backFun		1
+1407	通知用户使用了动物技能(广播包)	lamuPkSys.AnimalSkillSocket	res_OtherUseSkill	1	1
+1408	蛋雨获取地图蛋信息	lamuPkSys.AnimalSkillSocket	res_GetMapEgg	1	1
+1409	蛋雨领取指定点的蛋	lamuPkSys.AnimalSkillSocket	res_GetEgg	1	1
+1414	主动通知包广播信息	textNotice.TextNoticeRes	textBodySurgery		1
+1456	查看好友HOT	home.GetHomeInfoRes	getFriendHotSucc	1	1
+1461	游戏王	PKsocket.GameKingSocket	res_friendgamelist	1	1
+1462	游戏王	PKsocket.GameKingSocket	res_usergamelist	1	1
+1463	游戏王	PKsocket.GameKingSocket	res_SubmitScorePK	1	1
+1464	游戏王	PKsocket.GameKingSocket	res_HistoryPK	1	1
+1465	游戏王	PKsocket.GameKingSocket	res_UserWineRsult	1	1
+1466	物品交换特殊情况	CSItems.CSEXRes	getBackFun		
+1467	获取摩摩仓库里的动物星级	farm.farmSocket	res_getStarAnimal	1	1
+1468	牧场动物使用道具	farm.farmSocket	res_aniamlAddSpeed	1	1
+1468	牧场动物使用道具	farm.farmSocket	res_aniamlAddSpeed	1	1
+1469	获取单个动物使用技能信息	lamuPkSys.AnimalSkillSocket	res_GetAnimalSkillInfo	1	1
+1470	动物使用技能	lamuPkSys.AnimalSkillSocket	res_UseSkill	1	1
+1471	写/修改日记	diaryBook.DiarySocket	res_writeDiary	1	1
+1472	拉取日志标题	diaryBook.DiarySocket	res_getDiaryTitle	1	1
+1473	删除日记	diaryBook.DiarySocket	res_deleteDiary	1	1
+1474	设置日志锁状态	diaryBook.DiarySocket	res_lockDiary	1	1
+1475	给日记送花	diaryBook.DiarySocket	res_sendFlower	1	1
+1476	拉取日志内容	diaryBook.DiarySocket	res_getDiary	1	1
+1477	设置日记本锁状态	diaryBook.DiarySocket	res_setState	1	1
+1478	拉取日记本锁状态	diaryBook.DiarySocket	res_getState	1	1
+1479	拉取总共有几篇日记	diaryBook.DiarySocket	res_getTotalTitle	1	1
+1481	提交汤米或尼克打工	doWork.DoWorkSocket	res_doWork_getMoney	1	1
+1482	拉取打工信息	doWork.DoWorkSocket	res_doWork_getWordInfo	1	1
+1483	打工领工资	doWork.DoWorkSocket	res_doWork_getWage	1	1
+1484	升级为总工程师	doWork.DoWorkSocket	res_doWork_UpgradedChiefEngineer	1	1
+1485	设置为打工学徒	doWork.DoWorkSocket	res_doWork_setHasBiudCard	1	1
+1486	获取用户圣光兽的数目	ChrisLamu.ChrisSocket	res_getBeastInfo	1	1
+1491	接魔法课程	petClass.ListItem.AcceptPetClassRes	ListClass		1
+1492	提交魔法课程	petClass.ListItem.SubmitPetClassRes	ListClass		1
+1493	放弃魔法课程	petClass.ListItem.GiveupPetClassRes	ListClass		1
+1494	设定课程考核临时数据	petClass.expandItem.SetPetClassJobRes	getBackFun		1
+1495	获取课程考核临时数据	petClass.expandItem.GetPetClassJobRes	getBackFun		1
+1496	查询魔法课程	petClass.ListItem.GetPetClassRes	ListClass		1
+1497	兑换时空密码	hahaBoxPwdSocket.hahaBoxPwd	res_hahaPwd	1	1
+1498	查询兑换时空密码	hahaBoxPwdSocket.hahaBoxPwd	res_queryhahaPwd	1	1
+1500	病床信息	cure.GetCureAllInfo	BackAllInfo		1
+1501	医生就位	cure.GetCureAllInfo	BackDoctorOn		1
+1502	病人就位	cure.GetCureAllInfo	BackInvalidOn		1
+1503	医生离开	cure.GetCureAllInfo	BackDoctorOut		1
+1504	病人离开	cure.GetCureAllInfo	BackInvalidOut		1
+1505	医生听诊	cure.GetCureAllInfo	BackDoctorOne		1
+1506	医生治疗	cure.GetCureAllInfo	BackDoctorTwo		1
+1507	医生值班奖励	cure.GetCureAllInfo	BackDoctorWork		1
+1508	吃药	cure.GetCureAllInfo	BackEatMedicine	1	1
+1521	怪怪机兑换道具	StrangeMachineSocket	res_sellProp	1	1
+1522	超拉充值促销兑换	callSuperLamu.CallSuperLamu	res_exchangeSlGift	1	1
+1523	送汤圆	ChristmasGiftSocket	res_exchangeTang	1	1
+1524	 查询充值信息	thanksgivingSocket	thanksgivingSearchRes	1	1
+1525	 查询充值信息	thanksgivingSocket	thanksgivingOpenRes	1	1
+1527	收到校巴邮件	xiaoba.XiaoBaSocket	res_getXiaoBaInfo	1	1
+1531	查看当前大屏幕的字符串	tryMachine.tryMachineSocket	res_getScreenString	1	1
+1532	获取第一件字母装	CSItems.GetFirstABCClothRes	getClothBack		
+1533	抓人平凑单词送糖果	tryMachine.tryMachineSocket	res_tryMachine	1	1
+1534	兑换字母装	CSItems.GetABCClothRes	getClothBack		
+1535	ABD SOCRE	classSystem.DoctorQGSocket	res_classABCScore	1	1
+1536	拉取班级积分和被抓活的的糖果数	CSItems.GetClassScoreRes	getScoreBack		
+1537	宠物买道具	petSocket.adoptPet.petClothRes	getHonor	1	1
+1538	获取蛋糕信息	cakesocket.cakesocket	res_getCakeInfo	1	1
+1539	制作完蛋糕	cakesocket.cakesocket	res_makecade	1	1
+1540	送蛋糕给NPC	cakesocket.cakesocket	res_sendcade	1	1
+1541	获取蛋糕积分	cakesocket.cakesocket	res_cadeScore	1	1
+1551	报名参加拉力赛	raceSport.RaceSportJoin	res_joinSport	1	1
+1552	给某个赛道比赛情况加分	raceSport.RaceSportJoin	res_addRaceScore	1	1
+1553	查询个人比赛情况	raceSport.RaceSportJoin	res_getOwnScore	1	1
+1554	更新某个赛道的时间记录	raceSport.RaceSportJoin	res_updateTrackTime	1	1
+1555	查询四个赛道的时间记录	raceSport.RaceSportJoin	res_getTrackTime	1	1
+1556	查询两个队伍的分数记录	raceSport.RaceSportJoin	res_getTeamsScore	1	1
+1557	给自己队增加人气	raceSport.RaceSportJoin	res_addPopular	1	1
+1558	获取赛道比赛次数	raceSport.RaceSportJoin	res_getTrackNum	1	1
+1559	获取个人当日积分	raceSport.RaceSportJoin	res_getDayScore	1	1
+1560	全场通知可以加入人气比拼	raceSport.RaceSportJoin	popularStart	1	
+1561	全场通知人气比拼结果	raceSport.RaceSportJoin	popularResult	1	1
+1562	是否可以增加人气	raceSport.RaceSportJoin	res_isAddPopular	1	
+1563	获得特殊奖章	raceSport.RaceSportJoin	res_getIntegralItem	1	1
+1565	献花	presentFlowers.FindAddFlower	backAddFlower	1	1
+1566	查看献花数目	presentFlowers.FindAddFlower	backFindFlower	1	1
+1567	兑换拉力赛卡牌	JJLCard.JJLCardExchange	res_exchangeRaceCard	1	1
+1568	获取本队对应的赛车	raceSport.RaceSportJoin	res_getCarItem	1	1
+1569	飞艇返航	airship.AirshipGame	Backtrack	1	
+1570	拉取飞船内有多少人	airship.AirshipGame	res_examineNum	1	
+1571	飞船还有多长时间返航	airship.AirshipGame	res_examineTime	1	1
+1572	人气比拼可否得奖章	raceSport.RaceSportJoin	IntegralOutcome	1	
+1573	是否可以得到纪念赛车	raceSport.RaceSportHonoree	res_sportHonoree	1	
+1574	班长获取英语节结果	englishfestival.EnglishPrize	res_getClassPrize	1	
+1575	任意人获取英语节结果	englishfestival.EnglishPrize	res_getIdvPrize	1	
+1576	英语节摩尔豆奖励	englishfestival.EnglishPrize	res_getMoney	1	
+1577	获取比赛结果以及奖杯颁发	raceSport.RaceSportHonoree	res_sportResult	1	
+1579	获取比赛结果	raceSport.RaceSportHonoree	res_sportSuccResult	1	
+1581	服务器广播地图时间状态	openclosetime.OpenCloseTime	res_timeStatus	1	
+1600	把衣服放到衣橱里	getRoomInfo.PushClothBoxRes	pushOneBack		1
+1601	把衣服从衣橱里拿出来	getRoomInfo.PushClothBoxRes	outOneBack		1
+1602	查询衣橱物品	getRoomInfo.PushClothBoxRes	getAllBack		1
+1699	获取炫风驾照	raceSport.RaceSportJoin	res_getDriveCard	1	1
+1700	1.1.1  把车开出来 	home.HomeCarSocket	res_UPCar	1	1
+1701	1.1.2  把车开回去 	home.HomeCarSocket	res_DOWNCar	1	1
+1702	1.1.3  车库中汽车列表 	home.HomeCarSocket	res_CarList	1	1
+1703	1.1.4  设置哪辆车用于展示 	home.HomeCarSocket	res_ShowThisCar	1	1
+1704	1.1.5  获取展示车辆信息（ 	home.HomeCarSocket	res_ShowCarInfo	1	1
+1705	1.1.6  汽车加油 	home.HomeCarSocket	res_addoil	1	1
+1706	1.1.6  买汽车 	home.HomeCarSocket	res_buycar	1	1
+1707	查询汽车拥有量	raceSport.RaceSportJoin	res_isHaveCar	1	
+1709	租到宅急送（1709）	home.HomeCarSocket	res_RentACar	1	
+1710	装/卸南瓜（1710）	home.HomeCarSocket	res_loadingOrDischarging	1	
+1801	拿取合成物品	makesweet.MakeSweets	res_getSweets	1	1
+1802	失物招领	makesweet.MakeSweets	res_getMissItem	1	1
+1803	服务器广播R4机器状态	makesweet.MakeSweets	res_positionStatus	1	
+1804	R4合成物品	makesweet.MakeSweets	res_getMaking	1	1
+1805	合成物品结束	makesweet.MakeSweets	res_finished	1	
+1806	检查是否有未领取合成物品	makesweet.MakeSweets	res_getFinished	1	
+1851	批量变成南瓜	waterTub.WaterTupRes	res_canglePumpkins	1	
+1852	变成南瓜超时	shapeshift.Shapeshift	res_overTime	1	
+1853	服务器主动广播黑猫状态	jackrun.JackRun	res_catStatus	1	
+1854	查看黑猫车状态	jackrun.JackRun	res_getCatPos	1	
+1856	拿糖	farm.farmSocket	res_getcandy	1	1
+1900	1.1.1  买渔网	farm.farmSocket	res_buynet	1	1
+1901	1.1.2  得到渔网状态	farm.farmSocket	res_netstatus	1	1
+1902	1.1.3  捞鱼	farm.farmSocket	res_netfishing	1	1
+1903	赠送	halloween.SweetsSocket	res_giveSweetsBeg	1	1
+1904	变成南瓜	shapeshift.Shapeshift	res_Shapeshift	1	
+1905	变成南瓜超时	waterTub.WaterTubOverTimeRes	overTime	1	
+1906	减少糖果	spookHouse.convertTang	res_consumeCandy	1	1
+1907	查询糖果道具数量	spookHouse.convertTang	res_getcandyInfo	1	1
+1908	糖果记录兑换道具	spookHouse.convertTang	res_toconver	1	1
+1909	超拉打工	halloween.SweetsSocket	res_SLmakeMachine	1	1
+1911	查询种植能手和养殖能手等级	home.homeSocket	res_queryPlantAndFarm	1	1
+1912	NPC好感度查询	eventSystem.NPCStandingsSocket	res_getNpcStandings	1	
+1913	礼物抽奖	LuckyMachineSocket	res_lottery	1	
+1914	改变NPC好感度	eventSystem.NPCStandingsSocket	res_changeNpcStandings	1	1
+1915	查询任意物品数量	examinePack.examinePackStuff	res_examinePack_create	1	1
+1916	挑选礼帽	smc.JobSocket	res_pickMomoHat	1	1
+1918	放蛋	farm.farmSocket	res_setEgg	1	1
+1919	孵蛋	farm.farmSocket	res_touchEgg	1	1
+1920	查蛋状态	farm.farmSocket	res_checkEgg	1	1
+1921	拿羊毛	farm.farmSocket	res_getWool	1	1
+1922	拿蛋	farm.farmSocket	res_getEgg	1	1
+1923	生育站位	breed.BreedSocket	res_beginBreed	1	
+1924	动物培育站位	breed.BreedSocket	res_GetPlaceInfo	1	0
+1925	购买动物	animalDeal.AnimalDealSocket	res_buyAnimalCount	1	1
+1926	剩余生育时间	breed.BreedSocket	res_selectBreed	1	0
+1927	挑选礼服	smc.JobSocket	res_pickMomoCloth	1	1
+1928	破蛋	farm.farmSocket	res_breakEgg	1	1
+1930	剪毛占位置	farm.farmSocket	res_getGoWoolPos	1	
+1931	广播剪毛占位置	farm.farmSocket	res_getWoolPos	1	
+1932	装扮打分	moleshow.MoleShow	res_getScore	1	1
+1933	设置和momo公主的合影	house.HouseSocket	res_setMomoPhotoData	1	1
+1934	获取和momo公主的合影	house.HouseSocket	res_getMomoPhotoData	1	1
+1935	广播show场状态	moleshow.MoleShow	res_OnTime	1	1
+1936	show场状态	moleshow.MoleShow	res_getOnTime	1	1
+1937	查询道具最新价格	LookPriceSocket	res_lookPrice	1	
+1939	得到模特服装	house.HouseSocket	res_getModelShowCloths	1	1
+1940	把模特的衣服穿到摩尔身上	house.HouseSocket	res_modelClothsTomoleCloths	1	1
+1941	把摩尔的衣服穿到模特身上	house.HouseSocket	res_moleClothsToModelCloths	1	1
+1946	吃/放蛋糕	DispatchCakeSocket	res_EatCake	1	
+1947	广播蛋糕桌子状态	DispatchCakeSocket	res_CakeState	1	
+1948	获取兔兔主人装	RedeemPropSocket	res_getProp	1	1
+1949	show结束	moleshow.MoleShow	res_Over	1	
+1950	获取当前装扮经验	moleshow.MoleShow	res_getExp	1	
+1951	装扮打分升级	moleshow.MoleShow	res_lvlup	1	
+1952	设置护花使者	AegisFlower.AegisFlowerSocket	res_setupAegisFlowerData	1	1
+1953	全屏广播获奖	fishWeight.WeightFish	res_broadCastForPrize	1	1
+1954	获取护花使者	AegisFlower.AegisFlowerSocket	res_getAegisFlowerData	1	1
+1955	获取图鉴道具情况	picturebookSocket	res_getPropISHave	1	1
+1956	给鱼称重	fishWeight.WeightFish	res_fishWeight	1	1
+1957	在8号地图钓鱼	farm.farmSocket	res_getfishBy8	1	1
+1958	查询鱼的总重量	fishWeight.WeightFish	res_getFishTotalWeight	1	1
+1959	查询动物剩余数量	animalDeal.AnimalDealSocket	res_askAnimalCount	1	1
+1960	从别人家里拿铃铛	house.HouseSocket	res_getBell	1	1
+1961	获取摩尔豆	GetTenMoleB	res_getMoney	1	1
+1962	拉取代卖者信息（家具日）	BuyFurnitureDaySocket.BuyFurnitureDaySocket	res_getPosMessage	1	
+1963	占摊位（家具日）	BuyFurnitureDaySocket.BuyFurnitureDaySocket	res_setUpPos	1	1
+1964	代卖者离开（家具日）	BuyFurnitureDaySocket.BuyFurnitureDaySocket	res_sellerOut	1	
+1965	代卖者超时通知（家具日）	BuyFurnitureDaySocket.BuyFurnitureDaySocket	res_sellerExit	1	
+1966	购买家具（家具日）	BuyFurnitureDaySocket.BuyFurnitureDaySocket	res_buyFurniture	1	
+1967	设置圣诞节愿望	ChrisLamu.ChrisSocket	res_getEpistolize	1	1
+1968	查看圣诞节愿望	ChrisLamu.ChrisSocket	res_getSeeInfo	1	1
+1969	拿5个圣诞礼物	givegift.GiveGift	res_getGift	1	1
+1970	查看现有礼物数量	givegift.GiveGift	res_getGiftNum	1	1
+1971	给MOLE送礼物	givegift.GiveGift	res_giveMole	1	1
+1972	从壁炉拿礼物	givegift.GiveGift	res_getGiftFromHome	1	1
+1973	获得驯鹿车和票	socket20091222.getReindeerAndBill.getReindeerAndBill	res_getRAB	1	1
+1974	圣诞节下礼物雨	ChristmasGiftSocket	res_giftRain	1	
+1975	圣诞节收集礼物	ChristmasGiftSocket	res_getGift	1	1
+1976	给NPC赠送礼物	givegift.GiveGift	res_giveNPC	1	1
+1977	拿能量星	socket20091222.getReindeerAndBill.getReindeerAndBill	res_getEnergyStar	1	1
+1978	查询能量星数量	ChristmasGiftSocket	res_getStarCount	1	1
+1979	1.1.1 拍大合照	house.HouseSocket	res_setGroupPhotoData	1	1
+1980	取大合照	house.HouseSocket	res_getGroupPhotoData	1	1
+1981	拿大脚印砸蛋	ChristmasGiftSocket	res_getFootGift	1	1
+1982	兑换米币抵用券	ChristmasGiftSocket	res_getMiCoin	1	1
+1983	拿年底三个脚印	printFoot.PrintFoot	gotPrintFootResponse	1	1
+1984	种植_养殖技能提升	farm.farmSocket	res_getFarmSkillup	1	1
+1985	领母老虎	ChristmasGiftSocket	res_getFemaleTiger	1	1
+1986	元宝兑换	ChristmasGiftSocket	res_exYuanBao	1	1
+1987	把用户的某个物品交换成另一个物品(一次性全部交换)	breed.BreedSocket	res_allExchange	1	1
+1988	获得超级拉姆神殿礼包	gotBigProp.GotBigProp	gotManyPropResponse	1	1
+1989	退还机器狗	defend.defendSocket	res_backDefend	1	1
+1990	 喂机器狗	defend.defendSocket	res_eatfood	1	1
+1991	 得到机器狗帮做做事的信息	defend.defendSocket	res_seedefendTime	1	1
+1992	捕获皮皮或者豆芽	boss.CapAnimalSocket	res_capAnimal	1	1
+1993	挤牛奶	animalDeal.AnimalDealSocket	res_milking_the_cow	1	1
+1994	获得超级拉姆神殿礼包,只能领取一次	gotBigProp.GotPropOnlyOneTime	gotManyPropOneTimeResponse	1	1
+1995	制作道具	propMake.propMakeSocket	res_propmake	1	1
+1996	为NPC加声望	ballot.AddReputationSocket	addReputationRes	1	1
+1997	玉米换樱花树苗	cherrySocket	res_getCherry	1	1
+1998	获取拉姆Vip级别的礼物 	SLLevelGetPresent.SLLevelGetPresentSocket	res_SLLevelGetPresent1	1	1
+1999	获取摩尔Vip级别的礼物 	SLLevelGetPresent.SLLevelGetPresentSocket	res_SLLevelGetPresent	1	1
+2000	是否设置过支付密码	coinBuy.ISCoinRes	getBackFun		
+2001	查询单个产品的价格	coinBuy.GetOneCoinRes	getBackFun		1
+2003	查询单个产品的详细信息	coinBuy.GetOneCoinInfoRes	getBackFun		1
+2004	使用米币购买	coinBuy.CoinApplyRes	getBackFun		1
+2005	使用米币和购物卷购买	coinBuy.CoinParApplyRes	getBackFun		1
+2006	查询米币和购物卷余额	coinBuy.CoinParAskRes	getBackFun		1
+2007	为屋委会会长投票分数	ballot.BallotScoreSocket	getBallotScoreRes	1	1
+2008	屋委会会长投票	ballot.NpcBallotSocket	NpcBallotRes	1	1
+2009	获得物品显示效果广播	action.ActionRes	getItems	1	1
+2010	获取带签登入Session	session.BringTagoutLoginSocket	res_getSID	1	1
+2011	逗猫 	farm.farmSocket	res_doudouCar_animal	1	1
+2012	每天限量增加物品	getItemEveryDay.GetItemEveryDay	res_getSceneItemEvent	1	1
+2013	分享美食	reputation.SeeReputation	res_ShareFoods	1	1
+2014	美誉兑换东西(2014)	reputation.SeeReputation	res_getExchange	1	1
+2015	查询美誉度(2015)	reputation.SeeReputation	res_getReputation	1	1
+2016	根据美誉度领取物品 (2016)	reputation.SeeReputation	res_getReceiveGoods	1	1
+2017	那个队获胜	lamuSport.lamuSportInfo	res_GetWinTeam	1	1
+2018	增加分数	lamuSport.lamuSportInfo	res_GetSubmitScore	1	1
+2019	查看三个队的分数	lamuSport.lamuSportInfo	res_GetSeeScore	1	1
+2020	查看三个队的奖牌数	lamuSport.lamuSportInfo	res_GetMedals	1	1
+2021	 获取物品	lamuSport.lamuSportInfo	res_GetAccessGood	1	1
+2022	 得到舞台已经开始计时时长	lamuSport.lamuSportInfo	res_GetTimeInfo	1	0
+2023	 舞台的开始和结束广播包	lamuSport.lamuSportInfo	res_GetStartInfo	1	0
+2024	 加奖牌	lamuSport.lamuSportInfo	res_GetAddMedals	1	1
+2025	得到排行和拉姆的游戏分数	lamuSport.lamuSportInfo	res_GetScoreRnk	1	1
+2028	丝尔特刮刮乐得奖	silkyguaguale.guagualeSocket	res_getGuaguale	1	1
+2029	查询多个产品的价格	coinBuy.GetMoreCoinRes	getBackFun		1
+2031	使用金豆购买商品	MoleShop.MoleShopSocket	res_buyCommodity	1	1
+2032	查询剩余多少金豆	MoleShop.MoleShopSelect	res_selectDou	1	1
+2033	使用米币购买金豆	MoleShop.MoleShopSocket	res_buyDou	1	1
+2040	查询登录换积分	MoleShop.MoleShopSelect	res_addScore	1	1
+2050	查询包月抵用券数量	vipCompass.CheckVipCompassCountProtocol	decode	0	0
+2101	看新神奇密码	AladdinPWD.AladdinPWDRes	parseBANew		1
+2102	用新神奇密码	AladdinPWD.AladdinPWDRes	usePWD		1
+3000	初始化玩家卡牌	initPlayerCard.InitPlayerRes	initPlayer	1	1
+3001	拥有的卡牌数量	card.CardNumRes	addCard	1	1
+3002	增加一张普通卡牌	card.AddCardRes	addCard	1	1
+3003	查询可以增加多少张普通卡牌	card.LookupCardNumRes	lookUpCardNum	1	1
+3101	接NPC任务	NPCJob.NpcJobSocket	res_accepthNpcJob	1	1
+3102	交NPC任务	NPCJob.NpcJobSocket	res_overNpcJob	1	1
+3103	写NPC任务临时数据	NPCJob.SetNPCJobDataSocket	res_setJobData	1	1
+3104	查询NPC任务临时数据	NPCJob.GetNPCJobDataSocket	res_getJobData	1	1
+3105	查询NPC任务	NPCJob.NpcJobSocket	res_askNpcJob	1	1
+3106	查询NPC所有任务状态	NPCJob.NpcJobSocket	res_askAllNpcJob	1	1
+3107	取消某任务	NPCJob.NpcJobSocket	res_giveupNpcJob	1	1
+4000	题目	PlayMoleTime.KnowledgeRes	KnowledgeQuestion	1	1
+4001	题目答案	PlayMoleTime.KnowledgeRes	KnowledgeResult	1	1
+4002	天空树答题-得到题目信息	skyTreeQA.SkyTreeQASocket	res_GetQuestionInfo	1	1
+4003	天空树答题-答题	skyTreeQA.SkyTreeQASocket	res_AnswerQuestion	1	1
+4108	国庆7天连续登陆	CSItems.exchange	res_badLookLoginInfo	1	1
+4109	国庆7天连续登陆，领取礼包	CSItems.exchange	res_receiveBadLook	1	1
+4113	巡逻任务接取	gride.GridePatrolTaskProtocol	decode	0	0
+4114	小摩尔呼叫寻求帮助	gride.GrideSeekHelpProtocol	decode	0	0
+4115	超级蘑菇向导回应小摩尔寻求帮助	gride.GrideResponseHelpProtocol	decode	0	0
+4116	获得成就奖励	gride.GrideGetAnswerProtocol	decode	0	0
+4117	查询获取的成就奖励	gride.GrideCheckAnswerProtocol	decode	0	0
+5000	创建班级	classSystem.classSocket	res_class_create	1	1
+5001	修改班级信息	classSystem.classSocket	res_class_amendClass	1	1
+5002	进入班级地图	classSystem.classSocket	res_class_enterMap	1	1
+5003	加入班级	classSystem.classSocket	res_class_requestAddToClass	1	1
+5004	退出班级	classSystem.classSocket	res_class_out	1	1
+5005	递交加入申请	classSystem.classSocket	res_class_application	1	1
+5006	班长审核加入	classSystem.classSocket	res_class_Auditing	1	1
+5007	删除成员	classSystem.classSocket	res_class_delMenber	1	1
+5008	删除班级	classSystem.classSocket	res_class_delClass	1	1
+5009	获取班级徽章信息	classSystem.classSocket	res_class_getBadgeInfo	1	1
+5010	设置显示的徽章	classSystem.classSocket	res_class_setMyShowBadge	1	1
+5011	查看显示的徽章	classSystem.classSocket	res_class_getBadgeID	1	1
+5012	购买物品	classSystem.classSocket	res_class_buyItem	1	1
+5013	班级物品装扮	classSystem.classSocket	res_class_saveItems	1	1
+5014	查看自己的班级列表	classSystem.classSocket	res_class_getMyClassList	1	1
+5015	班级上锁	classSystem.classSocket	res_class_lock	1	1
+5016	班级解锁	classSystem.classSocket	res_class_unlock	1	1
+5017	获取班级信息	classSystem.classSocket	res_class_getClassInfo	1	1
+5018	查看班级成员列表	classSystem.classSocket	res_class_getMenberList	1	1
+5019	班级排行中的班级记录个数	classSystem.classSocket	res_class_getFoundCompetition	1	1
+5020	查看班级荣誉历史	classSystem.classSocket	res_class_getHonor	1	1
+5400	开始答题	classSystem.DoctorQGSocket	res_doctor_startQG	1	1
+5401	 获取题目	classSystem.DoctorQGSocket	res_doctor_subjectQG	1	1
+5402	客户端答题	classSystem.DoctorQGSocket	res_doctor_optSubjectQG	1	1
+5403	查看班级积分	classSystem.DoctorQGSocket	res_doctor_seeStartQG	1	1
+5404	班长领award	classSystem.DoctorQGSocket	res_acceptAward	1	1
+5405	班级成员领	classSystem.DoctorQGSocket	res_classmateAcceptAward	1	1
+5500	申请获得超级拉姆	OperationJob.GetVIPLamuRes	getBackFun		
+5501	能否申请获得超级拉姆	OperationJob.IsGetVIPLamuRes	getBackFun		
+5502	暑假大放送	fireSport.firePresent	res_GetPresent	1	1
+5503	挖石头的总次数	mineStone.MineStone	mineStoneResponse	1	1
+5504	交给门卫称石头	mineStone.MineStone	comitteStoneResponse	1	1
+5600	火神杯报名	fireSport.sportJoin	res_GetSpotJoin	1	1
+5601	完成前置任务	fireSport.sportJoin	res_GetAchieveTask	1	1
+5602	赛前打气	fireSport.sportJoin	res_GetEncourage	1	1
+5603	火神杯随即报名	fireSport.sportJoin	res_GetRandomSample	1	1
+5604	火神杯任务状态	fireSport.sportJoin	res_GetTaskEstate	1	1
+5605	火神杯接任务	fireSport.sportJoin	res_GetMeetTask	1	1
+5606	火神杯完成任务	fireSport.sportJoin	res_GetOvenTask	1	1
+5607	火神杯奖牌榜	fireSport.sportJoin	res_GetTaskAward	1	1
+5608	查询浇了几次水	fireSport.sportJoin	res_GetWaterTask	1	1
+5609	领队服	fireSport.sportJoin	res_GetQueueTask	1	1
+5610	得到第一块奖牌时奖励	fireSport.sportJoin	res_GetFirstMedal	1	1
+5611	到达每天上限后领奖	fireSport.sportJoin	res_GetULMedal	1	
+5612	机会转盘	fireSport.sportJoin	res_GetTurnplate	1	1
+5613	奖牌榜	fireSport.sportJoin	res_GetPrize	1	1
+5614	火炬状态	fireSport.sportJoin	res_GetCraterwall	1	1
+5615	点燃火炬	fireSport.sportJoin	res_GetEnkindle	1	1
+5616	点燃火炬	fireSport.sportJoin	res_GetFireItem	1	1
+5700	超拉派对获取物品	cottonSocket	res_getCotton	1	1
+6001	拉姆食品制造机	lamuFoodGot.LamuFoodGot	lamuFoodGotRes	1	1
+6002	 拉姆教室联谊	lahmClassRoomSocket.lahmClassRoomSocket	res_toHappy	1	1
+6003	送礼物给朋友 	sendGiftToFriend.SendGiftToFriendSocket	res_SendGiftToFriend	1	1
+6004	查询排名	checkRank.CheckRankSocket	res_CheckRank	1	1
+6005	收到别人送的东西，查询送东西的记录	checkReceiveItemRecord.CheckReceiveItemRecordSocket	res_CheckReceiveItemRecord	1	1
+6006	取得物品,扣除自己有的物品	getGiftByItem.GetGiftByItemSocket	res_GetGiftByItem	1	1
+6007	查询物品数量	checkItemCountSpecial.CheckItemCountSpecialSocket	res_CheckItemCountSpecial	1	1
+6020	服务器每分钟同步一次时间,	getServerTimer.getServerTimerRes	hasBeenServerTimer		
+6021	脚印兑换物品	footPrintChange.FootPrintChangeSocket	res_ChangeGift	1	1
+6022	拉取2011脚印信息	FootPrintsSocket.FootPrintsSocket	res_queryFootPrints	1	1
+6023	拉取2011脚印数量信息	FootPrintsSocket.FootPrintsSocket	res_queryFootPrintsCount	1	1
+6024	连续登录信息	LoginLibaoSocket	res_getLoginInfo	1	1
+6025	拉取投票信息	award.QuInfoSocket	res_quInfo	1	1
+6026	查看连续30天登录信息	LoginLibaoSocket	res_getlongPackageInfo	1	1
+6027	收到校巴邮件	kakunianSocket	DomesticateResponse	1	1
+6028	收到校巴邮件	kakunianSocket	trainingNumResponse	1	1
+6029	进入或退出摩尔勇士	LoginLibaoSocket	res_getQueryHeroGame	1	1
+6030	拉取玩摩尔勇士的玩家信息	LoginLibaoSocket	res_getTotallHeroInfo	1	1
+6031	拯救天使蛋	GetAngelSeedsSocket	res_getAngelSeeds	1	1
+6032	获取周末登录奖励	home.WeekendGiftsRes	getGift	1	1
+6033	获取周末登录次数	home.WeekendGiftsRes	getWeekNum	1	1
+6034	统计平台消息	statistics.statisticsSocket	res_Statistics	1	0
+7001	获取天使园基本信息	angelPark.AngelParkSocket	res_GetParkInfo	1	1
+7002	获取天使园仓库中物品	angelPark.AngelParkSocket	res_GetWarehouseInfo	1	1
+7003	获取组件对应id和人次	toolSocket.toolSocket	res_getComponentInfo	1	1
+7004	获取战斗等级	angelsAndDemons.GetFightLevelSocket	decode	0	0
+7005	获取战斗成绩	angelsAndDemons.GetFightScoreByIDSocket	res_getFightScoreByIDFun	1	1
+7006	获取天使医院天使	angelPark.AngelParkSocket	res_GetAngelsInHospital	1	1
+7007	获取战斗道具	angelsAndDemons.GetFightPropsSocket	res_getFightPropsFun	1	1
+7010	补充天使园灵气	angelPark.AngelParkSocket	res_AddAura	1	1
+7011	天使出院	angelPark.AngelParkSocket	res_AngelOutHospital	1	1
+7020	使用天使园种子	angelPark.AngelParkSocket	res_UseSeed	1	1
+7021	使用天使园道具	angelPark.AngelParkSocket	res_UseItem	1	1
+7022	使用天使园背景	angelPark.AngelParkSocket	res_UseBackground	1	1
+7023	使用王子之泪	angelPark.AngelParkSocket	res_UseKingTear	1	1
+7024	使用战斗道具	angelsAndDemons.UseFightPropsSocket	res_useFightPropsFun	1	1
+7030	建立契约(收获)	angelPark.AngelParkSocket	res_MadeChange	1	1
+7031	契约建立前放生	angelPark.AngelParkSocket	res_LetGoBeforeMadeChange	1	1
+7032	圣光兽转化天使	angelPark.AngelParkSocket	res_GetAsa	1	1
+7040	获取天使园图鉴	angelPark.AngelParkSocket	res_GetCollection	1	1
+7041	契约后放生	angelPark.AngelParkSocket	res_LetGoAfterMadeChange	1	1
+7042	天使跟随	angelPark.AngelParkSocket	res_Follow	1	1
+7050	天使园升级	angelPark.AngelParkSocket	res_LevelUp	1	1
+7060	获取天使园游客列表	angelPark.AngelParkSocket	res_GetGuestList	1	1
+7061	获取好友天使园信息	angelPark.AngelParkSocket	res_GetRankInfo	1	1
+7070	获取玩家战斗天使数目	angelsAndDemons.GetFightAngelsSocket	decode	0	0
+7071	战斗开始	angelsAndDemons.AngelsWarBeginSocket	res_angelsWarBeginFun	1	1
+7072	战斗结束	angelsAndDemons.AngelsWarEndResultsSocket	res_angelsWarEndResultsFun	1	1
+7073	游戏开始	clearAngels.ClearAngelsGameStartSocket	res_gameBeginFun	1	1
+7074	成功净化天使	clearAngels.ClearAngelsSucSocket	res_clearAngelsSucFun	1	1
+7076	净化黑暗天使战斗结束	clearAngels.ClearAngelsOverSocket	res_clearAngelsOverFunt	1	1
+7077	杀死怪物	angelsAndDemons.KillMonsterSocket	res_killMonsterFun	1	1
+7078	获取天使，后台直接赠送	getAngleSocket	getAngleRes	1	1
+7079	展示天使	angelPark.AngelParkSocket	res_ShowAngel	1	1
+7080	回收展示的天使	angelPark.AngelParkSocket	res_HideAngel	1	1
+7081	获取天使收藏夹信息	angelPark.AngelParkSocket	res_GetCollectionAngel	1	1
+7082	拉取使用的天使园背景	getAngleParkBGSocket	getAngleParkBGRes	1	1
+7083	生肖小屋领取大卫豆	GetDavidBeanSocket	res_getDavidBeanFun	1	1
+7084	获取天使荣誉信息	angelPark.AngelParkSocket	res_GetHoner	1	1
+7085	领取荣誉奖励	angelPark.AngelParkSocket	res_GetHonerAward	1	1
+7086	通知获得荣誉	angelPark.AngelParkSocket	res_UnlockHoner	1	1
+7087	拯救怪物，获取天使	HelpAngelsGetAngelSocket	res_helpAngelsGetAngelFun	1	1
+7089	拉取合成天使所需材料	angelsAndDemons.GetComposeMaterialSocket	res_getComposeMaterial	1	1
+7090	合成天使	angelsAndDemons.ComposeAngelSocket	res_composeAngel	1	1
+7092	灵萌巨树抓蝴蝶	LingMengTreeSocket	res_CatchHudie	1	1
+7100	啦啦队活动用户做动作	cheer.CheerSocket	res_CheerTeam	1	1
+7101	一轮结束通知包	cheer.CheerSocket	res_NotifyCheerEnd	1	1
+7102	查询啦啦队活动信息	cheer.CheerSocket	res_QueryTeamInfo	1	1
+7105	选择冠军猪	PigRunForwardSocket	res_ChoosePig	1	1
+7106	查看选择的猪是否是冠军猪	PigRunForwardSocket	res_GetGuessResult	1	1
+7107	领取猪猪向前冲奖励	PigRunForwardSocket	res_GetAwards	1	1
+8001	获取藏宝阁展示品数据	treasureHouse.TreasureHouseSocket	res_GetTreasureHouseInfo	1	1
+8002	获取藏宝阁(图鉴)信息	treasureHouse.TreasureHouseSocket	res_GetTreasureWareHouse	1	1
+8003	藏宝阁设定展示品	treasureHouse.TreasureHouseSocket	res_SetBooth	1	1
+8004	藏宝阁展品位置交换	treasureHouse.TreasureHouseSocket	res_ChangeBooth	1	1
+8005	藏宝阁好友信息	treasureHouse.TreasureHouseSocket	res_GetRankInfo	1	1
+8006	藏宝阁游客列表	treasureHouse.TreasureHouseSocket	res_GetGuestList	1	1
+8008	藏宝阁更改展示品方位	treasureHouse.TreasureHouseSocket	res_ChangeBoothState	1	1
+8021	挖宝，拉取当前地图信息	digTreasure.DigTreasureSocket	res_GetDigMapInfo	1	1
+8022	获取探险背包信息	digTreasure.DigTreasureSocket	res_GetBag	1	1
+8023	请求挖开一块区域	digTreasure.DigTreasureSocket	res_DigArea	1	1
+8024	请求拾取奖励	digTreasure.DigTreasureSocket	res_GetDigAward	1	1
+8025	请求使用道具	digTreasure.DigTreasureSocket	res_UseItem	1	1
+8027	请求同步体力值	digTreasure.DigTreasureSocket	res_SyncHp	1	1
+8028	挖矿随机给玩家物品	digTreasure.DigTreasureSocket	res_giftItem	1	1
+8040	愤怒的拉姆获取游戏信息	angryLamu.AngryLamuSocket	res_GetGameInfo	1	1
+8041	愤怒的拉姆提交通关数据	angryLamu.AngryLamuSocket	res_SubmitGameScore	1	1
+8065	时间囊写信	washa.WashaSocket	res_sendWirte	1	1
+8066	查看时间囊信件	washa.WashaSocket	res_lookWirte	1	1
+8067	时间囊埋物品	washa.WashaSocket	res_sendThing	1	1
+8068	查看时间囊取物品	washa.WashaSocket	res_getThing	1	1
+8069	查询今天时间囊可以取的信和物品的数量	washa.WashaSocket	res_lookCapsuleInfo	1	1
+8074	查看画册信息	album.GetAlbumBufferProtocol	decode	0	0
+8074	查看画册信息	album.GetAlbumBufferProtocol	decode	0	0
+8075	保存画册信息	album.SaveAlbumBufferProtocol	decode	0	0
+8075	保存画册信息	album.SaveAlbumBufferProtocol	decode	0	0
+8076	查看用户所有画册信息	album.GetIncredibleBookshelfProtocol	decode	0	0
+8076	查看用户所有画册信息	album.GetIncredibleBookshelfProtocol	decode	0	0
+8078	从好友家拿糖果	sweet.GetSweet	res_GetSweet	1	1
+8078	从好友家拿糖果	sweet.GetSweet	res_GetSweet	0	1
+8079	领取分享糖果奖励	sweet.GetPrize	res_GetSharePrize	0	1
+8079	领取分享糖果奖励	sweet.GetPrize	res_GetSharePrize	1	1
+8081	添加前端缓存数据	buffer.BufferSetProtocol	decode	0	0
+8082	查询前端缓存的数据	buffer.BufferGetProtocol	decode	0	0
+8083	拼接藏宝地图	dragonTreasure.ProtoAddMimeMapPiece	res_ProtoAddMimeMapPiece	1	1
+8084	获取已拼接地图碎片数据	dragonTreasure.GetMineMapPiecesCmd	res_GetMineMapPiecesCmd	1	1
+8085	获取寻宝机会	dragonTreasure.GetMineKeyChanceCmd	res_GetMineKeyChanceCmd	1	1
+8086	获取钥匙	dragonTreasure.GetMineMapKeyCmd	res_GetMineMapKeyCmd	1	1
+8087	查询可以获取的钥匙	dragonTreasure.QueryMineKeyChanceCmd	res_QueryMineKeyChanceCmd	1	1
+8088	查询是否可以领时间信息	dragonTreasure.QueryTimeCmd	res_QueryTimeCmd	1	1
+8089	拉取多个DateType信息	GetDateTypeInfoSocket	res_GetDateTypeInfo	1	1
+8090	寻找幸运儿	vipCompass.CheckVipCompassProtocol	decode	0	0
+8095	拉取VIP周连续登陆礼包信息	VIPWeeks.VIPWeeksLoginInfo	decodeData	1	1
+8096	领取连续登陆奖励物品	VIPWeeks.VIPWeeksLoginAnswer	decodeData	1	1
+8097	拉取周末连续登陆信息	weekGift.WeekGiftSocket	res_GetWeekendLoginInfo	1	1
+8098	抽取奖励	weekGift.WeekGiftSocket	res_GetWeekendLoginAward	1	1
+8100	进入蒙牛牧场	mengniu.MNsocket	res_inMN	1	1
+8101	蒙牛种植牧草	mengniu.MNsocket	res_seed	1	1
+8102	蒙牛玩家与奶牛互动	mengniu.MNsocket	res_niu	1	1
+8103	牛奶换奖励	mengniu.MNsocket	res_getMike	1	1
+8104	投票	clothReview2008.ClothReviewSocket	res_Vote	1	1
+8105	拉取投票信息	clothReview2008.ClothReviewSocket	res_GetVoteInfo	1	1
+8106	冰雪精灵龙强化	SnowLongEnhanceSocket	res_SnowLongEnhance	1	1
+8107	肥肥馆和分馆交换猪	pig.PigSocket	res_TmpHouseExchange	1	1
+8108	制造能量灌输仪	task461.Task461Socket	res_GetKey	1	1
+8109	开始或结束演讲	task462.Task462Socket	res_SpeechEnterOrLeave	1	1
+8110	查询谁在演讲	task462.Task462Socket	res_CheckSpeechUser	1	1
+8200	拉取基础属性	AngelFight.AngelFightExtenalSocket	res_GetUserInfo	1	1
+8201	拉取摩摩怪战斗背包	AngelFight.AngelFightExtenalSocket	res_GetBag	1	1
+8202	拉取技能	AngelFight.AngelFightExtenalSocket	res_GetSkill	1	1
+8203	拉取摩摩怪战斗卡册 	AngelFight.AngelFightExtenalSocket	res_GetCards	1	1
+8204	摩摩怪战斗使用道具 	AngelFight.AngelFightExtenalSocket	res_UseItem	1	1
+8205	摩摩怪战斗使用卡牌 	AngelFight.AngelFightExtenalSocket	res_UseCard	1	1
+8206	摩摩怪战斗技能升级 	AngelFight.AngelFightExtenalSocket	res_UpLevel	1	1
+8207	更换天使或装备 	AngelFight.AngelFightExtenalSocket	res_WearAngelAndEquip	1	1
+8208	摩摩怪战斗拉取所有好友信息 	AngelFight.AngelFightExtenalSocket	res_GetFriendsInfo	1	1
+8209	摩摩怪战斗拉取所有好友战斗状态 	AngelFight.AngelFightExtenalSocket	res_GetFriendsFightState	1	1
+8210	摩摩怪战斗拉取某一地图内所有关卡完成情况	AngelFight.AngelFightExtenalSocket	res_GetMapInfo	1	1
+8211	摩摩怪战斗拉取某一技能等级 	AngelFight.AngelFightExtenalSocket	res_GetSkillLevel	1	1
+8212	摩摩怪战斗校验用户是否可以翻牌	AngelFight.AngelFightExtenalSocket	res_GetGameOverCards	1	1
+8213	摩摩怪战斗用户翻牌	AngelFight.AngelFightExtenalSocket	res_SelectGameOverCard	1	1
+8214	摩摩怪战斗许愿获得收集品	AngelFight.AngelFightExtenalSocket	res_WishItem	1	1
+8215	摩摩怪战斗实现好友愿望	AngelFight.AngelFightExtenalSocket	res_ArchiveFriendWish	1	1
+8216	摩摩怪战斗当前许愿状态 	AngelFight.AngelFightExtenalSocket	res_GetWishState	1	1
+8217	摩摩怪战斗处理好友事件	AngelFight.AngelFightExtenalSocket	res_HandleFriendEvent	1	1
+8218	摩摩怪战斗拉取指定数量的好友对战信息	AngelFight.AngelFightExtenalSocket	res_GetFriendEvents	1	1
+8219	摩摩怪战斗拉取对战记录	AngelFight.AngelFightExtenalSocket	res_GetMessages	1	1
+8220	摩摩怪战斗领取许愿收集品	AngelFight.AngelFightExtenalSocket	res_GetWishAward	1	1
+8221	摩摩怪战斗拉取每日任务状态	AngelFight.AngelFightExtenalSocket	res_GetTaskState	1	1
+8222	摩摩怪战斗完成每日任务	AngelFight.AngelFightExtenalSocket	res_FinishTask	1	1
+8223	摩摩怪战斗刷新一个每日任务	AngelFight.AngelFightExtenalSocket	res_RefreshTask	1	1
+8224	拉取boss每天战斗情况	AngelFight.AngelFightExtenalSocket	res_GetChallengeCount	1	1
+8225	摩摩怪战斗拉取徒弟市场信息	AngelFight.AngelFightExtenalSocket	res_GetDiscipleMarket	1	1
+8226	摩摩怪战斗拉取师徒信息	AngelFight.AngelFightExtenalSocket	res_GetDiscipleMasterInfo	1	1
+8227	摩摩怪战斗判断是否可以收徒	AngelFight.AngelFightExtenalSocket	res_CheckCanAddDisciple	1	1
+8228	摩摩怪战斗拉取训练信息	AngelFight.AngelFightExtenalSocket	res_GetTrainingInfo	1	1
+8229	摩摩怪战斗训练徒弟	AngelFight.AngelFightExtenalSocket	res_Training	1	1
+8230	摩摩怪战斗逐出师门	AngelFight.AngelFightExtenalSocket	res_DeleteDisciple	1	1
+8231	摩摩怪战斗徒弟孝敬师傅（感谢金） 	AngelFight.AngelFightExtenalSocket	res_SendCashToMaster	1	1
+8232	摩摩怪战斗师傅领取感谢金	AngelFight.AngelFightExtenalSocket	res_GetCashFromDisciple	1	1
+8233	摩摩怪战斗背叛师门	AngelFight.AngelFightExtenalSocket	res_BetrayMaster	1	1
+8234	摩摩怪战斗出师	AngelFight.AngelFightExtenalSocket	res_OutMasterDoor	1	1
+8235	摩摩怪战斗师徒消息	AngelFight.AngelFightExtenalSocket	res_GetMasterAndDiscipleMsg	1	1
+8236	摩摩怪战斗收徒对战结束后，用户收徒弟	AngelFight.AngelFightExtenalSocket	res_FightEndAddDisciple	1	1
+8237	摩摩怪战斗拉取PVP对战次数及兑换记录	AngelFight.AngelFightExtenalSocket	res_GetPvpRecord	1	1
+8238	摩摩怪战斗PVP获胜次数兑换成就卡	AngelFight.AngelFightExtenalSocket	res_GetPvpAward	1	1
+8239	摩摩怪战斗 捐献卡片	AngelFight.AngelFightExtenalSocket	res_DonateCard	1	1
+8240	摩摩怪战斗 用捐献值兑换卡片	AngelFight.AngelFightExtenalSocket	res_ChangeCard	1	1
+8241	摩摩怪战斗 查询捐献值	AngelFight.AngelFightExtenalSocket	res_GetDonatePoint	1	1
+8250	猪倌 养猪场信息	pig.PigSocket	res_GetPigHouseInfo	1	1
+8251	猪倌 猪仔的详细信息	pig.PigSocket	res_GetPigInfo	1	1
+8252	获取指定玩家的可交配公猪信息	pig.PigSocket	res_GetFriendPig	1	1
+8253	猪倌 背包信息	pig.PigSocket	res_GetBag	1	1
+8255	猪倌 养猪	pig.PigSocket	res_AddPig	1	1
+8256	猪倌 喂食	pig.PigSocket	res_AddFood	1	1
+8257	猪倌 洗澡	pig.PigSocket	res_Bathe	1	1
+8258	猪倌 逗逗	pig.PigSocket	res_Tease	1	1
+8259	猪倌 训练	pig.PigSocket	res_Train	1	1
+8260	猪倌 设定名字	pig.PigSocket	res_ChangeName	1	1
+8261	猪倌 设定阵型	pig.PigSocket	res_SetTeam	1	1
+8262	猪倌 出售物品	pig.PigSocket	res_SellItem	1	1
+8263	母猪交配	pig.PigSocket	res_BreedPig	1	1
+8264	猪倌 升级通知	pig.PigSocket	res_UpLevel	1	1
+8265	猪倌 获取好友信息	pig.PigSocket	res_GetFriendsInfo	1	1
+8266	获取任务信息	pig.PigSocket	res_SelectTaskMsg	1	1
+8267	接任务	pig.PigSocket	res_AcceptTask	1	1
+8268	交任务	pig.PigSocket	res_OverTask	1	1
+8269	猪倌 获取公告牌信息	pig.PigSocket	res_GetNotice	1	1
+8270	生猪加工	pig.PigSocket	res_MachiningPig	1	1
+8271	猪倌 随机好运	pig.PigSocket	res_GetLuck	1	1
+8272	图鉴	pig.PigSocket	res_IllustratedHandbook	1	1
+8273	建筑升级	pig.PigSocket	res_BuildUpLevel	1	1
+8274	猪倌 使用道具	pig.PigSocket	res_UseItem	1	1
+8275	领取每日猪票	pig.PigSocket	res_GetPigTicket	1	1
+8277	猪倌 使用卡片	pig.PigSocket	res_UseCard	1	1
+8278	猪倌 获取卡片附加Buf	pig.PigSocket	res_GetCardBuffInfo	1	1
+8279	收集装扮领取猪	pig.PigSocket	res_ExchangePigByGoods	1	1
+8280	猪倌 设置背景	pig.PigSocket	res_SetBG	1	1
+8281	猪倌 跟随mole	pig.PigSocket	res_FollowMole	1	1
+8282	获取伸展台信息	pig.PigSocket	res_GetShowStageInfo	1	1
+8283	猪仔表演	pig.PigSocket	res_ShowPig	1	1
+8284	猪倌 拉取分馆信息	pig.PigSocket	res_GetTempHouseInfo	1	1
+8285	猪倌 转移猪到分馆	pig.PigSocket	res_SendToTempHouse	1	1
+8286	美美斗秀赛获得奖励	pig.PigSocket	res_BeautyMatchGetAward	1	1
+8287	美美斗秀赛查询昨天、今天及总的斗秀次数	pig.PigSocket	res_SelectBeautyDayAndAllCount	1	1
+8288	美美斗秀赛 主动通知 定时特定次数礼	pig.PigSocket	res_SpecialGiftBroadcast	1	1
+8289	美美斗秀赛 领取特殊礼包奖励	pig.PigSocket	res_GetSpecialGift	1	1
+8290	美美斗秀赛比赛结果	pig.PigSocket	res_GetBeautyMatchResult	1	1
+8291	查询斗秀赛成就状态	pig.PigSocket	res_GetAchieveState	1	1
+8292	领取斗秀赛成就奖励	pig.PigSocket	res_GetAchieveAwards	1	1
+8293	肥肥称重赛	pig.PigSocket	res_FatPigMatch	1	1
+8294	查询肥肥称重赛奖励领取状况	pig.PigSocket	res_GetFatMatchAwardsState	1	1
+8295	兑换超级猪仔	pig.PigSuperExchangeProtocol	decode	0	0
+8296	拉取所有解锁荣誉	pig.PigSocket	res_GetHasHonor	1	1
+8300	保存形象	bagView.SaveAvatarProtocol	decode	0	0
+8301	删除形象	bagView.DeleteAvatarProtocol	decode	0	0
+8302	获取形象列表	bagView.GetAvatarListProtocol	decode	0	0
+8320	获取vip 天使点亮信息	fox.GetVipAngelInfo	res_GetVipAngelInfo	1	1
+8321	使用vip天使兑换祥云九尾	fox.ExchangeVipAngel	res_ExchangeAngel	1	1
+8350	爱心天使捐献	charity.CharityDonateProtocol	decode		0
+8400	冬天和春天，攻击其他队伍玩家	winterAndSpring.WinterAndSpringSocket	res_AttackOtherTeamPeople	1	1
+8401	冬天和春天，拉取队伍热度	winterAndSpring.WinterAndSpringSocket	res_GetTeamHot	1	1
+8506	查询肥肥馆机械工坊信息	pig.PigSocket	res_SelectMachinistSquareInfo	1	1
+8507	派猪去探矿	pig.PigSocket	res_CutePigExplorMap	1	1
+8508	查询能量猪探矿信息	pig.PigSocket	res_SelectCutePigExplorInfo	1	1
+8509	能量猪炼矿	pig.PigSocket	res_PigLetMeltOre	1	1
+8510	机床零件加工	pig.PigSocket	res_ProduceMachinePart	1	1
+8511	完成熔炉或加工	pig.PigSocket	res_PigLetFinishWorl	1	1
+8513	机械工厂使用道具	pig.PigSocket	res_UserMachineGoods	1	1
+8514	获取新手步骤	pig.PigSocket	res_GetNewStep	1	1
+8515	设置新手步骤	pig.PigSocket	res_SetNewStep	1	1
+8516	查询任务	product.ProductSocket	res_QueryTask	1	1
+8517	接受任务	product.ProductSocket	res_AcceptTask	1	1
+8518	完成任务	product.ProductSocket	res_OverTask	1	1
+8519	生产熔炉和机床	pig.PigSocket	res_ProduceSpecialMachine	1	1
+8524	机械工厂随机掉物品	pig.PigSocket	res_MachineRandomGoods	1	1
+8525	保存装饰	kfc.KFCSaveDecorationProtocol	decode	0	0
+8526	查看装饰	kfc.KFCGetDecorationProtocol	decode	0	0
+8527	投票	kfc.KFCVoteProtocol	decode	0	0
+8528	今日寿星面板	kfc.KFCGetVoteProtocol	decode	0	0
+8529	召回探矿的猪仔	pig.PigSocket	res_TakeBackPig	1	1
+8530	制作生日蛋糕	molele.BirthdaySocket	res_MakeCake	1	1
+8531	发给自己蛋糕信息	molele.BirthdaySocket	res_GetInfoSin	1	1
+8532	制作蛋糕完成，获取奖励	molele.BirthdaySocket	res_GetAward	1	1
+8533	发给所有人蛋糕信息	molele.BirthdaySocket	res_GetInfoAll	1	1
+8534	参加水晶舞会	grayGirlActive.GrayGirlSocket	res_JoinDance	1	1
+8535	水晶斗舞，整个舞会现场信息	grayGirlActive.GrayGirlSocket	res_GetDancePartyInfo	1	1
+8536	领取舞会奖励	grayGirlActive.GrayGirlSocket	res_GetDancePartyAwards	1	1
+8537	舞会比赛名次结果	grayGirlActive.GrayGirlSocket	res_GetActiveResult	1	1
+8538	随机礼物	grayGirlActive.GrayGirlSocket	res_RandomGift	1	1
+8539	查询可否获得物品	grayGirlActive.GrayGirlSocket	res_GetGift	1	1
+8540	设置么么合照	house.HouseSocket	res_setMomoPhoto	1	1
+8541	取么么合照	house.HouseSocket	res_getMomoPhoto	1	1
+8542	查看活动完成度	grayGirlActive.GrayGirlSocket	res_Completion	1	1
+8543	投水弹	jack.JackSocket	res_ThrowWaterBall	1	1
+8544	广播树信息	jack.JackSocket	res_GetTreeInfo	1	1
+8548	掷骰子	dice.dickSocket	res_Chuck	1	1
+8549	礼花活动	LoginLibaoSocket	res_setDisplayShells	1	1
+8550	查询剩余时间	dice.dickSocket	res_GetChuckTime	1	1
+8551	查询是否解锁	LoginLibaoSocket	res_getInquiryInfo	1	1
+8552	制作潜艇奖励	makeSubmarine.makeSubmarineSocket	res_GetAwards	1	1
+8553	放飞小海马	SearchMermaid.SearchMermaidSocket	res_FlyHippo	1	1
+8557	抽超级拉姆查询剩余时间	dice.dickSocket	res_GetGetSuperLamuTime	1	1
+8560	人鱼国度查看阶段次数	dice.dickSocket	res_setCountryCmdEvent	1	1
+8561	人鱼国度查看阶段次数	dice.dickSocket	res_getCountryCmdEvent	1	1
+8564	查看个人小游戏信息	gameGroup.CheckGameInfoProtocol	decode	0	0
+8565	进入游戏大厅	gameGroup.GameEnterHallProtocol	decode	0	0
+8569	完成小游戏编号	gate.FinishGameNumberProtocol	decode	0	0
+8570	人鱼国度 结束 领奖励	gate.MermaidGetOverAwardProtocol	decode	0	0
+8571	游戏王，领取奖励	gameGroup.GameRankAward	decode	0	0
+8572	领取物品的状态	gameGroup.GameAwardState	decode	0	0
+8573	贴宣传单	summerAct.SummerSocket	res_GetPostData	1	1
+8574	查看木桶状态	summerAct.SummerSocket	res_GetWoodState	1	1
+8575	玩家扔水弹操作	summerAct.SummerSocket	res_ThrowWater	1	1
+8576	 扔水弹结束，掉出物品	summerAct.SummerSocket	res_ThrowOver	1	1
+8577	玩家捡起出物品	summerAct.SummerSocket	res_PickUp	1	1
+8578	查看摩天轮状态	wheel.WheelCheckStateProtocol	decode	0	0
+8579	玩家抢占位置	wheel.WheelSeizePointProtocol	decode	0	0
+8580	人数已满，开始转动	wheel.WheelStartTurnProtocol	decode	0	0
+8581	查询乐园游戏状态	wheel.CheckParadiseGameProtocol	decode	0	0
+8582	海底巨浪，换物品协议	summerAct.SummerSocket	res_SurgeExe	1	1
+8583	查看泡澡、舞台展示	summerAct.SummerSocket	res_GetBathInfo	1	1
+8584	进入海底乐园参与活动	summerAct.SummerSocket	res_EnterBath	1	1
+8585	增加玩家海底乐园基本属性	ice.IceBabyAddBaseAttributeProtocol	decode	0	0
+8586	查看玩家海底乐园，前二十魅力排名	ice.IceBabyCheckRankProtocol	decode	0	0
+8587	帕帕问答	temp.Map259Socket	res_papaQue	1	1
+8588	海底乐园，查看自己的基本属性	ice.IceBabyCheckSelfAttributeProtocol	decode	0	0
+8589	海底乐园，限时抽取大奖	summerAct.SummerSocket	res_Lottery	1	1
+8590	海底乐园，查看完成状态	ice.IceBabyCheckOverStateProtocol	decode	0	0
+8591	泡澡增加魅力值	summerAct.SummerSocket	res_AddGlamour	1	1
+8592	海底乐园， 查看暑假连续登陆礼包面板（8592）	gift.SummerLoginGiftCheckProtocol	decode	0	0
+8593	海底乐园，暑假连续登陆礼包， 领取奖励（8593	gift.SummerLoginGiftGetProtocol	decode	0	0
+8594	舞台投掷鲜花，鸡蛋	summerAct.SummerSocket	res_ThrowEggFlower	1	1
+8595	船面板，点亮按钮	summerAct.SummerSocket	res_GetLightInfo	1	1
+8596	船面板，领取大奖	summerAct.SummerSocket	res_GetBigPrize	1	1
+8597	查看摩尔星级	present.GetStarProtocol	decode	0	0
+8598	领取奖励	present.GetPresentProtocol	decode	0	0
+8599	查看已经邀请摩尔	present.InvitePrizeProtocol	decode	0	0
+8600	摩尔大使领取奖励	present.GetSummerTicketProtocol	decode	0	0
+8601	邀请摩尔成功	present.InviteSucProtocol	decode	0	0
+8602	领取海妖王宝藏	present.GetSirenTreasureProtocol	decode	0	0
+8603	关卡结束，增加经验	siren.AddExpProtocol	decode	0	0
+8604	开宝箱	siren.OpenBoxProtocol	decode	0	0
+8605	进入关卡	siren.EnterStageProtocol	decode	0	0
+8606	查询领取状态	summerAct.CheckSwapStateProtocol	decode	0	0
+8608	领取海妖服	siren.SirenGetClothProtocol	decode	0	0
+8609	查看可历练的海妖坐骑	siren.GetTrainInfoProtocol	decode	0	0
+8610	历练海妖坐骑	siren.TrainSirenProtocol	decode	0	0
+8611	喂食海妖坐骑	siren.FeedSirenProtocol	decode	0	0
+8612	拉取海底世界图鉴	siren.GetHandInfoProtocol	decode	0	0
+8613	偷好友贝壳币	siren.StealShellProtocol	decode	0	0
+8614	置位领取状态	summerAct.SettingSwapStateProtocol	decode	0	0
+8615	进入地图，查看礼炮状态，（8615）-- （地图广播）	siren.IrisSaluteCheckStateProtocol	decode	0	0
+8616	抢占发射礼包位置，（8616）	siren.IrisSaluteSeizeSiteProtocol	decode	0	0
+8617	摩尔领取礼包，（8617）	siren.IrisSaluteGetFireworksProtocol	decode	0	0
+8618	领取礼包后，头顶标识，（8618）--- 全服广播	siren.IrisSaluteBroadcastSignProtocol	decode	0	0
+8619	给玩家礼物  （8619）	siren.IrisSaluteGetGiftProtocol	decode	0	0
+8620	领取海妖坐骑	siren.GetMountProtocol	decode	0	0
+8621	建设酒店， 玩小游戏，提交分数（8621）	wineshop.WineshopBuildSubmitScoreProtocol	decode	0	0
+8622	建设酒店，查询小游戏已达分数（8622）	wineshop.WineshopBuildCheckScoreProtocol	decode	0	0
+8631	达到六十分，入学通知书领取（8631	teacherDay2012.TeacherDay2012GetClothProtocol	decode	0	0
+8632	酒店接待员站岗	dibi.BeginGuardProtocol	decode	0	0
+8633	酒店接待员退出站岗	dibi.StopGuardProtocol	decode	0	0
+8635	街头艺人，查看位置状态	vanice.SeatInfoProtocol	decode	0	0
+8636	街头艺人，抢占位置	vanice.RobSeatProtocol	decode	0	0
+8637	街头艺人，玩家捐献艺人摩尔豆	vanice.DonateBeanProtocol	decode	0	0
+8638	捐献艺人摩尔豆，--主动通知包（被捐献的玩家）	vanice.DonateCastProtocol	decode	0	0
+8639	街头艺人，扮演角色满8种，领取奖励 	vanice.GetNPCPrizeProtocol	decode	0	0
+8640	领取雅典娜套装 	AthenaGetClothSocket	decode	0	0
+8654	游戏王优化 --- 活跃度排行	gameGroup.GameAcListProtocol	decode	0	0
+8655	游戏王优化 --- 各个小游戏的活跃度	gameGroup.GameAcValueProtocol	decode	0	0
+8656	游戏王优化 --- 根据上周排名，领取奖励	gameGroup.GameGetBoxProtocol	decode	0	0
+8663	主活动变身舞会	harvest.HarvestPartyProtocol	decode	0	0
+8664	主活动跳竹竿舞	harvest.DanceGameProtocol	decode	0	0
+8676	守卫心中的和平，查询信息（8676）	defaultHeart.CheckInfoProtocol	decode	0	0
+8677	守卫心中的和平，刷新关卡领养状态(8677)	defaultHeart.RefreshStateProtocol	decode	0	0
+8678	守卫心中的和平，领养天使(8678)	defaultHeart.AdoptBabyProtocol	decode	0	0
+8679	扔瓶子(8679)	chat.SendDriftBottleProtocol	decode	0	0
+8680	拉取我发出的漂流瓶的回复(8680)	chat.ReplyMyBottleProtocol	decode	0	0
+8681	捡到别人发出的漂流瓶(8681)	chat.PickUpBottleProtocol	decode	0	0
+8682	回复漂流瓶(8682)  (没有返回)	chat.ReplyOthersBottleProtocol	decode	0	0
+8683	欢乐猜灯谜,进入地图（8683）	guessGame.GuessGameGoInMapProtocol	decode	0	0
+8684	欢乐猜灯谜,玩家猜灯谜选NPC	guessGame.GuessGameChooseProtocol	decode	0	0
+8685	欢乐猜灯谜，时间到公布灯谜答案（8685）	guessGame.GuessGameAnswerProtocol	decode	0	0
+8686	欢乐猜灯谜， 成功猜对灯谜玩家发放奖励（8686）	guessGame.GuessGameAwardProtocol	decode	0	0
+8687	墙来了，进入地图 (包括主动广播包)(8687)	wallComing.WallEnterMapProtocol	decode	0	0
+8688	墙来了，玩家选择站台位置 (8688)	wallComing.WallChoosePosProtocol	decode	0	0
+8689	墙来了, 玩家切换动作(8689)	wallComing.WallShiftActProtocol	decode	0	0
+8690	墙来了， 本轮游戏结束---发放奖励(主动广播)(8690)	wallComing.WallGainAwardProtocol	decode	0	0
+8691	墙来了， 游戏开始，结束(8691)	wallComing.WallStartOverProtocol	decode	0	0
+8692	向左向右， 进入地图（8692）	leftOrRight.EnterMapProtocol	decode	0	0
+8693	向左向右，玩家选择站台位置（8693）	leftOrRight.ChoosePosProtocol	decode	0	0
+8694	向左向右， 玩家指出当前方向（8694）	leftOrRight.ChooseFaceProtocol	decode	0	0
+8695	向左向右， 本轮游戏结束---发放奖励（8695）	leftOrRight.GameOverAwardProtocol	decode	0	0
+8696	向左向右， 游戏开始（8696）	leftOrRight.GameBeginInfoProtocol	decode	0	0
+8702	查看每天签到情况	dreamAttendanceBook.DreamAttendanceRes	dreamAttendance_8702_Res	1	1
+8703	领取累计签到礼包	dreamAttendanceBook.DreamAttendanceRes	dreamAttendance_8703_Res	1	1
+8704	快速补签	dreamAttendanceBook.DreamAttendanceRes	dreamAttendance_8704_Res	1	1
+8705	采摘波板糖(8705)	raimblowLoL.GetLollipopsProtocol	decode	0	0
+8706	波板糖交到小丑(8706)	raimblowLoL.PresentLollipopsProtocol	decode	0	0
+8707	满足条件70个，出现彩虹桥（(8707)	raimblowLoL.ShowRainblowProtocol	decode	0	0
+8708	进入彩虹桥地图，十分钟内领取物品(8708)	raimblowLoL.AwardLollipopsProtocol	decode	0	0
+8709	领礼物的次数(8709)	raimblowLoL.LollipopsGilfGettimesProtocol	decode	0	0
+8800	进入我的海洋	siren.SirenSocket	res_GetOceanInfo	1	1
+8801	将鱼苗放入海洋	siren.SirenSocket	res_PutAnimal	1	1
+8802	给鱼喂食	siren.SirenSocket	res_FeedAnimal	1	1
+8803	使用道具	siren.SirenSocket	res_UseTool	1	1
+8804	扩容	siren.ExpandProtocol	decode	0	0
+8804	海底扩容	siren.SirenSocket	res_ExpandOcean	1	1
+8805	拉取海底世界仓库	siren.SirenSocket	res_GetStorageInfo	1	1
+8806	装饰我的海底世界	siren.SirenSocket	res_PutDecorate	1	1
+8807	拉取宝箱贝壳	siren.SirenSocket	res_GetOfflineShells	1	1
+8808	在线掉贝壳	siren.SirenSocket	res_CheckOnlineShells	1	1
+8809	玩家捡起贝壳	siren.SirenSocket	res_PickOnlineShells	1	1
+8810	卖鱼	siren.SirenSocket	res_SellFish	1	1
+8811	购买	siren.SirenSocket	res_BuyThings	1	1
+8812	 查看过关情况	siren.SirenSocket	res_GetSaveInfo	1	1
+8813	保存当前过关	siren.SirenSocket	res_SetSaveInfo	1	1
+8814	获取图鉴信息	siren.SirenSocket	res_GetHandbook	1	1
+8815	得到好友信息	siren.SirenSocket	res_GetFriendList	1	1
+8816	使用声望领取物品	summerAct.SummerSocket	res_PropFetch	1	1
+8817	查看小游戏步骤	summerAct.SummerSocket	res_GetStep	1	1
+8819	查看，领取rk套装	cosplay.CosplaySocket	res_QueryRK	1	1
+8820	Cosplay大赛	cosplay.CosplaySocket	res_JoinCosplay	1	1
+8821	Cosplay大赛查询排行	cosplay.CosplaySocket	res_GetRankingList	1	1
+8822	Cosplay大赛前十奖励	cosplay.CosplaySocket	res_SelectIInTopTen	1	1
+8823	摩尔跳舞赞一下	TWSocket.MoleDanceSocket		1	1
+8824	摩尔人数	TWSocket.MoleDanceSocket	res_DancePeopleNum	1	1
+8825	获取给莲池浇水施肥的用户列表	SpecialGoodsSocket.lilypond.LilyPondListRes	parseBA		1
+8826	摘一个莲池果实	SpecialGoodsSocket.lilypond.LilyPondPickRes	parseBA		1
+8827	获取莲池信息	SpecialGoodsSocket.lilypond.LilyPondRes	parseBA		1
+8828	给莲池浇水施肥	SpecialGoodsSocket.lilypond.LilyPondWaterRes	parseBA		1
+8832	 祝福送vip	VIPWeeks.CheckGetVipDayProtocol	decode	0	0
+8833	开始经营酒店游戏（8833）	wineshop.WineStartGameProtocol	decode	0	0
+8834	经营酒店游戏结束（8834）	wineshop.WineOverGameProtocol	decode	0	0
+8835	酒店经营升级（8835）	wineshop.WineUpgradeProtocol	decode	0	0
+8840	 时报投票	award.NewsVoteProtocol	decode	0	0
+8841	进入或离开位置点（8841	momo.MomoBirthdayEnterLeaveProtocol	decode	0	0
+8842	通知游戏开始或结束（8842	momo.MomoBirthdayStartOverProtocol	decode	0	0
+8843	燃放烟火	momo.MomoBirthdayDeliverProtocol	decode	0	0
+8844	查询游戏参与用户信息（8844 	momo.MomoBirthdayCheckProtocol	decode	0	0
+8845	进入或离开位置点 （8845）	fightTree.FightTreeFightWorksProtocol	decode	0	0
+8846	查询游戏参与用户信息（8846）	fightTree.FightTreeCheckPeoinfProtocol	decode	0	0
+8847	位置全部站满（8847）	fightTree.FightTreeCheckFullProtocol	decode	0	0
+8848	梦境树怪boss状态（8848） 	fightTree.FightTreeBossStateProtocol	decode	0	0
+8849	梦境树怪和水弹boss状态（8849）	fightTree.FightTreeCheckGoodsInfProtocol	decode	0	0
+8850	梦境树怪发动大技能（8850）	fightTree.FightTreeUltProtocol	decode	0	0
+8851	主动通知水弹的数量（8851）	fightTree.FightTreeWaterBombProtocol	decode	0	0
+8852	完成smc职业关卡游戏 （8852）	jeweler.GameNewsProtocol	decode	0	0
+8853	查询smc经验（8853）	jeweler.SmcExperienceProtocol	decode	0	0
+8854	Smc游戏使用道具（8854）	jeweler.GameItemProtocol	decode	0	0
+8855	查询smc炼金师好友关卡分数排名（8855）	jeweler.GameFriendsProtocol	decode	0	0
+8856	散落的黑暗种子活动领取奖励(8856)	BlackSeedGetItemProtocol	decode	0	0
+8857	广播消息	BoardcastPopupMsgProtocol	decode	0	0
+8858	选彩蛋（8858）	luckyEgg.SelectEggProtocol	decode	0	0
+8859	查询选择彩蛋信息（8859）	luckyEgg.ReferEggProtocol	decode	0	0
+8860	查询当前幸运彩蛋（8860）	luckyEgg.CurrentEggProtocol	decode	0	0
+8861	领取彩蛋奖励（8861）	luckyEgg.GetEggPresentProtocol	decode	0	0
+8862	查询连续登陆信息(8862)	newYearLogin.GueryInfoProtocol	decode	0	0
+8863	领取连续登陆奖励(8863)	newYearLogin.GetPresentProtocol	decode	0	0
+8865	玩家主动秒杀(8865)	killCloth.BuyClothProtocol	decode	0	0
+8866	查询玩家秒杀信息(8866)	killCloth.CheckClothProtocol	decode	0	0
+8867	查询用户投票信息(8867)	vote.CheckVoteProtocol	decode	0	0
+8868	给用户作品投票（8868）	vote.CastVoteProtocol	decode	0	0
+8869	米币卡充值，领取奖励礼包(8869)	rechargeLogin.reLoginGetPresent	decode	0	0
+8874	20130201 – 20130221 时间内，抽奖（8874)	LotteryRollDailProtocol	decode	0	0
+8877	抽奖获得米币(8877)	LotteryRollMiBiProtocol	decode	0	0
+8878	 拿红包  	GetRedPacketProtocol	decode	0	0
+8880	查询用户上次登录的时间（8880）	PreLoginTimeProtocol	decode	0	0
+8881	 查询用户在线领奖情况	BatchPrizeSocket	decode	0	0
+8882	 邀请大使人数  	InvitePersonNumProtocol	decode	0	0
+8883	 邀请大使领取奖励的协议  	InvitePersonGiftProtocol	decode	0	0
+8884	设置爱之花信息(8884)	loveFlower.SetLoveFlowerInfoProtocol	decode	0	0
+8885	查询爱之花信息（8885）	loveFlower.SearchLoveFlowerInfoProtocol	decode	0	0
+8888	 给npc投票（8888）  	PollSucceedProtocol	decode	0	0
+8889	查询npc投票信息（8889）	ChooseCaptainProtocol	decode	0	0
+8890	 获取投票数量(8890)  	PollCountProtocol	decode	0	0
+8900	获取正能量和清cd时间	gainPositiveEnergyProtocol	decode	0	0
+8903	站上离开放烟火位置,全场景广播	fireGrand.EnterLeaveFirePlaceProtocol	decode	0	0
+8904	放烟火, 全场景广播 (8904)	fireGrand.SetOffFireProtocol	decode	0	0
+8905	查询烟火位置用户信息(8905)	fireGrand.QueryFireInfoProtocol	decode	0	0
+8906	查询颁奖(8906)	CeremonyProtocol	decode	0	0
+8914	投鲜花(8914)	chat.CastFlowerProtocol	decode	0	0
+8915	拉取鲜花排行榜(8915)	chat.FlowerRankListProtocol	decode	0	0
+8916	查看鲜花排行榜中的帖子信息(8916)	chat.FlowerListInfoProtocol	decode	0	0
+8918	见到的瓶子的回复信息(8918)	chat.BottleReplyInfoProtocol	decode	0	0
+10001	相同帐号登入强迫退出	com.core.socketlogic.noticeExit.NoticeExitRes	noticeExit		
+10003	文本通知	textNotice.TextNoticeRes	textNotice		
+10005	游戏开始	gameBegin.GameBeginRes	gamebegin		
+10006	游戏结束	gameOver.GameOverRes	gameover		
+10007	重定向到GameServer	enterGameServer.EnterGameServerRes	decode	0	0
+10008	场景道具变化	smc.scenceItemChang.ScenceItemChangRes	scenceItemChange		
+10009	获得小屋内有多少人	getRoomInfo.GetRoomPlayer	getDate		
+10011	时间问候	traffic.trafficRes	doAction	1	
+10012	判断并更新人物相关属性	RocExpliain.GetChangTypeRes	getType	1	
+10013	更新五项基本属性	RocExpliain.ExpChangRes	changback	1	1
+10015	被加入黑名单	addBlackList.AddBlackListRes	beAddBlackList		1
+10101	请求是否完成某件事	finishSomething.finishSomethingRes	decode		0
+10102	完成某件事后更新后台	finishSomething.finishedSomethingRes	parseBA		1
+10103	宠物相关	petSocket.keepPet.petKeepNumRes	parseBA		
+10104	查询某些东西的个数 	fireSport.sportJoin	res_GetExamine	1	1
+10104	拉取NPC总声望	ballot.TotalReputationSocket	getTotalReputationRes	1	1
+10201	对某向导投票	guidevote.GuideVoteResult	onVote	1	1
+10301	获取系统时间	getServerTimer.getServerTimerRes	parseServerTimer		
+10302	注册会员跳转页面session	vipSession.VipSessionRes	parseBA		
+10303	查看VIP信息	spareTimeVip.VipRes	vipResFunc	1	1
+10304	消费金豆更新超拉信息	callSuperLamu.CallSuperLamu	res_UpdateVipInfo	1	1
+11001	通过roc查看生日等信息是否提交	userSurvey.userBirthRes	parseBA		1
+11002	神奇密码	userSurvey.userSurveyRes	parseBA		1
+11003	提交神奇密码	AladdinPWD.AladdinPWDRes	parseBA		1
+11004	买实物玩具	buyToy.buyToyRes	doAction		1
+11009	通用状态标记	GetLimitStatus	decode		0
+11019	通用状态标记	GetBitbufStatus	decode		0
+11101	火神杯	fireCup.torch.TorchRes	torch		
+11102	火神杯??	fireCup.currentStatus.CurrentStatusRes	currentStatus		
+11103	火神杯??	fireCup.first.FirstRes	first		
+11104	火神杯??	fireCup.gold.GlodRes	gold		
+11105	火神杯??	fireCup.gold.GetGlod	getgoldReq		
+11120	通用状态标记	NewGetLimitStatus	decode		0
+11208	变成僵尸和蝙蝠	becomeCorpse.BecomeCorpseSocket	changeResult	1	
+11209	僵尸蝙蝠超时恢复	becomeCorpse.BecomeCorpseSocket	corpseRenew	1	
+11210	拿糖果	fetchSweet.FetchSweetRes	fetchSweetSuc	1	
+11211	获得金钥匙	getGoldKey.GetGoldKeyRes	getGoldKeySuc	1	
+40001	领摩尔豆	drawMoney.drawMoneyRes	doAction	1	
+60001	当前场景跷跷板状态	qqb.QQBResult	qqbStatus	1	
+60002	在跷跷板上移动	qqb.QQBResult	someOneMove	1	
+60003	某人加入跷跷板	qqb.QQBResult	someOneJoin	1	
+60006	当前小丑表演	perform.PerformReqAndRes	parseCurrentPerform	1	
+60007	表演的奖品	perform.PerformReqAndRes	parsePerformAward	1	
+60011	游戏结束告知玩家所得 	tryMachine.tryMachineSocket	res_MmofaAbcOverGetObj	1	1
+60012	游戏结束全场景广播下一题目 	tryMachine.tryMachineSocket	res_getScreenString	1	1
+60013	加入游戏前，查询游戏中人物信息	tryMachine.tryMachineSocket	res_getmofaAbc	1	1
+60014	游戏中离开 	tryMachine.tryMachineSocket	res_MofaAbcEffects	1	1
+60015	拉取圣诞树的状态 	tryMachine.tryMachineSocket	res_ChristTree	1	1
+60016	拉取理发座位信息	haircut.HaircutSocket	res_getBarbershopSit	1	0
+60018	食博会坐下离开位置	foodfestival.DownOrStandSocket	getSeatStateRes	1	1
+60019	食博会点亮位置	foodfestival.FoodFestivalSocket	getPositionRes	1	1
+60020	奖品	award.AwardRes	award	1	

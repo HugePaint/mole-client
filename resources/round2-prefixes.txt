@@ -1,0 +1,11 @@
+resource/activity/icon/
+resource/fitment/item/
+resource/flower/icon/
+resource/groupFightResource/pet/
+resource/item/cloth/icon/
+resource/item/throw/icon/
+resource/jobNpc/jobBookNPC/
+resource/newAngel/skillico/
+resource/newNpc/oneSide/
+resource/pet/head/
+resource/NPC/new_face/npc_

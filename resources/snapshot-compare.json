@@ -1,0 +1,3763 @@
+{
+  "generatedAt": "2026-10-04T19:36:56.564Z",
+  "snapshotCount": 32,
+  "perSnapshot": [
+    {
+      "date": "2014-5月30日",
+      "archive": "摩尔-2014-5月30日主要缓存.rar",
+      "fileCount": 22,
+      "totalBytes": 10417960
+    },
+    {
+      "date": "2014-6月6日",
+      "archive": "摩尔-2014-6月6日主要缓存.rar",
+      "fileCount": 25,
+      "totalBytes": 13342634
+    },
+    {
+      "date": "2014-6月13日",
+      "archive": "摩尔-2014-6月13日主要缓存.rar",
+      "fileCount": 22,
+      "totalBytes": 14648012
+    },
+    {
+      "date": "2014-6月20日",
+      "archive": "摩尔-2014-6月20日主要缓存.rar",
+      "fileCount": 22,
+      "totalBytes": 13398489
+    },
+    {
+      "date": "2014-6月27日",
+      "archive": "摩尔-2014-6月27日主要缓存.rar",
+      "fileCount": 23,
+      "totalBytes": 10657965
+    },
+    {
+      "date": "2014-7月4日",
+      "archive": "摩尔-2014-7月4日主要缓存.rar",
+      "fileCount": 25,
+      "totalBytes": 17603579
+    },
+    {
+      "date": "2014-7月11日",
+      "archive": "摩尔-2014-7月11日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 17187596
+    },
+    {
+      "date": "2014-7月18日",
+      "archive": "摩尔-2014-7月18日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 15999674
+    },
+    {
+      "date": "2014-7月25日",
+      "archive": "摩尔-2014-7月25日主要缓存.rar",
+      "fileCount": 21,
+      "totalBytes": 12809799
+    },
+    {
+      "date": "2014-8月1日",
+      "archive": "摩尔-2014-8月1日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 15114262
+    },
+    {
+      "date": "2014-8月8日",
+      "archive": "摩尔-2014-8月8日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 14391737
+    },
+    {
+      "date": "2014-8月15日",
+      "archive": "摩尔-2014-8月15日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 14154826
+    },
+    {
+      "date": "2014-8月22日",
+      "archive": "摩尔-2014-8月22日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 14489396
+    },
+    {
+      "date": "2014-8月29日",
+      "archive": "摩尔-2014-8月29日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 17471313
+    },
+    {
+      "date": "2014-9月5日",
+      "archive": "摩尔-2014-9月5日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 14187648
+    },
+    {
+      "date": "2014-9月12日",
+      "archive": "摩尔-2014-9月12日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 14111354
+    },
+    {
+      "date": "2014-9月19日",
+      "archive": "摩尔-2014-9月19日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 14795514
+    },
+    {
+      "date": "2014-9月26日",
+      "archive": "摩尔-2014-9月26日主要缓存.zip",
+      "fileCount": 24,
+      "totalBytes": 19327631
+    },
+    {
+      "date": "2014-10月3日",
+      "archive": "摩尔-2014-10月3日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 21628080
+    },
+    {
+      "date": "2014-10月10日",
+      "archive": "摩尔-2014-10月10日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 19018627
+    },
+    {
+      "date": "2014-10月17日",
+      "archive": "摩尔-2014-10月17日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 16430242
+    },
+    {
+      "date": "2014-10月24日",
+      "archive": "摩尔-2014-10月24日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 14961307
+    },
+    {
+      "date": "2014-10月31日",
+      "archive": "摩尔-2014-10月31日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 18006890
+    },
+    {
+      "date": "2014-11月7日",
+      "archive": "摩尔-2014-11月7日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 15059080
+    },
+    {
+      "date": "2014-11月14日",
+      "archive": "摩尔-2014-11月14日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 16751870
+    },
+    {
+      "date": "2014-11月21日",
+      "archive": "摩尔-2014-11月21日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 14764648
+    },
+    {
+      "date": "2014-11月28日",
+      "archive": "摩尔-2014-11月28日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 15834395
+    },
+    {
+      "date": "2014-12月5日",
+      "archive": "摩尔-2014-12月5日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 16308040
+    },
+    {
+      "date": "2014-12月12日",
+      "archive": "摩尔-2014-12月12日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 17498980
+    },
+    {
+      "date": "2014-12月19日",
+      "archive": "摩尔-2014-12月19日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 16822799
+    },
+    {
+      "date": "2014-12月26日",
+      "archive": "摩尔-2014-12月26日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 16284987
+    },
+    {
+      "date": "2015-1月2日",
+      "archive": "摩尔-2015-1月2日主要缓存.rar",
+      "fileCount": 24,
+      "totalBytes": 16687927
+    }
+  ],
+  "filesTracked": 52,
+  "rows": [
+    {
+      "name": "51moleInfo0.swf",
+      "appearances": 23,
+      "distinctVersions": 23,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 900354
+    },
+    {
+      "name": "ClientConfigDLL.swf",
+      "appearances": 23,
+      "distinctVersions": 23,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 891302
+    },
+    {
+      "name": "ClientAppDLL.swf",
+      "appearances": 23,
+      "distinctVersions": 22,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 1256786
+    },
+    {
+      "name": "ClientSocketDLL.swf",
+      "appearances": 23,
+      "distinctVersions": 22,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 213733
+    },
+    {
+      "name": "topUI.swf",
+      "appearances": 23,
+      "distinctVersions": 22,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 3238583
+    },
+    {
+      "name": "ClientCommonDLL.swf",
+      "appearances": 23,
+      "distinctVersions": 21,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 263528
+    },
+    {
+      "name": "randomMC.swf",
+      "appearances": 23,
+      "distinctVersions": 21,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 1136243
+    },
+    {
+      "name": "TaomeeCoreDLL.swf",
+      "appearances": 23,
+      "distinctVersions": 20,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 642046
+    },
+    {
+      "name": "Advertisement.swf",
+      "appearances": 23,
+      "distinctVersions": 19,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 357386
+    },
+    {
+      "name": "loadlerMC.swf",
+      "appearances": 23,
+      "distinctVersions": 15,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 29632
+    },
+    {
+      "name": "Login.swf",
+      "appearances": 23,
+      "distinctVersions": 10,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 2626335
+    },
+    {
+      "name": "LoginHome.swf",
+      "appearances": 23,
+      "distinctVersions": 10,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 728594
+    },
+    {
+      "name": "51moleInfo0[1].swf",
+      "appearances": 9,
+      "distinctVersions": 9,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 979367
+    },
+    {
+      "name": "ClientAppDLL[1].swf",
+      "appearances": 9,
+      "distinctVersions": 9,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 1228947
+    },
+    {
+      "name": "ClientCommonDLL[1].swf",
+      "appearances": 9,
+      "distinctVersions": 9,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 258811
+    },
+    {
+      "name": "ClientConfigDLL[1].swf",
+      "appearances": 9,
+      "distinctVersions": 9,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 831519
+    },
+    {
+      "name": "ClientSocketDLL[1].swf",
+      "appearances": 9,
+      "distinctVersions": 9,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 211510
+    },
+    {
+      "name": "TaomeeCoreDLL[1].swf",
+      "appearances": 9,
+      "distinctVersions": 9,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 627688
+    },
+    {
+      "name": "topUI[1].swf",
+      "appearances": 9,
+      "distinctVersions": 8,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 781236
+    },
+    {
+      "name": "Advertisement[1].swf",
+      "appearances": 8,
+      "distinctVersions": 8,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 1054930
+    },
+    {
+      "name": "randomMC[1].swf",
+      "appearances": 8,
+      "distinctVersions": 8,
+      "firstDate": "2014-6月6日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 845507
+    },
+    {
+      "name": "ui.swf",
+      "appearances": 23,
+      "distinctVersions": 7,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 2768779
+    },
+    {
+      "name": "loadlerMC[1].swf",
+      "appearances": 7,
+      "distinctVersions": 6,
+      "firstDate": "2014-6月6日",
+      "lastDate": "2014-7月18日",
+      "latestSize": 25658
+    },
+    {
+      "name": "main_resource.swf",
+      "appearances": 23,
+      "distinctVersions": 5,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 907344
+    },
+    {
+      "name": "LoginHome[1].swf",
+      "appearances": 9,
+      "distinctVersions": 5,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 709047
+    },
+    {
+      "name": "˵��.txt",
+      "appearances": 30,
+      "distinctVersions": 4,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 109
+    },
+    {
+      "name": "ui[1].swf",
+      "appearances": 9,
+      "distinctVersions": 4,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 2756093
+    },
+    {
+      "name": "NeverDisposePanel[1].swf",
+      "appearances": 8,
+      "distinctVersions": 3,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 3444
+    },
+    {
+      "name": "Login[1].swf",
+      "appearances": 8,
+      "distinctVersions": 2,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 1045288
+    },
+    {
+      "name": "1.swf",
+      "appearances": 23,
+      "distinctVersions": 1,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 28527
+    },
+    {
+      "name": "2.swf",
+      "appearances": 23,
+      "distinctVersions": 1,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 19104
+    },
+    {
+      "name": "AngelFight.swf",
+      "appearances": 23,
+      "distinctVersions": 1,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 13826
+    },
+    {
+      "name": "AnimalSkillControler.swf",
+      "appearances": 23,
+      "distinctVersions": 1,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 7974
+    },
+    {
+      "name": "index.swf",
+      "appearances": 23,
+      "distinctVersions": 1,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 486427
+    },
+    {
+      "name": "lib1.swf",
+      "appearances": 23,
+      "distinctVersions": 1,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 154665
+    },
+    {
+      "name": "Logo.swf",
+      "appearances": 23,
+      "distinctVersions": 1,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 11179
+    },
+    {
+      "name": "NeverDisposePanel.swf",
+      "appearances": 23,
+      "distinctVersions": 1,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 3444
+    },
+    {
+      "name": "Speaker.swf",
+      "appearances": 23,
+      "distinctVersions": 1,
+      "firstDate": "2014-8月1日",
+      "lastDate": "2015-1月2日",
+      "latestSize": 2027
+    },
+    {
+      "name": "AnimalSkillControler[1].swf",
+      "appearances": 9,
+      "distinctVersions": 1,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 7974
+    },
+    {
+      "name": "index[1].swf",
+      "appearances": 9,
+      "distinctVersions": 1,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 486427
+    },
+    {
+      "name": "Logo[1].swf",
+      "appearances": 9,
+      "distinctVersions": 1,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 11179
+    },
+    {
+      "name": "Speaker[1].swf",
+      "appearances": 9,
+      "distinctVersions": 1,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 2027
+    },
+    {
+      "name": "1[1].swf",
+      "appearances": 8,
+      "distinctVersions": 1,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 28527
+    },
+    {
+      "name": "2[1].swf",
+      "appearances": 8,
+      "distinctVersions": 1,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 19104
+    },
+    {
+      "name": "main_resource[1].swf",
+      "appearances": 8,
+      "distinctVersions": 1,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 907348
+    },
+    {
+      "name": "AngelFight[1].swf",
+      "appearances": 8,
+      "distinctVersions": 1,
+      "firstDate": "2014-6月6日",
+      "lastDate": "2014-7月25日",
+      "latestSize": 13826
+    },
+    {
+      "name": "lib1[1].swf",
+      "appearances": 7,
+      "distinctVersions": 1,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-7月18日",
+      "latestSize": 154665
+    },
+    {
+      "name": "o[1].swf",
+      "appearances": 2,
+      "distinctVersions": 1,
+      "firstDate": "2014-5月30日",
+      "lastDate": "2014-6月6日",
+      "latestSize": 157
+    },
+    {
+      "name": "MemeXiaJiaBuChangPanel[1].swf",
+      "appearances": 1,
+      "distinctVersions": 1,
+      "firstDate": "2014-6月20日",
+      "lastDate": "2014-6月20日",
+      "latestSize": 67336
+    },
+    {
+      "name": "299[3].swf",
+      "appearances": 1,
+      "distinctVersions": 1,
+      "firstDate": "2014-7月4日",
+      "lastDate": "2014-7月4日",
+      "latestSize": 2515060
+    },
+    {
+      "name": "299[2].swf",
+      "appearances": 1,
+      "distinctVersions": 1,
+      "firstDate": "2014-7月4日",
+      "lastDate": "2014-7月4日",
+      "latestSize": 5808
+    },
+    {
+      "name": "299[1].swf",
+      "appearances": 1,
+      "distinctVersions": 1,
+      "firstDate": "2014-7月4日",
+      "lastDate": "2014-7月4日",
+      "latestSize": 26136
+    }
+  ],
+  "perFileVersions": {
+    "1[1].swf": {
+      "2014-5月30日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-6月6日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-6月13日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-6月27日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-7月4日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-7月11日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-7月18日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-7月25日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      }
+    },
+    "2[1].swf": {
+      "2014-5月30日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-6月6日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-6月13日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-6月27日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-7月4日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-7月11日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-7月18日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-7月25日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      }
+    },
+    "51moleInfo0[1].swf": {
+      "2014-5月30日": {
+        "size": 963458,
+        "crc": "71170C7A"
+      },
+      "2014-6月6日": {
+        "size": 2007914,
+        "crc": "F3930496"
+      },
+      "2014-6月13日": {
+        "size": 693275,
+        "crc": "4D0048E6"
+      },
+      "2014-6月20日": {
+        "size": 927779,
+        "crc": "2615C304"
+      },
+      "2014-6月27日": {
+        "size": 857949,
+        "crc": "6A4A78AC"
+      },
+      "2014-7月4日": {
+        "size": 828924,
+        "crc": "58B34656"
+      },
+      "2014-7月11日": {
+        "size": 966104,
+        "crc": "9BA16BE9"
+      },
+      "2014-7月18日": {
+        "size": 1772879,
+        "crc": "BE99E37B"
+      },
+      "2014-7月25日": {
+        "size": 979367,
+        "crc": "ACB0B65B"
+      }
+    },
+    "Advertisement[1].swf": {
+      "2014-5月30日": {
+        "size": 659865,
+        "crc": "7ACD165D"
+      },
+      "2014-6月6日": {
+        "size": 894754,
+        "crc": "DAE622F9"
+      },
+      "2014-6月13日": {
+        "size": 441087,
+        "crc": "DF9F5835"
+      },
+      "2014-6月20日": {
+        "size": 305023,
+        "crc": "AD08C957"
+      },
+      "2014-7月4日": {
+        "size": 1959126,
+        "crc": "7620E8BF"
+      },
+      "2014-7月11日": {
+        "size": 2576900,
+        "crc": "2FF50A1F"
+      },
+      "2014-7月18日": {
+        "size": 3069042,
+        "crc": "BAFE66C5"
+      },
+      "2014-7月25日": {
+        "size": 1054930,
+        "crc": "DED57272"
+      }
+    },
+    "AnimalSkillControler[1].swf": {
+      "2014-5月30日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-6月6日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-6月13日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-6月20日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-6月27日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-7月4日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-7月11日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-7月18日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-7月25日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      }
+    },
+    "ClientAppDLL[1].swf": {
+      "2014-5月30日": {
+        "size": 1221168,
+        "crc": "FE38436A"
+      },
+      "2014-6月6日": {
+        "size": 1221548,
+        "crc": "4B1060BF"
+      },
+      "2014-6月13日": {
+        "size": 2626906,
+        "crc": "1C692BE9"
+      },
+      "2014-6月20日": {
+        "size": 2632289,
+        "crc": "9D5ED831"
+      },
+      "2014-6月27日": {
+        "size": 1218746,
+        "crc": "3688A279"
+      },
+      "2014-7月4日": {
+        "size": 2646341,
+        "crc": "B34E6B92"
+      },
+      "2014-7月11日": {
+        "size": 2644463,
+        "crc": "6AD34AFA"
+      },
+      "2014-7月18日": {
+        "size": 1227500,
+        "crc": "F777EC40"
+      },
+      "2014-7月25日": {
+        "size": 1228947,
+        "crc": "07A17202"
+      }
+    },
+    "ClientCommonDLL[1].swf": {
+      "2014-5月30日": {
+        "size": 250606,
+        "crc": "E60EF63B"
+      },
+      "2014-6月6日": {
+        "size": 250669,
+        "crc": "8AFAEA3D"
+      },
+      "2014-6月13日": {
+        "size": 428669,
+        "crc": "76F83C30"
+      },
+      "2014-6月20日": {
+        "size": 428864,
+        "crc": "A42A5277"
+      },
+      "2014-6月27日": {
+        "size": 251103,
+        "crc": "AC9504A8"
+      },
+      "2014-7月4日": {
+        "size": 430773,
+        "crc": "48510A0C"
+      },
+      "2014-7月11日": {
+        "size": 444467,
+        "crc": "987D5582"
+      },
+      "2014-7月18日": {
+        "size": 258975,
+        "crc": "DBF759B6"
+      },
+      "2014-7月25日": {
+        "size": 258811,
+        "crc": "A0B455C2"
+      }
+    },
+    "ClientConfigDLL[1].swf": {
+      "2014-5月30日": {
+        "size": 776699,
+        "crc": "95CCFCA4"
+      },
+      "2014-6月6日": {
+        "size": 777180,
+        "crc": "A753873E"
+      },
+      "2014-6月13日": {
+        "size": 808731,
+        "crc": "9E3FF074"
+      },
+      "2014-6月20日": {
+        "size": 794169,
+        "crc": "1014977C"
+      },
+      "2014-6月27日": {
+        "size": 782934,
+        "crc": "CF7263D0"
+      },
+      "2014-7月4日": {
+        "size": 888985,
+        "crc": "97133A01"
+      },
+      "2014-7月11日": {
+        "size": 821483,
+        "crc": "A06CC77B"
+      },
+      "2014-7月18日": {
+        "size": 820889,
+        "crc": "B89EE692"
+      },
+      "2014-7月25日": {
+        "size": 831519,
+        "crc": "8F5C1428"
+      }
+    },
+    "ClientSocketDLL[1].swf": {
+      "2014-5月30日": {
+        "size": 211000,
+        "crc": "136751FC"
+      },
+      "2014-6月6日": {
+        "size": 210995,
+        "crc": "37AEB672"
+      },
+      "2014-6月13日": {
+        "size": 517234,
+        "crc": "665F1C63"
+      },
+      "2014-6月20日": {
+        "size": 517234,
+        "crc": "5BEA5A03"
+      },
+      "2014-6月27日": {
+        "size": 210999,
+        "crc": "D6581E6B"
+      },
+      "2014-7月4日": {
+        "size": 517210,
+        "crc": "945E97FE"
+      },
+      "2014-7月11日": {
+        "size": 517939,
+        "crc": "92162DC6"
+      },
+      "2014-7月18日": {
+        "size": 211511,
+        "crc": "2EFE1E4E"
+      },
+      "2014-7月25日": {
+        "size": 211510,
+        "crc": "DD084A5B"
+      }
+    },
+    "index[1].swf": {
+      "2014-5月30日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-6月6日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-6月13日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-6月20日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-6月27日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-7月4日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-7月11日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-7月18日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-7月25日": {
+        "size": 486427,
+        "crc": "10279299"
+      }
+    },
+    "lib1[1].swf": {
+      "2014-5月30日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-6月6日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-6月13日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-6月20日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-6月27日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-7月11日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-7月18日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      }
+    },
+    "LoginHome[1].swf": {
+      "2014-5月30日": {
+        "size": 118396,
+        "crc": "4B7C7DFF"
+      },
+      "2014-6月6日": {
+        "size": 118396,
+        "crc": "4B7C7DFF"
+      },
+      "2014-6月13日": {
+        "size": 118927,
+        "crc": "19E4E0EC"
+      },
+      "2014-6月20日": {
+        "size": 118927,
+        "crc": "19E4E0EC"
+      },
+      "2014-6月27日": {
+        "size": 118927,
+        "crc": "19E4E0EC"
+      },
+      "2014-7月4日": {
+        "size": 701544,
+        "crc": "76195EEA"
+      },
+      "2014-7月11日": {
+        "size": 706940,
+        "crc": "67E8B358"
+      },
+      "2014-7月18日": {
+        "size": 706940,
+        "crc": "67E8B358"
+      },
+      "2014-7月25日": {
+        "size": 709047,
+        "crc": "DC30DA3C"
+      }
+    },
+    "Login[1].swf": {
+      "2014-5月30日": {
+        "size": 460614,
+        "crc": "350ECE9A"
+      },
+      "2014-6月6日": {
+        "size": 460614,
+        "crc": "350ECE9A"
+      },
+      "2014-6月13日": {
+        "size": 460614,
+        "crc": "350ECE9A"
+      },
+      "2014-6月20日": {
+        "size": 460614,
+        "crc": "350ECE9A"
+      },
+      "2014-6月27日": {
+        "size": 460614,
+        "crc": "350ECE9A"
+      },
+      "2014-7月11日": {
+        "size": 1045288,
+        "crc": "864DBDCE"
+      },
+      "2014-7月18日": {
+        "size": 1045288,
+        "crc": "864DBDCE"
+      },
+      "2014-7月25日": {
+        "size": 1045288,
+        "crc": "864DBDCE"
+      }
+    },
+    "Logo[1].swf": {
+      "2014-5月30日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-6月6日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-6月13日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-6月20日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-6月27日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-7月4日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-7月11日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-7月18日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-7月25日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      }
+    },
+    "main_resource[1].swf": {
+      "2014-5月30日": {
+        "size": 907348,
+        "crc": "5C569A47"
+      },
+      "2014-6月6日": {
+        "size": 907348,
+        "crc": "5C569A47"
+      },
+      "2014-6月20日": {
+        "size": 907348,
+        "crc": "5C569A47"
+      },
+      "2014-6月27日": {
+        "size": 907348,
+        "crc": "5C569A47"
+      },
+      "2014-7月4日": {
+        "size": 907348,
+        "crc": "5C569A47"
+      },
+      "2014-7月11日": {
+        "size": 907348,
+        "crc": "5C569A47"
+      },
+      "2014-7月18日": {
+        "size": 907348,
+        "crc": "5C569A47"
+      },
+      "2014-7月25日": {
+        "size": 907348,
+        "crc": "5C569A47"
+      }
+    },
+    "NeverDisposePanel[1].swf": {
+      "2014-5月30日": {
+        "size": 3309,
+        "crc": "CCB90F45"
+      },
+      "2014-6月6日": {
+        "size": 3367,
+        "crc": "080EDF90"
+      },
+      "2014-6月20日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-6月27日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-7月4日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-7月11日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-7月18日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-7月25日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      }
+    },
+    "o[1].swf": {
+      "2014-5月30日": {
+        "size": 157,
+        "crc": "9D701BE1"
+      },
+      "2014-6月6日": {
+        "size": 157,
+        "crc": "9D701BE1"
+      }
+    },
+    "Speaker[1].swf": {
+      "2014-5月30日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-6月6日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-6月13日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-6月20日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-6月27日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-7月4日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-7月11日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-7月18日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-7月25日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      }
+    },
+    "TaomeeCoreDLL[1].swf": {
+      "2014-5月30日": {
+        "size": 621556,
+        "crc": "368E239E"
+      },
+      "2014-6月6日": {
+        "size": 621552,
+        "crc": "73751F04"
+      },
+      "2014-6月13日": {
+        "size": 1091583,
+        "crc": "A8F9EFD7"
+      },
+      "2014-6月20日": {
+        "size": 1102804,
+        "crc": "FE45628F"
+      },
+      "2014-6月27日": {
+        "size": 627688,
+        "crc": "E050F8D7"
+      },
+      "2014-7月4日": {
+        "size": 1102802,
+        "crc": "BE1E9839"
+      },
+      "2014-7月11日": {
+        "size": 1102805,
+        "crc": "155E1B0A"
+      },
+      "2014-7月18日": {
+        "size": 627685,
+        "crc": "7E4FC6EA"
+      },
+      "2014-7月25日": {
+        "size": 627688,
+        "crc": "B2E839DC"
+      }
+    },
+    "topUI[1].swf": {
+      "2014-5月30日": {
+        "size": 784621,
+        "crc": "75FAAB65"
+      },
+      "2014-6月6日": {
+        "size": 783498,
+        "crc": "56922844"
+      },
+      "2014-6月13日": {
+        "size": 783498,
+        "crc": "56922844"
+      },
+      "2014-6月20日": {
+        "size": 665482,
+        "crc": "E0C5493D"
+      },
+      "2014-6月27日": {
+        "size": 684686,
+        "crc": "F2803AC5"
+      },
+      "2014-7月4日": {
+        "size": 677896,
+        "crc": "66C3F2C3"
+      },
+      "2014-7月11日": {
+        "size": 695612,
+        "crc": "FEE38BE3"
+      },
+      "2014-7月18日": {
+        "size": 738527,
+        "crc": "0212A1B3"
+      },
+      "2014-7月25日": {
+        "size": 781236,
+        "crc": "AFD2A1B2"
+      }
+    },
+    "ui[1].swf": {
+      "2014-5月30日": {
+        "size": 2729218,
+        "crc": "7C5C1CBC"
+      },
+      "2014-6月6日": {
+        "size": 2729218,
+        "crc": "7C5C1CBC"
+      },
+      "2014-6月13日": {
+        "size": 2729218,
+        "crc": "7C5C1CBC"
+      },
+      "2014-6月20日": {
+        "size": 2729218,
+        "crc": "7C5C1CBC"
+      },
+      "2014-6月27日": {
+        "size": 2729218,
+        "crc": "7C5C1CBC"
+      },
+      "2014-7月4日": {
+        "size": 2719360,
+        "crc": "01C8AE53"
+      },
+      "2014-7月11日": {
+        "size": 2714091,
+        "crc": "1CBDF205"
+      },
+      "2014-7月18日": {
+        "size": 2714091,
+        "crc": "1CBDF205"
+      },
+      "2014-7月25日": {
+        "size": 2756093,
+        "crc": "D9789F1C"
+      }
+    },
+    "˵��.txt": {
+      "2014-5月30日": {
+        "size": 42,
+        "crc": "D128FB6D"
+      },
+      "2014-6月6日": {
+        "size": 42,
+        "crc": "D128FB6D"
+      },
+      "2014-6月13日": {
+        "size": 94,
+        "crc": "E36A7CC8"
+      },
+      "2014-6月27日": {
+        "size": 94,
+        "crc": "E36A7CC8"
+      },
+      "2014-7月4日": {
+        "size": 94,
+        "crc": "E36A7CC8"
+      },
+      "2014-7月11日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-7月18日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-8月1日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-8月8日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-8月15日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-8月22日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-8月29日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-9月5日": {
+        "size": 121,
+        "crc": "B666D076"
+      },
+      "2014-9月12日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-9月19日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-9月26日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-10月3日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-10月10日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-10月17日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-10月24日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-10月31日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-11月7日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-11月14日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-11月21日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-11月28日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-12月5日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-12月12日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-12月19日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2014-12月26日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      },
+      "2015-1月2日": {
+        "size": 109,
+        "crc": "EF7E057C"
+      }
+    },
+    "AngelFight[1].swf": {
+      "2014-6月6日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-6月13日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-6月20日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-6月27日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-7月4日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-7月11日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-7月18日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-7月25日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      }
+    },
+    "loadlerMC[1].swf": {
+      "2014-6月6日": {
+        "size": 30568,
+        "crc": "9453FB41"
+      },
+      "2014-6月13日": {
+        "size": 145443,
+        "crc": "D4C8E955"
+      },
+      "2014-6月20日": {
+        "size": 215591,
+        "crc": "A539E5C8"
+      },
+      "2014-6月27日": {
+        "size": 27737,
+        "crc": "40DBF59C"
+      },
+      "2014-7月4日": {
+        "size": 27737,
+        "crc": "40DBF59C"
+      },
+      "2014-7月11日": {
+        "size": 39871,
+        "crc": "46994ACA"
+      },
+      "2014-7月18日": {
+        "size": 25658,
+        "crc": "40867554"
+      }
+    },
+    "randomMC[1].swf": {
+      "2014-6月6日": {
+        "size": 1601085,
+        "crc": "7E0934A5"
+      },
+      "2014-6月13日": {
+        "size": 3079004,
+        "crc": "70240C11"
+      },
+      "2014-6月20日": {
+        "size": 846269,
+        "crc": "9BDF7F37"
+      },
+      "2014-6月27日": {
+        "size": 1052749,
+        "crc": "F66244EA"
+      },
+      "2014-7月4日": {
+        "size": 1075927,
+        "crc": "9925924D"
+      },
+      "2014-7月11日": {
+        "size": 1277003,
+        "crc": "FB973B3B"
+      },
+      "2014-7月18日": {
+        "size": 1146059,
+        "crc": "6DE73EAA"
+      },
+      "2014-7月25日": {
+        "size": 845507,
+        "crc": "2C121390"
+      }
+    },
+    "MemeXiaJiaBuChangPanel[1].swf": {
+      "2014-6月20日": {
+        "size": 67336,
+        "crc": "4A72E8D4"
+      }
+    },
+    "299[3].swf": {
+      "2014-7月4日": {
+        "size": 2515060,
+        "crc": "44622208"
+      }
+    },
+    "299[2].swf": {
+      "2014-7月4日": {
+        "size": 5808,
+        "crc": "BB84CB92"
+      }
+    },
+    "299[1].swf": {
+      "2014-7月4日": {
+        "size": 26136,
+        "crc": "B91163E6"
+      }
+    },
+    "1.swf": {
+      "2014-8月1日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-8月8日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-8月15日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-8月22日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-8月29日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-9月5日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-9月12日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-9月19日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-9月26日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-10月3日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-10月10日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-10月17日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-10月24日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-10月31日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-11月7日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-11月14日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-11月21日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-11月28日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-12月5日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-12月12日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-12月19日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2014-12月26日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      },
+      "2015-1月2日": {
+        "size": 28527,
+        "crc": "091AFEAF"
+      }
+    },
+    "2.swf": {
+      "2014-8月1日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-8月8日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-8月15日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-8月22日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-8月29日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-9月5日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-9月12日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-9月19日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-9月26日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-10月3日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-10月10日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-10月17日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-10月24日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-10月31日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-11月7日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-11月14日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-11月21日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-11月28日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-12月5日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-12月12日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-12月19日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2014-12月26日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      },
+      "2015-1月2日": {
+        "size": 19104,
+        "crc": "24F5F57E"
+      }
+    },
+    "51moleInfo0.swf": {
+      "2014-8月1日": {
+        "size": 986872,
+        "crc": "AA358EFB"
+      },
+      "2014-8月8日": {
+        "size": 992827,
+        "crc": "FD7E3A22"
+      },
+      "2014-8月15日": {
+        "size": 732371,
+        "crc": "4754B282"
+      },
+      "2014-8月22日": {
+        "size": 665737,
+        "crc": "8942DED5"
+      },
+      "2014-8月29日": {
+        "size": 566876,
+        "crc": "1C9C32D1"
+      },
+      "2014-9月5日": {
+        "size": 663976,
+        "crc": "AF04265C"
+      },
+      "2014-9月12日": {
+        "size": 712251,
+        "crc": "CB66EFC6"
+      },
+      "2014-9月19日": {
+        "size": 738459,
+        "crc": "757E25B0"
+      },
+      "2014-9月26日": {
+        "size": 861776,
+        "crc": "C142104C"
+      },
+      "2014-10月3日": {
+        "size": 676240,
+        "crc": "CD581100"
+      },
+      "2014-10月10日": {
+        "size": 797997,
+        "crc": "81A87CDC"
+      },
+      "2014-10月17日": {
+        "size": 523918,
+        "crc": "17443D8D"
+      },
+      "2014-10月24日": {
+        "size": 454038,
+        "crc": "55CB8219"
+      },
+      "2014-10月31日": {
+        "size": 500582,
+        "crc": "D064ED61"
+      },
+      "2014-11月7日": {
+        "size": 546937,
+        "crc": "D7A2EF7A"
+      },
+      "2014-11月14日": {
+        "size": 493838,
+        "crc": "B0D9BEB2"
+      },
+      "2014-11月21日": {
+        "size": 446885,
+        "crc": "EA6151FF"
+      },
+      "2014-11月28日": {
+        "size": 652414,
+        "crc": "958F1788"
+      },
+      "2014-12月5日": {
+        "size": 592205,
+        "crc": "683124A7"
+      },
+      "2014-12月12日": {
+        "size": 1727710,
+        "crc": "1854378E"
+      },
+      "2014-12月19日": {
+        "size": 1779635,
+        "crc": "8EB982CC"
+      },
+      "2014-12月26日": {
+        "size": 497456,
+        "crc": "08DF77B4"
+      },
+      "2015-1月2日": {
+        "size": 900354,
+        "crc": "94CB58C0"
+      }
+    },
+    "Advertisement.swf": {
+      "2014-8月1日": {
+        "size": 1932729,
+        "crc": "0B2239F0"
+      },
+      "2014-8月8日": {
+        "size": 1895771,
+        "crc": "DF05A768"
+      },
+      "2014-8月15日": {
+        "size": 1860858,
+        "crc": "FA193F7F"
+      },
+      "2014-8月22日": {
+        "size": 1925326,
+        "crc": "BF2D46C8"
+      },
+      "2014-8月29日": {
+        "size": 2371174,
+        "crc": "C0194E57"
+      },
+      "2014-9月5日": {
+        "size": 647460,
+        "crc": "469ADD04"
+      },
+      "2014-9月12日": {
+        "size": 500151,
+        "crc": "451339E0"
+      },
+      "2014-9月19日": {
+        "size": 500151,
+        "crc": "451339E0"
+      },
+      "2014-9月26日": {
+        "size": 500151,
+        "crc": "451339E0"
+      },
+      "2014-10月3日": {
+        "size": 614400,
+        "crc": "11961A13"
+      },
+      "2014-10月10日": {
+        "size": 473432,
+        "crc": "8CA74B11"
+      },
+      "2014-10月17日": {
+        "size": 689993,
+        "crc": "81858F3B"
+      },
+      "2014-10月24日": {
+        "size": 689993,
+        "crc": "81858F3B"
+      },
+      "2014-10月31日": {
+        "size": 938094,
+        "crc": "4FDD6587"
+      },
+      "2014-11月7日": {
+        "size": 1077366,
+        "crc": "0BE43288"
+      },
+      "2014-11月14日": {
+        "size": 1692475,
+        "crc": "8FA81402"
+      },
+      "2014-11月21日": {
+        "size": 843518,
+        "crc": "E27FDCC8"
+      },
+      "2014-11月28日": {
+        "size": 806692,
+        "crc": "A7D4135D"
+      },
+      "2014-12月5日": {
+        "size": 162307,
+        "crc": "A9846549"
+      },
+      "2014-12月12日": {
+        "size": 709906,
+        "crc": "EDB170CC"
+      },
+      "2014-12月19日": {
+        "size": 413417,
+        "crc": "AB1828C5"
+      },
+      "2014-12月26日": {
+        "size": 357386,
+        "crc": "C5AB6D53"
+      },
+      "2015-1月2日": {
+        "size": 357386,
+        "crc": "C5AB6D53"
+      }
+    },
+    "AngelFight.swf": {
+      "2014-8月1日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-8月8日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-8月15日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-8月22日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-8月29日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-9月5日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-9月12日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-9月19日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-9月26日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-10月3日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-10月10日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-10月17日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-10月24日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-10月31日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-11月7日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-11月14日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-11月21日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-11月28日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-12月5日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-12月12日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-12月19日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2014-12月26日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      },
+      "2015-1月2日": {
+        "size": 13826,
+        "crc": "2EE77F57"
+      }
+    },
+    "AnimalSkillControler.swf": {
+      "2014-8月1日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-8月8日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-8月15日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-8月22日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-8月29日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-9月5日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-9月12日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-9月19日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-9月26日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-10月3日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-10月10日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-10月17日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-10月24日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-10月31日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-11月7日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-11月14日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-11月21日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-11月28日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-12月5日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-12月12日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-12月19日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2014-12月26日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      },
+      "2015-1月2日": {
+        "size": 7974,
+        "crc": "A2C25290"
+      }
+    },
+    "ClientAppDLL.swf": {
+      "2014-8月1日": {
+        "size": 1232996,
+        "crc": "39E478F9"
+      },
+      "2014-8月8日": {
+        "size": 1232476,
+        "crc": "FE47236A"
+      },
+      "2014-8月15日": {
+        "size": 1233409,
+        "crc": "A0F48AB7"
+      },
+      "2014-8月22日": {
+        "size": 1234644,
+        "crc": "7D36EB8C"
+      },
+      "2014-8月29日": {
+        "size": 1236518,
+        "crc": "086D9A2B"
+      },
+      "2014-9月5日": {
+        "size": 1236800,
+        "crc": "42C1B291"
+      },
+      "2014-9月12日": {
+        "size": 1237160,
+        "crc": "4AFCA897"
+      },
+      "2014-9月19日": {
+        "size": 1239293,
+        "crc": "F40CFBE6"
+      },
+      "2014-9月26日": {
+        "size": 1244627,
+        "crc": "A2F1215E"
+      },
+      "2014-10月3日": {
+        "size": 2688865,
+        "crc": "01ED9B86"
+      },
+      "2014-10月10日": {
+        "size": 1247510,
+        "crc": "5A0249BC"
+      },
+      "2014-10月17日": {
+        "size": 1249459,
+        "crc": "F4EFB836"
+      },
+      "2014-10月24日": {
+        "size": 1250451,
+        "crc": "4A9DBF2C"
+      },
+      "2014-10月31日": {
+        "size": 1252199,
+        "crc": "C74993E8"
+      },
+      "2014-11月7日": {
+        "size": 1254553,
+        "crc": "56D63496"
+      },
+      "2014-11月14日": {
+        "size": 1254561,
+        "crc": "42395F8F"
+      },
+      "2014-11月21日": {
+        "size": 1256110,
+        "crc": "E6D5948B"
+      },
+      "2014-11月28日": {
+        "size": 1256064,
+        "crc": "9D9B2660"
+      },
+      "2014-12月5日": {
+        "size": 1255793,
+        "crc": "1BFC0F77"
+      },
+      "2014-12月12日": {
+        "size": 1255951,
+        "crc": "A0B31708"
+      },
+      "2014-12月19日": {
+        "size": 1255950,
+        "crc": "11339F60"
+      },
+      "2014-12月26日": {
+        "size": 1256786,
+        "crc": "34F951FE"
+      },
+      "2015-1月2日": {
+        "size": 1256786,
+        "crc": "34F951FE"
+      }
+    },
+    "ClientCommonDLL.swf": {
+      "2014-8月1日": {
+        "size": 259074,
+        "crc": "5B237DD4"
+      },
+      "2014-8月8日": {
+        "size": 259812,
+        "crc": "AF9E7A88"
+      },
+      "2014-8月15日": {
+        "size": 259955,
+        "crc": "FB4C7A82"
+      },
+      "2014-8月22日": {
+        "size": 446504,
+        "crc": "E0D18878"
+      },
+      "2014-8月29日": {
+        "size": 446585,
+        "crc": "F7411402"
+      },
+      "2014-9月5日": {
+        "size": 260653,
+        "crc": "374D1189"
+      },
+      "2014-9月12日": {
+        "size": 260828,
+        "crc": "20295F7B"
+      },
+      "2014-9月19日": {
+        "size": 261049,
+        "crc": "74A7346C"
+      },
+      "2014-9月26日": {
+        "size": 448166,
+        "crc": "9BC1ED06"
+      },
+      "2014-10月3日": {
+        "size": 448763,
+        "crc": "47BA276A"
+      },
+      "2014-10月10日": {
+        "size": 261817,
+        "crc": "562A97A7"
+      },
+      "2014-10月17日": {
+        "size": 262014,
+        "crc": "2FD9D018"
+      },
+      "2014-10月24日": {
+        "size": 262547,
+        "crc": "63C68382"
+      },
+      "2014-10月31日": {
+        "size": 263032,
+        "crc": "3564C66C"
+      },
+      "2014-11月7日": {
+        "size": 263266,
+        "crc": "19E76FEF"
+      },
+      "2014-11月14日": {
+        "size": 263311,
+        "crc": "BFC0A9F3"
+      },
+      "2014-11月21日": {
+        "size": 263463,
+        "crc": "772AFB02"
+      },
+      "2014-11月28日": {
+        "size": 263454,
+        "crc": "6FBCD29C"
+      },
+      "2014-12月5日": {
+        "size": 263453,
+        "crc": "0C47B570"
+      },
+      "2014-12月12日": {
+        "size": 263454,
+        "crc": "C9498A1C"
+      },
+      "2014-12月19日": {
+        "size": 263454,
+        "crc": "C9498A1C"
+      },
+      "2014-12月26日": {
+        "size": 263528,
+        "crc": "B6AF2433"
+      },
+      "2015-1月2日": {
+        "size": 263528,
+        "crc": "B6AF2433"
+      }
+    },
+    "ClientConfigDLL.swf": {
+      "2014-8月1日": {
+        "size": 839268,
+        "crc": "8D64CC6D"
+      },
+      "2014-8月8日": {
+        "size": 843957,
+        "crc": "43AB229B"
+      },
+      "2014-8月15日": {
+        "size": 848224,
+        "crc": "7E93BE13"
+      },
+      "2014-8月22日": {
+        "size": 859259,
+        "crc": "7E5C14F3"
+      },
+      "2014-8月29日": {
+        "size": 856939,
+        "crc": "01D0F3D6"
+      },
+      "2014-9月5日": {
+        "size": 854518,
+        "crc": "2903E3FF"
+      },
+      "2014-9月12日": {
+        "size": 859096,
+        "crc": "AC84FC0D"
+      },
+      "2014-9月19日": {
+        "size": 868267,
+        "crc": "8ABEBEF2"
+      },
+      "2014-9月26日": {
+        "size": 876910,
+        "crc": "B159C86F"
+      },
+      "2014-10月3日": {
+        "size": 716800,
+        "crc": "45AA79AB"
+      },
+      "2014-10月10日": {
+        "size": 878058,
+        "crc": "B34BD44D"
+      },
+      "2014-10月17日": {
+        "size": 881500,
+        "crc": "116C6B94"
+      },
+      "2014-10月24日": {
+        "size": 882645,
+        "crc": "0CC95FCF"
+      },
+      "2014-10月31日": {
+        "size": 886690,
+        "crc": "35ED7070"
+      },
+      "2014-11月7日": {
+        "size": 887686,
+        "crc": "304A1B2F"
+      },
+      "2014-11月14日": {
+        "size": 888211,
+        "crc": "BE5E5942"
+      },
+      "2014-11月21日": {
+        "size": 889785,
+        "crc": "7BECBF3F"
+      },
+      "2014-11月28日": {
+        "size": 890192,
+        "crc": "FE4A78B9"
+      },
+      "2014-12月5日": {
+        "size": 890408,
+        "crc": "911B1D48"
+      },
+      "2014-12月12日": {
+        "size": 890427,
+        "crc": "DDB096B5"
+      },
+      "2014-12月19日": {
+        "size": 892740,
+        "crc": "36482C7E"
+      },
+      "2014-12月26日": {
+        "size": 891260,
+        "crc": "6A971C4D"
+      },
+      "2015-1月2日": {
+        "size": 891302,
+        "crc": "962ADE20"
+      }
+    },
+    "ClientSocketDLL.swf": {
+      "2014-8月1日": {
+        "size": 211512,
+        "crc": "48EBA42C"
+      },
+      "2014-8月8日": {
+        "size": 211646,
+        "crc": "B57189BC"
+      },
+      "2014-8月15日": {
+        "size": 211737,
+        "crc": "DC0D47DE"
+      },
+      "2014-8月22日": {
+        "size": 211737,
+        "crc": "5E777450"
+      },
+      "2014-8月29日": {
+        "size": 519988,
+        "crc": "B3BA7889"
+      },
+      "2014-9月5日": {
+        "size": 212158,
+        "crc": "87D76EFB"
+      },
+      "2014-9月12日": {
+        "size": 212180,
+        "crc": "8F8C3326"
+      },
+      "2014-9月19日": {
+        "size": 212652,
+        "crc": "7F8F3F78"
+      },
+      "2014-9月26日": {
+        "size": 520948,
+        "crc": "FA57E300"
+      },
+      "2014-10月3日": {
+        "size": 520924,
+        "crc": "22BBF76E"
+      },
+      "2014-10月10日": {
+        "size": 212660,
+        "crc": "29B19BA6"
+      },
+      "2014-10月17日": {
+        "size": 212717,
+        "crc": "C6B02D23"
+      },
+      "2014-10月24日": {
+        "size": 212958,
+        "crc": "431B2079"
+      },
+      "2014-10月31日": {
+        "size": 213573,
+        "crc": "19B249B2"
+      },
+      "2014-11月7日": {
+        "size": 213730,
+        "crc": "5A901332"
+      },
+      "2014-11月14日": {
+        "size": 213732,
+        "crc": "5025B628"
+      },
+      "2014-11月21日": {
+        "size": 213734,
+        "crc": "E8BF4F50"
+      },
+      "2014-11月28日": {
+        "size": 213732,
+        "crc": "57CE22BD"
+      },
+      "2014-12月5日": {
+        "size": 213730,
+        "crc": "84272415"
+      },
+      "2014-12月12日": {
+        "size": 213734,
+        "crc": "67C57967"
+      },
+      "2014-12月19日": {
+        "size": 213734,
+        "crc": "CDB0A314"
+      },
+      "2014-12月26日": {
+        "size": 213733,
+        "crc": "741BC4C6"
+      },
+      "2015-1月2日": {
+        "size": 213733,
+        "crc": "741BC4C6"
+      }
+    },
+    "index.swf": {
+      "2014-8月1日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-8月8日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-8月15日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-8月22日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-8月29日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-9月5日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-9月12日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-9月19日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-9月26日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-10月3日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-10月10日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-10月17日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-10月24日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-10月31日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-11月7日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-11月14日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-11月21日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-11月28日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-12月5日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-12月12日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-12月19日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2014-12月26日": {
+        "size": 486427,
+        "crc": "10279299"
+      },
+      "2015-1月2日": {
+        "size": 486427,
+        "crc": "10279299"
+      }
+    },
+    "lib1.swf": {
+      "2014-8月1日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-8月8日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-8月15日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-8月22日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-8月29日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-9月5日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-9月12日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-9月19日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-9月26日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-10月3日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-10月10日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-10月17日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-10月24日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-10月31日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-11月7日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-11月14日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-11月21日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-11月28日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-12月5日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-12月12日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-12月19日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2014-12月26日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      },
+      "2015-1月2日": {
+        "size": 154665,
+        "crc": "92E8A219"
+      }
+    },
+    "loadlerMC.swf": {
+      "2014-8月1日": {
+        "size": 23190,
+        "crc": "BAC52A43"
+      },
+      "2014-8月8日": {
+        "size": 30960,
+        "crc": "0F366EE1"
+      },
+      "2014-8月15日": {
+        "size": 37464,
+        "crc": "DC5A714B"
+      },
+      "2014-8月22日": {
+        "size": 26802,
+        "crc": "A2942057"
+      },
+      "2014-8月29日": {
+        "size": 19503,
+        "crc": "84BEE8ED"
+      },
+      "2014-9月5日": {
+        "size": 144899,
+        "crc": "3CF2859A"
+      },
+      "2014-9月12日": {
+        "size": 19856,
+        "crc": "8789ABEF"
+      },
+      "2014-9月19日": {
+        "size": 52734,
+        "crc": "3B1016EC"
+      },
+      "2014-9月26日": {
+        "size": 684600,
+        "crc": "485607ED"
+      },
+      "2014-10月3日": {
+        "size": 20438,
+        "crc": "57F24F95"
+      },
+      "2014-10月10日": {
+        "size": 36227,
+        "crc": "E6386990"
+      },
+      "2014-10月17日": {
+        "size": 36227,
+        "crc": "E6386990"
+      },
+      "2014-10月24日": {
+        "size": 21768,
+        "crc": "33E7267D"
+      },
+      "2014-10月31日": {
+        "size": 19843,
+        "crc": "5FC8B866"
+      },
+      "2014-11月7日": {
+        "size": 19302,
+        "crc": "1652A0FE"
+      },
+      "2014-11月14日": {
+        "size": 19302,
+        "crc": "1652A0FE"
+      },
+      "2014-11月21日": {
+        "size": 29632,
+        "crc": "4BBDD446"
+      },
+      "2014-11月28日": {
+        "size": 29632,
+        "crc": "4BBDD446"
+      },
+      "2014-12月5日": {
+        "size": 29632,
+        "crc": "4BBDD446"
+      },
+      "2014-12月12日": {
+        "size": 29632,
+        "crc": "4BBDD446"
+      },
+      "2014-12月19日": {
+        "size": 29632,
+        "crc": "4BBDD446"
+      },
+      "2014-12月26日": {
+        "size": 29632,
+        "crc": "4BBDD446"
+      },
+      "2015-1月2日": {
+        "size": 29632,
+        "crc": "4BBDD446"
+      }
+    },
+    "Login.swf": {
+      "2014-8月1日": {
+        "size": 1055931,
+        "crc": "F1188930"
+      },
+      "2014-8月8日": {
+        "size": 1057785,
+        "crc": "FF8B0657"
+      },
+      "2014-8月15日": {
+        "size": 1058509,
+        "crc": "A9A4F5F5"
+      },
+      "2014-8月22日": {
+        "size": 1060246,
+        "crc": "0C5B5583"
+      },
+      "2014-8月29日": {
+        "size": 2601786,
+        "crc": "25BD9701"
+      },
+      "2014-9月5日": {
+        "size": 2601786,
+        "crc": "25BD9701"
+      },
+      "2014-9月12日": {
+        "size": 2601786,
+        "crc": "25BD9701"
+      },
+      "2014-9月19日": {
+        "size": 2607783,
+        "crc": "CB8CCFB2"
+      },
+      "2014-9月26日": {
+        "size": 2607783,
+        "crc": "CB8CCFB2"
+      },
+      "2014-10月3日": {
+        "size": 2609179,
+        "crc": "F20F632C"
+      },
+      "2014-10月10日": {
+        "size": 2614060,
+        "crc": "CE3A098E"
+      },
+      "2014-10月17日": {
+        "size": 2614424,
+        "crc": "876493A8"
+      },
+      "2014-10月24日": {
+        "size": 2614424,
+        "crc": "876493A8"
+      },
+      "2014-10月31日": {
+        "size": 2614424,
+        "crc": "876493A8"
+      },
+      "2014-11月7日": {
+        "size": 2626335,
+        "crc": "64CAC5D0"
+      },
+      "2014-11月14日": {
+        "size": 2626335,
+        "crc": "64CAC5D0"
+      },
+      "2014-11月21日": {
+        "size": 2626335,
+        "crc": "64CAC5D0"
+      },
+      "2014-11月28日": {
+        "size": 2626335,
+        "crc": "64CAC5D0"
+      },
+      "2014-12月5日": {
+        "size": 2626335,
+        "crc": "64CAC5D0"
+      },
+      "2014-12月12日": {
+        "size": 2626335,
+        "crc": "64CAC5D0"
+      },
+      "2014-12月19日": {
+        "size": 2626335,
+        "crc": "64CAC5D0"
+      },
+      "2014-12月26日": {
+        "size": 2626335,
+        "crc": "64CAC5D0"
+      },
+      "2015-1月2日": {
+        "size": 2626335,
+        "crc": "64CAC5D0"
+      }
+    },
+    "LoginHome.swf": {
+      "2014-8月1日": {
+        "size": 709030,
+        "crc": "FCCF4473"
+      },
+      "2014-8月8日": {
+        "size": 710029,
+        "crc": "0B14DD40"
+      },
+      "2014-8月15日": {
+        "size": 710586,
+        "crc": "F26FB57C"
+      },
+      "2014-8月22日": {
+        "size": 711664,
+        "crc": "0142BA12"
+      },
+      "2014-8月29日": {
+        "size": 712053,
+        "crc": "97912D2C"
+      },
+      "2014-9月5日": {
+        "size": 712053,
+        "crc": "97912D2C"
+      },
+      "2014-9月12日": {
+        "size": 712053,
+        "crc": "97912D2C"
+      },
+      "2014-9月19日": {
+        "size": 715708,
+        "crc": "191775C9"
+      },
+      "2014-9月26日": {
+        "size": 715708,
+        "crc": "191775C9"
+      },
+      "2014-10月3日": {
+        "size": 716945,
+        "crc": "E59EB2A3"
+      },
+      "2014-10月10日": {
+        "size": 718437,
+        "crc": "93B07FC8"
+      },
+      "2014-10月17日": {
+        "size": 718886,
+        "crc": "486CFA7F"
+      },
+      "2014-10月24日": {
+        "size": 718886,
+        "crc": "486CFA7F"
+      },
+      "2014-10月31日": {
+        "size": 718886,
+        "crc": "486CFA7F"
+      },
+      "2014-11月7日": {
+        "size": 728594,
+        "crc": "392DBF81"
+      },
+      "2014-11月14日": {
+        "size": 728594,
+        "crc": "392DBF81"
+      },
+      "2014-11月21日": {
+        "size": 728594,
+        "crc": "392DBF81"
+      },
+      "2014-11月28日": {
+        "size": 728594,
+        "crc": "392DBF81"
+      },
+      "2014-12月5日": {
+        "size": 728594,
+        "crc": "392DBF81"
+      },
+      "2014-12月12日": {
+        "size": 728594,
+        "crc": "392DBF81"
+      },
+      "2014-12月19日": {
+        "size": 728594,
+        "crc": "392DBF81"
+      },
+      "2014-12月26日": {
+        "size": 728594,
+        "crc": "392DBF81"
+      },
+      "2015-1月2日": {
+        "size": 728594,
+        "crc": "392DBF81"
+      }
+    },
+    "Logo.swf": {
+      "2014-8月1日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-8月8日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-8月15日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-8月22日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-8月29日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-9月5日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-9月12日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-9月19日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-9月26日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-10月3日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-10月10日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-10月17日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-10月24日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-10月31日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-11月7日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-11月14日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-11月21日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-11月28日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-12月5日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-12月12日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-12月19日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2014-12月26日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      },
+      "2015-1月2日": {
+        "size": 11179,
+        "crc": "32098A2D"
+      }
+    },
+    "main_resource.swf": {
+      "2014-8月1日": {
+        "size": 907348,
+        "crc": "5C569A47"
+      },
+      "2014-8月8日": {
+        "size": 907348,
+        "crc": "5C569A47"
+      },
+      "2014-8月15日": {
+        "size": 907348,
+        "crc": "5C569A47"
+      },
+      "2014-8月22日": {
+        "size": 907348,
+        "crc": "5C569A47"
+      },
+      "2014-8月29日": {
+        "size": 907348,
+        "crc": "5C569A47"
+      },
+      "2014-9月5日": {
+        "size": 907348,
+        "crc": "5C569A47"
+      },
+      "2014-9月12日": {
+        "size": 924759,
+        "crc": "F4802A42"
+      },
+      "2014-9月19日": {
+        "size": 927927,
+        "crc": "B5A5AE7C"
+      },
+      "2014-9月26日": {
+        "size": 923123,
+        "crc": "00E159E6"
+      },
+      "2014-10月3日": {
+        "size": 907344,
+        "crc": "28819BC6"
+      },
+      "2014-10月10日": {
+        "size": 907344,
+        "crc": "28819BC6"
+      },
+      "2014-10月17日": {
+        "size": 907344,
+        "crc": "28819BC6"
+      },
+      "2014-10月24日": {
+        "size": 907344,
+        "crc": "28819BC6"
+      },
+      "2014-10月31日": {
+        "size": 907344,
+        "crc": "28819BC6"
+      },
+      "2014-11月7日": {
+        "size": 907344,
+        "crc": "28819BC6"
+      },
+      "2014-11月14日": {
+        "size": 907344,
+        "crc": "28819BC6"
+      },
+      "2014-11月21日": {
+        "size": 907344,
+        "crc": "28819BC6"
+      },
+      "2014-11月28日": {
+        "size": 907344,
+        "crc": "28819BC6"
+      },
+      "2014-12月5日": {
+        "size": 907344,
+        "crc": "28819BC6"
+      },
+      "2014-12月12日": {
+        "size": 907344,
+        "crc": "28819BC6"
+      },
+      "2014-12月19日": {
+        "size": 907344,
+        "crc": "28819BC6"
+      },
+      "2014-12月26日": {
+        "size": 907344,
+        "crc": "28819BC6"
+      },
+      "2015-1月2日": {
+        "size": 907344,
+        "crc": "28819BC6"
+      }
+    },
+    "NeverDisposePanel.swf": {
+      "2014-8月1日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-8月8日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-8月15日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-8月22日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-8月29日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-9月5日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-9月12日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-9月19日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-9月26日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-10月3日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-10月10日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-10月17日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-10月24日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-10月31日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-11月7日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-11月14日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-11月21日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-11月28日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-12月5日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-12月12日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-12月19日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2014-12月26日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      },
+      "2015-1月2日": {
+        "size": 3444,
+        "crc": "B11A25B7"
+      }
+    },
+    "randomMC.swf": {
+      "2014-8月1日": {
+        "size": 1573281,
+        "crc": "4363A5E5"
+      },
+      "2014-8月8日": {
+        "size": 1308935,
+        "crc": "393F7BF2"
+      },
+      "2014-8月15日": {
+        "size": 1353258,
+        "crc": "6E479778"
+      },
+      "2014-8月22日": {
+        "size": 981606,
+        "crc": "BC125DA5"
+      },
+      "2014-8月29日": {
+        "size": 1605771,
+        "crc": "1213E83F"
+      },
+      "2014-9月5日": {
+        "size": 758794,
+        "crc": "23B4CD16"
+      },
+      "2014-9月12日": {
+        "size": 848959,
+        "crc": "5B87C583"
+      },
+      "2014-9月19日": {
+        "size": 1425480,
+        "crc": "1A18003F"
+      },
+      "2014-9月26日": {
+        "size": 4656309,
+        "crc": "D0B91352"
+      },
+      "2014-10月3日": {
+        "size": 5894087,
+        "crc": "ADFC16D5"
+      },
+      "2014-10月10日": {
+        "size": 5486450,
+        "crc": "CE47DB54"
+      },
+      "2014-10月17日": {
+        "size": 2931102,
+        "crc": "51BDE7F6"
+      },
+      "2014-10月24日": {
+        "size": 1516596,
+        "crc": "500C2B67"
+      },
+      "2014-10月31日": {
+        "size": 4248782,
+        "crc": "988BB18E"
+      },
+      "2014-11月7日": {
+        "size": 1010485,
+        "crc": "F54E8B3D"
+      },
+      "2014-11月14日": {
+        "size": 1634480,
+        "crc": "148CFC6C"
+      },
+      "2014-11月21日": {
+        "size": 987376,
+        "crc": "30752C51"
+      },
+      "2014-11月28日": {
+        "size": 1389924,
+        "crc": "26C6EA08"
+      },
+      "2014-12月5日": {
+        "size": 1389924,
+        "crc": "26C6EA08"
+      },
+      "2014-12月12日": {
+        "size": 827030,
+        "crc": "B34CCE8B"
+      },
+      "2014-12月19日": {
+        "size": 392970,
+        "crc": "7A217B88"
+      },
+      "2014-12月26日": {
+        "size": 1136243,
+        "crc": "B4F48657"
+      },
+      "2015-1月2日": {
+        "size": 1136243,
+        "crc": "B4F48657"
+      }
+    },
+    "Speaker.swf": {
+      "2014-8月1日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-8月8日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-8月15日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-8月22日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-8月29日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-9月5日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-9月12日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-9月19日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-9月26日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-10月3日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-10月10日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-10月17日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-10月24日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-10月31日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-11月7日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-11月14日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-11月21日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-11月28日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-12月5日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-12月12日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-12月19日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2014-12月26日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      },
+      "2015-1月2日": {
+        "size": 2027,
+        "crc": "0E4864AC"
+      }
+    },
+    "TaomeeCoreDLL.swf": {
+      "2014-8月1日": {
+        "size": 1102806,
+        "crc": "FF468974"
+      },
+      "2014-8月8日": {
+        "size": 641079,
+        "crc": "BF68E9F9"
+      },
+      "2014-8月15日": {
+        "size": 641990,
+        "crc": "3FF3639B"
+      },
+      "2014-8月22日": {
+        "size": 1133623,
+        "crc": "CE8D9616"
+      },
+      "2014-8月29日": {
+        "size": 1133624,
+        "crc": "100F433D"
+      },
+      "2014-9月5日": {
+        "size": 642044,
+        "crc": "83E592E9"
+      },
+      "2014-9月12日": {
+        "size": 642046,
+        "crc": "0FBB9E41"
+      },
+      "2014-9月19日": {
+        "size": 642041,
+        "crc": "320CC6D1"
+      },
+      "2014-9月26日": {
+        "size": 642045,
+        "crc": "F84C91AC"
+      },
+      "2014-10月3日": {
+        "size": 1133620,
+        "crc": "2AAC632D"
+      },
+      "2014-10月10日": {
+        "size": 642047,
+        "crc": "5D823428"
+      },
+      "2014-10月17日": {
+        "size": 642046,
+        "crc": "0D90EBDE"
+      },
+      "2014-10月24日": {
+        "size": 642046,
+        "crc": "0D90EBDE"
+      },
+      "2014-10月31日": {
+        "size": 642046,
+        "crc": "F5F69D2D"
+      },
+      "2014-11月7日": {
+        "size": 642046,
+        "crc": "499A1521"
+      },
+      "2014-11月14日": {
+        "size": 1133623,
+        "crc": "8F2B4390"
+      },
+      "2014-11月21日": {
+        "size": 642039,
+        "crc": "1768FFF3"
+      },
+      "2014-11月28日": {
+        "size": 1133624,
+        "crc": "06724461"
+      },
+      "2014-12月5日": {
+        "size": 642046,
+        "crc": "3088EEF9"
+      },
+      "2014-12月12日": {
+        "size": 642041,
+        "crc": "011FF25E"
+      },
+      "2014-12月19日": {
+        "size": 642041,
+        "crc": "011FF25E"
+      },
+      "2014-12月26日": {
+        "size": 642046,
+        "crc": "9291FBAD"
+      },
+      "2015-1月2日": {
+        "size": 642046,
+        "crc": "9291FBAD"
+      }
+    },
+    "topUI.swf": {
+      "2014-8月1日": {
+        "size": 796846,
+        "crc": "E39B4290"
+      },
+      "2014-8月8日": {
+        "size": 815752,
+        "crc": "61AF98F3"
+      },
+      "2014-8月15日": {
+        "size": 816232,
+        "crc": "A093AF66"
+      },
+      "2014-8月22日": {
+        "size": 842015,
+        "crc": "EFAD5875"
+      },
+      "2014-8月29日": {
+        "size": 1006603,
+        "crc": "120B54F7"
+      },
+      "2014-9月5日": {
+        "size": 1058602,
+        "crc": "D287E308"
+      },
+      "2014-9月12日": {
+        "size": 1093668,
+        "crc": "F372601F"
+      },
+      "2014-9月19日": {
+        "size": 1117409,
+        "crc": "F8EB8C1B"
+      },
+      "2014-9月26日": {
+        "size": 1154386,
+        "crc": "B7F817E5"
+      },
+      "2014-10月3日": {
+        "size": 1189376,
+        "crc": "4398C0AB"
+      },
+      "2014-10月10日": {
+        "size": 1251489,
+        "crc": "56F68F78"
+      },
+      "2014-10月17日": {
+        "size": 1269513,
+        "crc": "69576875"
+      },
+      "2014-10月24日": {
+        "size": 1291550,
+        "crc": "B3885057"
+      },
+      "2014-10月31日": {
+        "size": 1305334,
+        "crc": "FBF9BC1F"
+      },
+      "2014-11月7日": {
+        "size": 1385375,
+        "crc": "B492DA95"
+      },
+      "2014-11月14日": {
+        "size": 1400003,
+        "crc": "A986D5E8"
+      },
+      "2014-11月21日": {
+        "size": 1433772,
+        "crc": "55AF4BE4"
+      },
+      "2014-11月28日": {
+        "size": 1440333,
+        "crc": "CCFEFD0E"
+      },
+      "2014-12月5日": {
+        "size": 3110208,
+        "crc": "3AE3CDBB"
+      },
+      "2014-12月12日": {
+        "size": 3180761,
+        "crc": "4B5ACB06"
+      },
+      "2014-12月19日": {
+        "size": 3180892,
+        "crc": "402A407D"
+      },
+      "2014-12月26日": {
+        "size": 3238583,
+        "crc": "ED9D926D"
+      },
+      "2015-1月2日": {
+        "size": 3238583,
+        "crc": "ED9D926D"
+      }
+    },
+    "ui.swf": {
+      "2014-8月1日": {
+        "size": 2756097,
+        "crc": "6C86A85C"
+      },
+      "2014-8月8日": {
+        "size": 2756078,
+        "crc": "03EBF3E8"
+      },
+      "2014-8月15日": {
+        "size": 2755603,
+        "crc": "C271ED4E"
+      },
+      "2014-8月22日": {
+        "size": 2755603,
+        "crc": "C271ED4E"
+      },
+      "2014-8月29日": {
+        "size": 2759263,
+        "crc": "6BD7C504"
+      },
+      "2014-9月5日": {
+        "size": 2759263,
+        "crc": "6BD7C504"
+      },
+      "2014-9月12日": {
+        "size": 2759279,
+        "crc": "A869DEB7"
+      },
+      "2014-9月19日": {
+        "size": 2759279,
+        "crc": "A869DEB7"
+      },
+      "2014-9月26日": {
+        "size": 2763817,
+        "crc": "AC14C08F"
+      },
+      "2014-10月3日": {
+        "size": 2763817,
+        "crc": "AC14C08F"
+      },
+      "2014-10月10日": {
+        "size": 2763817,
+        "crc": "AC14C08F"
+      },
+      "2014-10月17日": {
+        "size": 2763817,
+        "crc": "AC14C08F"
+      },
+      "2014-10月24日": {
+        "size": 2768779,
+        "crc": "1809B52F"
+      },
+      "2014-10月31日": {
+        "size": 2768779,
+        "crc": "1809B52F"
+      },
+      "2014-11月7日": {
+        "size": 2768779,
+        "crc": "1809B52F"
+      },
+      "2014-11月14日": {
+        "size": 2768779,
+        "crc": "1809B52F"
+      },
+      "2014-11月21日": {
+        "size": 2768779,
+        "crc": "1809B52F"
+      },
+      "2014-11月28日": {
+        "size": 2768779,
+        "crc": "1809B52F"
+      },
+      "2014-12月5日": {
+        "size": 2768779,
+        "crc": "1809B52F"
+      },
+      "2014-12月12日": {
+        "size": 2768779,
+        "crc": "1809B52F"
+      },
+      "2014-12月19日": {
+        "size": 2768779,
+        "crc": "1809B52F"
+      },
+      "2014-12月26日": {
+        "size": 2768779,
+        "crc": "1809B52F"
+      },
+      "2015-1月2日": {
+        "size": 2768779,
+        "crc": "1809B52F"
+      }
+    }
+  }
+}

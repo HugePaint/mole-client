@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <!-- 托盘图标需要 WinForms 的 NotifyIcon（WPF 没有原生托盘）。
+         两者共存时类型名会冲突，代码里对 Application / MessageBox 等一律全限定。 -->
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>MoleLauncher</AssemblyName>
+    <RootNamespace>MoleLauncher</RootNamespace>
+    <Product>摩尔庄园本地客户端启动器</Product>
+    <Version>0.1.0</Version>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+</Project>

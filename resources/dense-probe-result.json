@@ -1,0 +1,48 @@
+{
+  "generatedAt": "2026-10-05T06:11:10.030Z",
+  "origin": "61.164.158.61",
+  "idCandidates": 799,
+  "probed": {
+    "resource/activity/icon/": 799,
+    "resource/fitment/item/": 799,
+    "resource/flower/icon/": 799,
+    "resource/groupFightResource/pet/": 799,
+    "resource/item/cloth/icon/": 799,
+    "resource/item/throw/icon/": 799,
+    "resource/jobNpc/jobBookNPC/": 799,
+    "resource/newAngel/skillico/": 799,
+    "resource/newNpc/oneSide/": 799,
+    "resource/pet/head/": 799,
+    "resource/NPC/new_face/npc_": 799,
+    "resource/oneBigStree/swf/": 799,
+    "resource/newTask/task": 799
+  },
+  "hits": {
+    "resource/oneBigStree/swf/": [
+      {
+        "id": "1330001",
+        "len": 19639
+      },
+      {
+        "id": "1330002",
+        "len": 25580
+      },
+      {
+        "id": "1330003",
+        "len": 6313
+      },
+      {
+        "id": "1330005",
+        "len": 21381
+      },
+      {
+        "id": "1330004",
+        "len": 102123
+      },
+      {
+        "id": "1330006",
+        "len": 102559
+      }
+    ]
+  }
+}
