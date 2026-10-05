@@ -89,6 +89,109 @@ Ruffle 命令行:
 
 与 `docs/spike-0.md` 里手工验证过的参数集**逐项一致**。
 
+> 注：`--print-command` 以前其实会顺手建一次主窗口（XAML 的 `StartupUri` 在 `OnStartup` 返回后才处理），
+> 日志里能看到"托盘图标已创建"。现已改为在 `App.OnStartup` 里显式建窗口，这些模式**真的不启 UI** 了。
+
+### 其它命令行模式
+
+| 开关 | 作用 |
+|---|---|
+| `--print-command` | 只打印 Ruffle 命令行后退出 |
+| `--open-logs` / `--open-cache` | 用资源管理器打开 `logs\` / `cache\`（同「打开目录」按钮同一条代码路径），成功与否写进 `logs\launcher.log`，便于脚本断言 |
+| `--play` | 窗口起来后自动「启动镜像 + 启动游戏」，配计划任务可开机直进游戏 |
+| `--download-ruffle` | 下载 Ruffle 到 `runtime\ruffle\` |
+
+「打开目录」这条路径前后踩了两个坑，都实测复现过：
+
+**坑一：交给 ShellExecute 解析目录 → 「拒绝访问」**
+
+```
+[Warn] app 打开目录失败：An error occurred trying to start process 'I:\61mole\logs' … 拒绝访问。
+```
+
+explorer.exe 明明在跑，所以不是"没有外壳"；是 `ShellExecute` 解析 `open` 动词这一步返回了 Win32 5。
+
+**坑二：改成直接起 explorer.exe → 0xc0000142 弹窗**
+
+```
+---------------------------
+explorer.exe - 应用程序错误
+---------------------------
+应用程序无法正常启动(0xc0000142)。请单击"确定"关闭应用程序。
+```
+
+`Process.Start` 本身**不抛异常**，所以最初那版验证脚本把它记成了"成功"——实际上
+子进程在 DLL 初始化阶段就死了（0xc0000142 = `STATUS_DLL_INIT_FAILED`）。
+系统日志里能查到证据，注意**启动器起的和 pwsh 起的表现不一样**：
+
+```powershell
+Get-WinEvent -FilterHashtable @{LogName='System'; ProviderName='Application Popup'} |
+    Where-Object Message -match 'explorer' | Select-Object TimeCreated, Message
+```
+
+```
+00:41:11 / 00:41:50 / 00:42:16 / 00:51:57 / 00:52:00   ← 启动器起的，全挂
+（同期 pwsh 直接起的都正常，窗口能出来）
+```
+
+也就是说"**能不能新起一个 explorer.exe 进程，取决于父进程上下文**"，
+不是启动器代码本身的问题，但代码必须扛得住。
+
+**现在的实现**（`Services/ShellOpen.cs`）：按"需不需要新进程"排序逐个试，并且**只在能确认时才算成功**；
+全部失败时把每种方式的结局写进日志，并把路径一并给出（可以直接粘到资源管理器地址栏）：
+
+| 顺序 | 方式 | 是否需要新 explorer 进程 | 本机实测 |
+|---|---|---|---|
+| ① | `Shell.Application` COM 的 `Explore`（问已在跑的 shell） | 否 | 调用成功；但**无消息泵的 `--open-logs` 模式确认不到窗口** |
+| ② | `cmd.exe /c start "" "<目录>"` | 否 | 返回 0，随后 shell 弹"Windows 无法访问指定设备、路径或文件" |
+| ③ | `ShellExecute`（`FileName = 目录`） | 否 | 早期版本就是这条，抛 Win32 5 |
+| ④ | `explorer.exe "<目录>"`（CreateProcess） | **是** | 0xc0000142 → 就是那个"应用程序错误"弹窗 |
+
+### 真正的环境原因：启动器被以管理员权限运行
+
+排查中发现**这个会话的 shell 本身是提权的**：
+
+```powershell
+[Security.Principal.WindowsPrincipal]::new(
+    [Security.Principal.WindowsIdentity]::GetCurrent()
+).IsInRole('Administrator')      # True
+whoami /groups | Select-String 'Mandatory Label'
+#   Mandatory Label\High Mandatory Level Label   S-1-16-12288
+```
+
+而启动器自己的清单是 **`asInvoker`**（没有 `requireAdministrator`），也就是说：
+**它之所以提权，是因为它被提权的父进程拉起来的**（本次排查里所有启动器实例都是我从这个会话起的）。
+
+高完整性进程发起的"交给 shell 打开"会被 Windows 挡掉 —— 这一条同时解释了上面四个坑：
+`ShellExecute` 报 Win32 5、`cmd start` 后 shell 报"无法访问"、
+自己起 `explorer.exe` 直接 0xc0000142（Explorer 不允许以管理员身份运行）。
+
+> **结论：不要用管理员身份运行启动器。** 另外注意 `--open-logs` 是无消息泵的验证模式，
+> COM 打开后它确认不到窗口是正常的 —— 判断按钮是否好用请看**点击后窗口有没有出现**，
+> 而不是只看那行日志的"未能确认"。
+
+### 运行期状态：logs\*.pid
+
+| 文件 | 谁写 | 用途 |
+|---|---|---|
+| `launcher.pid` | 启动器（启动时写、退出时删） | `run.ps1 -Status` 判断启动器是否还在 |
+| `molemirror.pid` / `ruffle.pid` | `run.ps1` | 同样的判断依据；`run.ps1 -Stop` 会一并清理 |
+
+> 以前 `launcher.pid` 没人写也没人删，出现过指向早已退出进程的陈旧 pid（实测 26076）；
+> 现在启动器自己维护，`-Status` 也会明确标出"已退出，pid 文件陈旧"。
+
+### 日志降噪
+
+Ruffle 每个重复帧标签都会打一条 WARN，实测一次 55 分钟游玩产生 **1120 条**
+`Movie clip N: Duplicated frame label`，占 `launcher.log` 全文 85%，把 404、AVM2 异常、
+字体回退这些真问题全埋了。启动器的日志管道（`Services/RuffleLogFilter.cs`）会把它们折叠成一行汇总：
+
+```
+[Info ] ruffle   已折叠 140 条 "Duplicated frame label" 告警（对运行无影响，可用 tools\filter-ruffle-log.js 还原原文）
+```
+
+同时把 `Unknown device font` 变成一次性提示，指向 `tools\install-xp-simsun.ps1`（见 `docs/fonts.md`）。
+
 ---
 
 ## 五、AppData / %TEMP% 写入被拒：两次判断，两次都不准

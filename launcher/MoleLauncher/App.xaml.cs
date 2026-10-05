@@ -30,6 +30,16 @@ public partial class App : Application
                 return;
             }
 
+            // 客观验证"打开目录"这条路径：不点按钮也能跑，并把结果打到父控制台。
+            // 背景：旧实现把目录交给 ShellExecute 解析 "open" 动词，实测返回 Win32 5（拒绝访问）。
+            if (string.Equals(a, "--open-logs", StringComparison.OrdinalIgnoreCase) ||
+                string.Equals(a, "--open-cache", StringComparison.OrdinalIgnoreCase))
+            {
+                OpenFolder(a);
+                Shutdown(0);
+                return;
+            }
+
             // 实用功能 + 端到端验证手段：窗口启动后立刻拉起镜像与游戏。
             // 配合计划任务即可实现「开机直进游戏」。
             if (string.Equals(a, "--play", StringComparison.OrdinalIgnoreCase))
@@ -48,7 +58,73 @@ public partial class App : Application
             }
         }
 
+        WritePidFile();
         base.OnStartup(e);
+
+        // 显式建主窗口（App.xaml 里不再用 StartupUri，否则上面那些模式也会建一遍窗口）
+        var window = new MainWindow();
+        MainWindow = window;
+        window.Show();
+    }
+
+    protected override void OnExit(ExitEventArgs e)
+    {
+        RemovePidFile();
+        base.OnExit(e);
+    }
+
+    /// <summary>
+    /// 维护 logs\launcher.pid：run.ps1 -Status / -Stop 靠它判断"启动器还在不在"。
+    /// 以前这个文件没人写、也没人删，出现过指向早已退出进程的陈旧 pid（实测 26076）。
+    /// 写失败不影响启动，退出时删除。
+    /// </summary>
+    private static void WritePidFile()
+    {
+        try
+        {
+            var root = PathResolver.FindProjectRoot() ?? AppContext.BaseDirectory;
+            var path = Path.Combine(root, "logs", "launcher.pid");
+            Directory.CreateDirectory(Path.GetDirectoryName(path)!);
+            File.WriteAllText(path, Environment.ProcessId.ToString());
+        }
+        catch { /* 日志目录不可写时忽略 */ }
+    }
+
+    private static void RemovePidFile()
+    {
+        try
+        {
+            var root = PathResolver.FindProjectRoot() ?? AppContext.BaseDirectory;
+            var path = Path.Combine(root, "logs", "launcher.pid");
+            if (File.Exists(path)) File.Delete(path);
+        }
+        catch { /* 忽略 */ }
+    }
+
+    /// <summary>
+    /// 命令行打开目录模式：结果同时打给父控制台（人看）与 logs\launcher.log（脚本可断言）。
+    /// 只打控制台是不够的：WinExe 靠 AttachConsole 附着到父控制台，
+    /// 从 PowerShell 管道里跑时那句输出抓不到（实测），所以必须落一份到日志文件。
+    /// </summary>
+    private static void OpenFolder(string arg)
+    {
+        AttachConsole(ATTACH_PARENT_PROCESS);
+
+        var root = PathResolver.FindProjectRoot() ?? AppContext.BaseDirectory;
+        var dir = Path.Combine(root, arg.Equals("--open-cache", StringComparison.OrdinalIgnoreCase) ? "cache" : "logs");
+
+        var (ok, message) = ShellOpen.Folder(dir);
+
+        Console.WriteLine((ok ? "成功: " : "失败: ") + message);
+        Console.Out.Flush();
+
+        try
+        {
+            var log = new LogService(System.Windows.Threading.Dispatcher.CurrentDispatcher, Path.Combine(root, "logs"));
+            if (ok) log.Ok("app", $"[--open-logs] {message}");
+            else log.Warn("app", $"[--open-logs] {message}");
+        }
+        catch { /* 日志写不进去也不能让验证模式崩 */ }
     }
 
     /// <summary>命令行下载模式：把进度打到父控制台，便于脚本化验证。</summary>

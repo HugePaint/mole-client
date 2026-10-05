@@ -1,8 +1,11 @@
-﻿<Application x:Class="MoleLauncher.App"
+<Application x:Class="MoleLauncher.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:MoleLauncher"
-             StartupUri="MainWindow.xaml">
+             xmlns:local="clr-namespace:MoleLauncher">
+    <!-- 刻意不用 StartupUri：它是在 OnStartup 返回之后才处理的，
+         于是 print-command / open-logs / download-ruffle 这些"不启动 UI"的模式
+         仍然会建一次主窗口（实测会在日志里留下"托盘图标已创建"）。
+         改由 App.OnStartup 在确认不是这些模式后显式创建窗口。 -->
     <Application.Resources>
          
     </Application.Resources>

@@ -104,12 +104,23 @@ if (-not $NoRuffle) {
 # 2d) 安装脚本
 Copy-Item (Join-Path $InstallerDir 'install.ps1') $Payload -Force
 
-# 2e) 安装入口
+# 2e) 字体工具（安装时的"可选步骤"要用，见 docs/fonts.md）
+# 只带这两个文件：一个是下载+校验+安装 XP 宋体，一个是给字体改字重（Ruffle 的粗体查询才命中）。
+# 字体文件本身**不入包**（版权属微软/中易），安装时按需下载并校验 SHA256。
+$toolsDst = Join-Path $Payload 'tools'
+New-Item -ItemType Directory -Force -Path $toolsDst | Out-Null
+foreach ($f in @('install-xp-simsun.ps1', 'font-boldify.js')) {
+    $src = Join-Path $Root "tools\$f"
+    if (Test-Path $src) { Copy-Item $src $toolsDst -Force }
+    else { Write-Host "         缺少 tools\$f，安装包的字体步骤会跳过" -ForegroundColor DarkYellow }
+}
+
+# 2f) 安装入口
 $installCmd = @'
 @echo off
 rem 由 MoleClient-Setup.exe（自解压引导器）调用。
 rem 可选环境变量（供无人值守安装 / 自动化验证）：
-rem   MOLE_SETUP_QUIET / MOLE_SETUP_TARGET / MOLE_SETUP_NOSHORTCUTS / MOLE_SETUP_NORUFFLE
+rem   MOLE_SETUP_QUIET / MOLE_SETUP_TARGET / MOLE_SETUP_NOSHORTCUTS / MOLE_SETUP_NORUFFLE / MOLE_SETUP_NOFONTS
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0install.ps1"
 exit /b %errorlevel%
 '@
@@ -117,7 +128,7 @@ exit /b %errorlevel%
 [System.IO.File]::WriteAllText((Join-Path $Payload 'install.cmd'), ($installCmd -replace "`n", "`r`n"),
     [System.Text.Encoding]::GetEncoding(936))
 
-# 2f) 说明文档（payload 里用 ASCII 名，安装时再由 install.ps1 改成中文名）
+# 2g) 说明文档（payload 里用 ASCII 名，安装时再由 install.ps1 改成中文名）
 $readme = Join-Path $InstallerDir 'README-安装说明.md'
 if (Test-Path $readme) { Copy-Item $readme (Join-Path $Payload 'README.md') -Force }
 

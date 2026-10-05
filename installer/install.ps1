@@ -7,10 +7,11 @@
 #   .\install.ps1 -TargetDir D:\MoleClient 指定安装目录
 #   .\install.ps1 -NoRuffle                不安装随包的 Ruffle（首次运行时用启动器下载）
 #   .\install.ps1 -NoShortcuts             不创建快捷方式
+#   .\install.ps1 -SkipFonts               不安装原版宋体（见 docs/fonts.md）
 #
 # 无人值守（供自解压包与自动化测试使用）:
 #   设置环境变量 MOLE_SETUP_QUIET / MOLE_SETUP_TARGET / MOLE_SETUP_NOSHORTCUTS /
-#   MOLE_SETUP_NORUFFLE 即可，它们作为对应参数的默认值。
+#   MOLE_SETUP_NORUFFLE / MOLE_SETUP_NOFONTS 即可，它们作为对应参数的默认值。
 #   由环境变量而不是命令行传入，是为了让 install.cmd 完全不必处理引号转义。
 #
 # 设计要点:
@@ -19,12 +20,16 @@
 #     因此这个布局能让它开箱即用、无需手工配置路径。
 #   * **不包含 cache\**（已近 1 GB 的游戏资源）。资源由 molemirror 在首次运行时按需抓取并落盘，
 #     这也正是「资源本地化」的正常工作方式。
+#   * 原版宋体是**安装期可选步骤**（tools\install-xp-simsun.ps1）：
+#     下载 XP 版 simsun.ttc → 校验 → 生成粗体副本 → 装进用户字体目录。
+#     不成功不影响安装（字体只影响字形观感，不影响能不能玩），失败原因会打出来。
 
 [CmdletBinding()]
 param(
     [string]$TargetDir = "",
     [switch]$NoRuffle,
     [switch]$NoShortcuts,
+    [switch]$SkipFonts,
     [switch]$Quiet
 )
 
@@ -37,6 +42,7 @@ if ([string]::IsNullOrWhiteSpace($TargetDir) -and $env:MOLE_SETUP_TARGET) {
 if ($env:MOLE_SETUP_QUIET) { $Quiet = $true }
 if ($env:MOLE_SETUP_NOSHORTCUTS) { $NoShortcuts = $true }
 if ($env:MOLE_SETUP_NORUFFLE) { $NoRuffle = $true }
+if ($env:MOLE_SETUP_NOFONTS) { $SkipFonts = $true }
 
 function Say([string]$msg, [string]$color = 'Gray') {
     if (-not $Quiet) { Write-Host $msg -ForegroundColor $color }
@@ -153,7 +159,15 @@ if (-not $NoRuffle -and (Test-Path (Join-Path $Payload 'runtime'))) {
     Say "  （未随包提供 Ruffle，首次运行时可用启动器的「下载…」按钮获取）" DarkYellow
 }
 
-# 2d) 说明文档
+# 2d) 字体工具（安装期"可选步骤"要用；字体文件本身不入包）
+$toolsDst = Join-Path $TargetDir 'tools'
+$toolsCopy = Copy-Tree (Join-Path $Payload 'tools') $toolsDst @()
+if ($toolsCopy -gt 0) {
+    $copied += $toolsCopy
+    Say ("  字体工具      {0} 个文件" -f $toolsCopy)
+}
+
+# 2e) 说明文档
 # payload 里的文件名是 ASCII（iexpress 这个老工具对中文名不友好），
 # 装到目标目录时再改成中文名，用户看到的是正常中文。
 $readmeSrc = Join-Path $Payload 'README.md'
@@ -205,6 +219,12 @@ $lnks = @(
     (Join-Path ([Environment]::GetFolderPath('Programs')) '摩尔庄园本地客户端.lnk')
 )
 foreach ($l in $lnks) { Remove-Item $l -Force }
+
+# 顺手卸掉安装期放进用户字体目录的原版宋体（那个脚本只删它自己放进去的文件）
+$fontTool = Join-Path $Base 'tools\install-xp-simsun.ps1'
+if (Test-Path $fontTool) {
+    & powershell -NoProfile -ExecutionPolicy Bypass -File $fontTool -Uninstall | Out-Null
+}
 
 if ($KeepCache) {
     if (-not $Quiet) { Write-Host "保留 cache 目录（$Base\cache）" -ForegroundColor Yellow }
@@ -270,12 +290,57 @@ if ($shortcutFailures.Count -gt 0) {
     Write-Host ("  这不影响使用——直接运行 {0}\MoleLauncher.exe 即可。" -f $TargetDir) -ForegroundColor Yellow
 }
 
-# ── 6) 完成 ────────────────────────────────────────────────
+# ── 6) 可选步骤：原版宋体 ──────────────────────────────────
+# 为什么值得做（详见 docs/fonts.md）：Ruffle 登记设备字体时用的是**字体自身的字重**，
+# 而 simsun.ttc 只有 400 字面，于是客户端"宋体加粗"的请求永远匹配不上、回退到引擎自带字体
+# （字形与原版不一致）。这一步下载 XP 版 simsun.ttc、校验、补一张字重 700 的副本，
+# 放进**用户字体目录**（fontdb 会扫那里；免管理员、不写注册表、删文件即可回退）。
+#
+# 三条铁律：
+#   1) 失败绝不能让安装失败 —— 字体只影响观感，不影响能不能玩；
+#   2) 支持跳过（-SkipFonts / MOLE_SETUP_NOFONTS），也支持离线（脚本会退回本机宋体）；
+#   3) 字体文件不入包（版权属微软/中易），只下载 + SHA256 校验。
+$fontResult = '未执行'
+$fontTool = Join-Path $TargetDir 'tools\install-xp-simsun.ps1'
+
+if ($SkipFonts) {
+    $fontResult = '已跳过（-SkipFonts / MOLE_SETUP_NOFONTS）'
+    Say "跳过原版宋体安装（-SkipFonts）" DarkGray
+} elseif (-not (Test-Path $fontTool)) {
+    $fontResult = '跳过（安装包内没有 tools\install-xp-simsun.ps1）'
+    Say "跳过原版宋体安装（包内缺少字体工具）" DarkYellow
+} elseif (-not (Get-Command node -ErrorAction SilentlyContinue) -and
+          -not (Test-Path (Join-Path $TargetDir 'data\settings.json'))) {
+    $fontResult = '跳过（没找到 node，无法生成粗体副本）'
+    Say "跳过原版宋体安装（需要 node；装好 Node.js 后可手动运行 tools\install-xp-simsun.ps1）" DarkYellow
+} else {
+    Say "正在安装原版宋体（可选步骤，失败也不影响安装）…"
+    try {
+        $fontOut = & powershell.exe -NoProfile -ExecutionPolicy Bypass -File $fontTool 2>&1
+        $fontCode = $LASTEXITCODE
+        if ($fontCode -eq 0) {
+            foreach ($line in $fontOut) { Say ("    " + $line) DarkGray }
+            $fontResult = if ($fontOut -match '已经装过了') { '此前已装过（本次跳过；要重装加 -Force）' }
+                          else { '已安装（重启游戏后生效）' }
+        } else {
+            $fontResult = "失败（退出码 $fontCode）—— 不影响使用，可稍后手动运行 tools\install-xp-simsun.ps1"
+            foreach ($line in ($fontOut | Select-Object -Last 6)) { Say ("    " + $line) DarkYellow }
+        }
+    } catch {
+        $fontResult = "失败（$($_.Exception.Message)）—— 不影响使用"
+        Say ("    原版宋体安装失败：{0}" -f $_.Exception.Message) DarkYellow
+    }
+}
+
+# ── 7) 完成 ────────────────────────────────────────────────
 Say ""
 Say "安装完成！" Green
 Say ""
 Say "  启动方式：桌面「摩尔庄园本地客户端」快捷方式，或直接运行"
 Say "            $TargetDir\MoleLauncher.exe"
+Say ""
+Say ("  原版宋体：{0}" -f $fontResult)
+Say "            需要重装/卸载：powershell -ExecutionPolicy Bypass -File `"$TargetDir\tools\install-xp-simsun.ps1`" [-Force|-Uninstall]"
 Say ""
 Say "  首次启动会按需从官方 CDN 抓取游戏资源到 cache\ 目录（约 1 GB，视游玩范围而定）。"
 Say "  之后即使断网也能进游戏——这就是「资源全量本地化」。"

@@ -1,6 +1,5 @@
 using System;
 using System.Collections.ObjectModel;
-using System.Diagnostics;
 using System.IO;
 using System.Windows;
 using System.Windows.Threading;
@@ -250,14 +249,10 @@ public partial class MainWindow : Window
 
     private void OpenFolder(string dir)
     {
-        try
-        {
-            Directory.CreateDirectory(dir);
-            Process.Start(new ProcessStartInfo { FileName = dir, UseShellExecute = true });
-        }
-        catch (Exception ex)
-        {
-            _log.Warn("app", $"打开目录失败：{ex.Message}");
-        }
+        // 成功也记一行：这场"打开目录"的排查就是因为旧代码成功时静默、失败时只说"拒绝访问"
+        // 而无从下手（连"Process.Start 没抛异常但子进程挂了"都看不出来）。说明里带用了哪种方式。
+        var (ok, message) = ShellOpen.Folder(dir);
+        if (ok) _log.Ok("app", message);
+        else _log.Warn("app", $"打开目录失败：{message}");
     }
 }

@@ -1,10 +1,11 @@
-# 摩尔庄园本地客户端 · 启动脚本
+﻿# 摩尔庄园本地客户端 · 启动脚本
 #
 # 用法:
 #   .\run.ps1                 在线模式启动（缺什么资源自动回源并落盘）
 #   .\run.ps1 -Offline        离线模式启动（一个字节都不上网，验证本地化完整性）
 #   .\run.ps1 -NoRuffle       只起 molemirror，不开游戏窗口
-#   .\run.ps1 -Stop           停止 molemirror 与 Ruffle
+#   .\run.ps1 -Status         只查看现场：启动器/镜像/Ruffle 进程与端口，以及陈旧的 pid 文件
+#   .\run.ps1 -Stop           停止 molemirror（在线+离线两套）与 Ruffle
 #
 # 依赖: node（v14+）、runtime\ruffle\ruffle.exe
 
@@ -13,6 +14,7 @@ param(
     [switch]$Offline,
     [switch]$NoRuffle,
     [switch]$Stop,
+    [switch]$Status,
     [int]$Width = 1000,
     [int]$Height = 620
 )
@@ -23,15 +25,70 @@ $LogDir = Join-Path $Root 'logs'
 $DataDir = Join-Path $Root 'data'
 New-Item -ItemType Directory -Force -Path $LogDir, $DataDir | Out-Null
 
-function Stop-All {
-    foreach ($port in @(8899, 8898, 8080)) {
+# 在线与离线是两套端口：离线实例用 8888/8998/8999（实测残留进程的监听端口）。
+# 以前只按在线端口清理，导致离线实例（曾实测残留 20 小时）永远停不掉。
+$OnlinePorts = @(8899, 8898, 8080)
+$OfflinePorts = @(8999, 8998, 8888)
+
+function Get-Listener([int[]]$Ports) {
+    foreach ($port in $Ports) {
         Get-NetTCPConnection -LocalPort $port -State Listen -ErrorAction SilentlyContinue |
-            ForEach-Object { Stop-Process -Id $_.OwningProcess -Force -ErrorAction SilentlyContinue }
+            ForEach-Object { [pscustomobject]@{ Port = $port; Pid = $_.OwningProcess } }
     }
-    Get-Process ruffle -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
-    Write-Host '已停止 molemirror 与 Ruffle。' -ForegroundColor Yellow
 }
 
+function Show-Status {
+    Write-Host '── 现场 ─────────────────────────────────────────────' -ForegroundColor Cyan
+    foreach ($f in @('launcher.pid', 'molemirror.pid', 'molemirror-offline.pid', 'ruffle.pid')) {
+        $path = Join-Path $LogDir $f
+        if (-not (Test-Path $path)) { Write-Host ("  {0,-24} 无" -f $f); continue }
+        $procId = (Get-Content $path -ErrorAction SilentlyContinue | Select-Object -First 1)
+        $proc = if ($procId) { Get-Process -Id $procId -ErrorAction SilentlyContinue } else { $null }
+        if ($proc) { Write-Host ("  {0,-24} PID {1}  {2}  (存活)" -f $f, $procId, $proc.ProcessName) -ForegroundColor Green }
+        else { Write-Host ("  {0,-24} PID {1}  (已退出，pid 文件陈旧)" -f $f, $procId) -ForegroundColor DarkYellow }
+    }
+    foreach ($set in @(@('在线', $OnlinePorts), @('离线', $OfflinePorts))) {
+        foreach ($l in Get-Listener $set[1]) {
+            $proc = Get-Process -Id $l.Pid -ErrorAction SilentlyContinue
+            Write-Host ("  {0}端口 {1,-5} PID {2}  {3}" -f $set[0], $l.Port, $l.Pid, $proc.ProcessName)
+        }
+    }
+    $ruffles = @(Get-Process ruffle -ErrorAction SilentlyContinue)
+    Write-Host ("  ruffle 进程数            {0}" -f $ruffles.Count)
+    Write-Host '─────────────────────────────────────────────────────' -ForegroundColor Cyan
+}
+
+function Stop-All {
+    $stopped = @()
+
+    foreach ($l in Get-Listener ($OnlinePorts + $OfflinePorts)) {
+        $proc = Get-Process -Id $l.Pid -ErrorAction SilentlyContinue
+        if (-not $proc) { continue }
+        # 只杀本项目的 node 镜像，避免端口被别人占用时误伤
+        if ($proc.ProcessName -ne 'node') {
+            Write-Host ("  端口 {0} 被 {1}(PID {2}) 占用，不是 node，跳过" -f $l.Port, $proc.ProcessName, $l.Pid) -ForegroundColor DarkYellow
+            continue
+        }
+        Stop-Process -Id $l.Pid -Force -ErrorAction SilentlyContinue
+        $stopped += "molemirror(:$($l.Port) PID $($l.Pid))"
+    }
+
+    foreach ($p in @(Get-Process ruffle -ErrorAction SilentlyContinue)) {
+        Stop-Process -Id $p.Id -Force -ErrorAction SilentlyContinue
+        $stopped += "ruffle(PID $($p.Id))"
+    }
+
+    # pid 文件只是 run.ps1 自己写的运行期状态，进程没了就删掉，避免下次误判
+    foreach ($f in @('molemirror.pid', 'molemirror-offline.pid', 'ruffle.pid')) {
+        $path = Join-Path $LogDir $f
+        if (Test-Path $path) { Remove-Item $path -Force -ErrorAction SilentlyContinue }
+    }
+
+    if ($stopped.Count) { Write-Host ('已停止: ' + ($stopped -join ', ')) -ForegroundColor Yellow }
+    else { Write-Host '没有发现需要停止的 molemirror / Ruffle。' -ForegroundColor Yellow }
+}
+
+if ($Status) { Show-Status; return }
 if ($Stop) { Stop-All; return }
 
 Stop-All

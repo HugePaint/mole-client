@@ -99,6 +99,7 @@ MoleClient-Setup.exe  (11.4 MB)
 │   ├── launcher\        MoleLauncher.exe + .dll + deps.json（启动器）
 │   ├── molemirror\      index.js（本地镜像）
 │   ├── runtime\ruffle\  ruffle.exe（游戏引擎，25.9 MB）
+│   ├── tools\           字体工具（install-xp-simsun.ps1 / font-boldify.js）
 │   ├── install.cmd      入口
 │   ├── install.ps1      安装逻辑
 │   └── README.md        安装说明
@@ -118,6 +119,7 @@ MoleClient-Setup.exe  (11.4 MB)
 ├── MoleLauncher.exe        启动器
 ├── molemirror\index.js     本地镜像
 ├── runtime\ruffle\         游戏引擎
+├── tools\                  字体工具（装/卸原版宋体用，见 docs/fonts.md）
 ├── cache\                  ★ 客户端资源（首次运行时按需抓取）
 ├── data\
 │   ├── settings.json       启动器配置
@@ -284,6 +286,24 @@ foreach ($port in @(8899, 8898, 8080)) {
 
 **修法**：两个服务都显式设 `StandardOutputEncoding = Encoding.UTF8`（stderr 同理）。
 
+### 5.8 安装期新增"原版宋体"步骤：三条约束
+
+客户端大量使用设备字体，其中 `宋体 / SimSun` 的**加粗**请求在 Ruffle 上必定回退（机制见
+[`fonts.md`](fonts.md)）。把字体修好这件事放进安装流程时，定了三条约束：
+
+| 约束 | 做法 |
+|---|---|
+| **不能让安装失败** | 字体只影响字形观感，所以这一步整体 try/catch，非零退出只打印最后 6 行输出并把结论写进汇总（`原版宋体：失败（退出码 N）`） |
+| **字体文件不入包** | 版权属微软/中易。包里只放 `tools\install-xp-simsun.ps1` + `font-boldify.js`（合计约 20 KB），安装时下载 + **SHA256 校验**（首选源固定到 commit） |
+| **可跳过、可离网** | `-SkipFonts` / `MOLE_SETUP_NOFONTS=1` 跳过；下载源全挂时脚本自动退回本机 `C:\Windows\Fonts\simsun.ttc` 生成粗体副本（无需联网，仍能修掉粗体回退） |
+
+另外两点：
+
+- 装进的是**用户字体目录** `%LOCALAPPDATA%\Microsoft\Windows\Fonts`（fontdb 会扫那里）：
+  免管理员、不写注册表、不动系统宋体、删文件即可回退；
+- 卸载器会先调 `tools\install-xp-simsun.ps1 -Uninstall` 再删安装目录，
+  保持"装了什么就卸什么"。
+
 ---
 
 ## 六、验证状态
@@ -306,6 +326,10 @@ foreach ($port in @(8899, 8898, 8080)) {
 | **`--download-ruffle`** | ✅ **已实测**：19.3 秒下载解压成功，暂存零残留 |
 | **`--play` 全链路** | ✅ 端到端实测（见 [`launcher.md`](launcher.md)） |
 | 镜像 stdout 中文编码 | ✅ 实测可读 |
+| **安装包内含字体工具 + 安装期步骤接入** | ✅ **已实测**：无人值守安装退出码 0，`tools\` 随包落地 |
+| **`-SkipFonts` / `MOLE_SETUP_NOFONTS`** | ✅ 实测跳过并如实汇总 |
+| **字体工具本身有效** | ✅ **已实测**：跑装出来的 `tools\install-xp-simsun.ps1 -Force`，XP SP3 宋体 v3.12 + 粗体副本落入用户字体目录；Ruffle 侧 0 未命中 |
+| 字体步骤在**受限 token** 下的表现 | ⚠️ 本机自编译未签名引导器的子进程写不了用户目录，那一步会失败——按设计不致命（安装仍退出 0）；正常双击安装不受此限 |
 | 自包含单文件发布 | ⚠️ 未实测（脚本已备） |
 
 > 所有安装/卸载测试后均已清理；每次都记录官方微端快捷方式的 SHA256 并在前后比对。
@@ -326,9 +350,12 @@ powershell -ExecutionPolicy Bypass -File installer\install.ps1 -TargetDir D:\Mol
 
 # 无人值守安装（自动化验证用）
 $env:MOLE_SETUP_QUIET=1; $env:MOLE_SETUP_TARGET="D:\MoleClient"; .\MoleClient-Setup.exe
+
+# 安装但不装原版宋体（字体那步是可选步骤，见 docs/fonts.md）
+$env:MOLE_SETUP_NOFONTS=1; .\MoleClient-Setup.exe
 ```
 
-可选环境变量：`MOLE_SETUP_QUIET` / `MOLE_SETUP_TARGET` / `MOLE_SETUP_NOSHORTCUTS` / `MOLE_SETUP_NORUFFLE`
+可选环境变量：`MOLE_SETUP_QUIET` / `MOLE_SETUP_TARGET` / `MOLE_SETUP_NOSHORTCUTS` / `MOLE_SETUP_NORUFFLE` / `MOLE_SETUP_NOFONTS`
 
 > `.ps1` 必须保存为**带 BOM 的 UTF-8**，否则 PowerShell 5.1 会按 ANSI 解码中文，
 > 导致解析崩溃。本项目已踩过此坑至少五次，改完脚本一律用

@@ -25,6 +25,7 @@ namespace MoleLauncher.Services;
 public sealed class RuffleService : IDisposable
 {
     private readonly LogService _log;
+    private readonly RuffleLogFilter _filter = new();
     private Process? _process;
 
     public bool IsRunning => _process is { HasExited: false };
@@ -133,9 +134,9 @@ public sealed class RuffleService : IDisposable
         try
         {
             _process = new Process { StartInfo = psi, EnableRaisingEvents = true };
-            _process.OutputDataReceived += (_, e) => { if (!string.IsNullOrWhiteSpace(e.Data)) _log.Info("ruffle", e.Data); };
+            _process.OutputDataReceived += (_, e) => HandleStdout(e.Data);
             _process.ErrorDataReceived += (_, e) => { if (!string.IsNullOrWhiteSpace(e.Data)) _log.Error("ruffle", e.Data); };
-            _process.Exited += (_, _) => _log.Info("ruffle", "游戏进程已退出");
+            _process.Exited += (_, _) => { FlushFilter(); _log.Info("ruffle", "游戏进程已退出"); };
             _process.Start();
             _process.BeginOutputReadLine();
             _process.BeginErrorReadLine();
@@ -160,6 +161,7 @@ public sealed class RuffleService : IDisposable
             {
                 p.Kill(entireProcessTree: true);
                 p.WaitForExit(3000);
+                FlushFilter();
                 _log.Info("ruffle", "游戏已停止");
             }
         }
@@ -169,5 +171,32 @@ public sealed class RuffleService : IDisposable
             try { p.Dispose(); } catch { }
             _process = null;
         }
+    }
+
+    /// <summary>
+    /// Ruffle stdout 的统一入口：先过降噪过滤器，再决定是原文记录、丢弃还是改写成提示。
+    /// 噪声只计数不丢信息，游戏退出时由 <see cref="FlushFilter"/> 汇总成一行。
+    /// </summary>
+    private void HandleStdout(string? data)
+    {
+        if (string.IsNullOrWhiteSpace(data)) return;
+
+        switch (_filter.Classify(data!, out var text))
+        {
+            case RuffleLogVerdict.Suppress:
+                return;
+            case RuffleLogVerdict.Note:
+                _log.Warn("ruffle", text);
+                return;
+            default:
+                _log.Info("ruffle", text);
+                return;
+        }
+    }
+
+    /// <summary>把折叠掉的噪声条数汇总成日志行（可重复调用，内部会清空计数）。</summary>
+    private void FlushFilter()
+    {
+        foreach (var summary in _filter.DrainSummaries()) _log.Info("ruffle", summary);
     }
 }

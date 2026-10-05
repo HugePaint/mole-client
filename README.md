@@ -119,6 +119,7 @@ powershell -ExecutionPolicy Bypass -File installer\make-setup.ps1
 | [`docs/installer.md`](docs/installer.md) | 安装包三次方案迭代与缺陷记录 |
 | [`docs/phase2-acceptance.md`](docs/phase2-acceptance.md) | 离线验收报告 |
 | [`docs/encoding-notes.md`](docs/encoding-notes.md) | **编码注意事项** —— Windows 上跨进程/接口传中文的坑与检查清单 |
+| [`docs/fonts.md`](docs/fonts.md) | **中文字体** —— 设备字体（宋体/SimSun）为何回退，以及一键安装原创宋体的办法 |
 
 ---
 

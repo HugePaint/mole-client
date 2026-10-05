@@ -1,4 +1,4 @@
-# 持续采样指定进程的对外 TCP 连接，记录到日志。
+﻿# 持续采样指定进程的对外 TCP 连接，记录到日志。
 # 用途：游戏登录会连 123.206.131.236:1863，之后可能立刻断开；轮询式检查容易漏掉。
 # 用法: .\monitor-tcp.ps1 -ProcessId 1234 -LogFile I:\61mole\logs\tcp-observed.log
 param(

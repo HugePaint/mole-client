@@ -1,0 +1,212 @@
+{
+  "generatedAt": "2026-10-05T16:34:08.967Z",
+  "list": "resources\\related-from-new-cache.txt",
+  "port": 8899,
+  "total": 33,
+  "ok": 0,
+  "hits": 0,
+  "override": 0,
+  "offlineMiss": 0,
+  "notFound": 33,
+  "errors": 0,
+  "results": [
+    {
+      "p": "resource/bgSounds/BGM_001o.mp3",
+      "status": 404,
+      "bytes": 484,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/bgSounds/BGM_001j.mp3",
+      "status": 404,
+      "bytes": 484,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/bgSounds/BGM_001k.mp3",
+      "status": 404,
+      "bytes": 484,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/bgSounds/BGM_001n.mp3",
+      "status": 404,
+      "bytes": 484,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/bgSounds/BGM_001m.mp3",
+      "status": 404,
+      "bytes": 484,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/bgSounds/BGM_001p.mp3",
+      "status": 404,
+      "bytes": 484,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/bgSounds/BGM_001l.mp3",
+      "status": 404,
+      "bytes": 484,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/bgSounds/BGM_001s.mp3",
+      "status": 404,
+      "bytes": 484,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/bgSounds/BGM_001i.mp3",
+      "status": 404,
+      "bytes": 484,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/bgSounds/BGM_001q.mp3",
+      "status": 404,
+      "bytes": 484,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/bgSounds/BGM_001v.mp3",
+      "status": 404,
+      "bytes": 484,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/bgSounds/BGM_001w.mp3",
+      "status": 404,
+      "bytes": 484,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/bgSounds/BGM_001u.mp3",
+      "status": 404,
+      "bytes": 484,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/bgSounds/BGM_001r.mp3",
+      "status": 404,
+      "bytes": 484,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/bgSounds/BGM_001y.mp3",
+      "status": 404,
+      "bytes": 484,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/bgSounds/BGM_001x.mp3",
+      "status": 404,
+      "bytes": 484,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/bgSounds/BGM_001z.mp3",
+      "status": 404,
+      "bytes": 480,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/cloth/bmpswf/1003/18218.swf",
+      "status": 404,
+      "bytes": 490,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/petcloth/icon/1208014.swf",
+      "status": 404,
+      "bytes": 488,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/petcloth/swf/cloth/1208014.swf",
+      "status": 404,
+      "bytes": 493,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/petcloth/swf1/1200036.swf",
+      "status": 404,
+      "bytes": 488,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/petcloth/swf2/pet101/skill_1.swf",
+      "status": 404,
+      "bytes": 495,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/cloth/bmpswf/1002/18218.swf",
+      "status": 404,
+      "bytes": 490,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/petcloth/swf1/1208014.swf",
+      "status": 404,
+      "bytes": 488,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/bgSounds/BGM_001t.mp3",
+      "status": 404,
+      "bytes": 484,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/petcloth/swf2/pet101/skill_5.swf",
+      "status": 404,
+      "bytes": 495,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/petcloth/swf2/pet101/skill_6.swf",
+      "status": 404,
+      "bytes": 495,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/petcloth/swf2/pet101/skill_3.swf",
+      "status": 404,
+      "bytes": 495,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/petcloth/swf2/pet101/skill_8.swf",
+      "status": 404,
+      "bytes": 495,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/petcloth/swf3/1200036.swf",
+      "status": 404,
+      "bytes": 488,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/petcloth/swf2/pet101/skill_4.swf",
+      "status": 404,
+      "bytes": 495,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/petcloth/swf3/1208014.swf",
+      "status": 404,
+      "bytes": 488,
+      "hit": "MISS"
+    },
+    {
+      "p": "resource/petcloth/swf2/pet101/skill_2.swf",
+      "status": 404,
+      "bytes": 495,
+      "hit": "MISS"
+    }
+  ]
+}

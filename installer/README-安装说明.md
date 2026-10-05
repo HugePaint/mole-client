@@ -21,6 +21,19 @@
 - 自动创建桌面与开始菜单快捷方式
 - 需要 **.NET 7 桌面运行时**（若目标机没有，请到 <https://dotnet.microsoft.com/download/dotnet/7.0> 装 Desktop Runtime）
 - 若安装包内**不含** Ruffle，首次运行请在启动器的「设置 → 下载…」里获取
+- 安装过程会**顺带装一份原版宋体**（见下节，可跳过）
+
+### 原版宋体（可选步骤，装的时候自动做）
+
+游戏客户端大量使用"设备字体"，其中 `宋体 / SimSun` 的**加粗**请求在 Ruffle 上会回退成引擎自带字体
+（原因见仓库里的 `docs/fonts.md`：Ruffle 按字体自身的字重登记，而 `simsun.ttc` 没有粗体字面）。
+安装器会自动跑一遍 `tools\install-xp-simsun.ps1`：下载 **Windows XP 版宋体**、校验 SHA256、
+再补一张同族名的粗体副本，装进**用户字体目录**（免管理员、不写注册表、不改系统字体）。
+
+- 不想装：`install.ps1 -SkipFonts`，或无人值守时设 `MOLE_SETUP_NOFONTS=1`
+- 装完想重装/删掉：`powershell -ExecutionPolicy Bypass -File tools\install-xp-simsun.ps1 [-Force|-Uninstall]`
+- 断网也能装：下载失败会自动退回本机 `C:\Windows\Fonts\simsun.ttc` 生成副本（也能修掉粗体回退，只是不是 XP 那版）
+- 这一步**失败不会让安装失败**：字体只影响字形观感，不影响能不能玩
 
 ### 手工安装（不用安装包）
 
@@ -59,6 +72,7 @@ MoleClient\
 ├── MoleLauncher.exe        启动器
 ├── molemirror\index.js     本地镜像（正向代理 + 反向代理源站 + 磁盘缓存）
 ├── runtime\ruffle\         游戏引擎
+├── tools\                  字体工具（install-xp-simsun.ps1 / font-boldify.js）
 ├── cache\                  客户端资源（按需抓取，保留原始 URL 结构）
 ├── data\                   配置与引擎状态（settings.json / config / SharedObjects）
 ├── logs\                   日志
@@ -85,8 +99,9 @@ powershell -ExecutionPolicy Bypass -File uninstall.ps1 -KeepCache
 多半是 Ruffle 找不到可写的配置目录。启动器已经显式传了 `--config`，若仍异常请看 `logs\launcher.log`。
 
 **中文显示为方块？**
-Ruffle 的 CJK 设备字体回退有告警（`Unknown device font "SimSun"`）。
-多数界面正常，个别动态文本可能缺字。
+安装时已经装好原版宋体（XP 版 `simsun.ttc` + 一张粗体副本），多数机器上不会再出现。
+若仍见到 `Unknown device font` 告警，把它发给维护者——日志里现在会一次性提示具体缺哪个字体
+（客户端偶尔还会点名 `Arial Black`、`DFPHaiBaoW12-GB` 这类本机没有的字体，见 `docs/fonts.md`）。
 
 **登录时提示版本过旧？**
 本客户端不修改官方文件，这类提示来自官方侧；请确认网络能正常访问 `mole.61.com`。
