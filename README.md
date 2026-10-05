@@ -132,6 +132,11 @@ powershell -ExecutionPolicy Bypass -File installer\make-setup.ps1
 
 > `cache/` 不入库 —— 资源由镜像在运行时按需抓取。玩得越多，本地越完整。
 
+已抓取到的资源快照单独放在私有仓库
+**[mole-resource](https://github.com/HugePaint/mole-resource)**（约 1.27 GB / 26,720 个文件）。
+它只是为了省去重新下载的时间，**不是本项目的必要组成部分** —— 用本项目跑一遍就会重新抓下来。
+放在私有仓库是因为这些资源版权归上海淘米，不适合公开分发。
+
 ---
 
 ## 免责声明
